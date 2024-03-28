@@ -16,14 +16,15 @@ conference [website](https://openlibraryfoundation.org/about/wolfcon/upcoming/)
 ### Morning Session
 - Introduction to the full-day preconference on AI, Machine Learning, and FOLIO
 - Types of AI and Machine Learning techniques relevant to Libraries
-- Generative AI Use cases for FOLIO Cataloging, Documentation, and Orphaned Modules
 - Ethical Considerations in AI and Machine Learning for Libraries
-- Open forum for questions and discussions
+- Exploring ChatGPT, Claude, and Google Gemini LLMs
 
 ### Afternoon Session 
-- Enhancing Library Catalogs with AI/ML
-- Introducing AI/ML tools and platforms relevant to Libraries and FOLIO
-- Exploring ChatGPT, Claude, and Google Gemini LLMs
+- Generative AI Use cases for FOLIO
+  - Automated metadata generation and enrichment
+  - Improving user and technical documentation
+  - Collection management and optimization
+  - Technical support for Orphaned Modules
 - Recommended resources for further learning and professional development in AI and Machine Learning
 - Next steps for adopting AI and ML in FOLIO
 
