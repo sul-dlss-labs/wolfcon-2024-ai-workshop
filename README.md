@@ -9,7 +9,20 @@ conference [website](https://openlibraryfoundation.org/about/wolfcon/upcoming/)
 - Using Generative AI to support orphaned modules
   -  Microsoft copilot
   - [Devin](https://www.cognition-labs.com/blog)
+  - Google [Gemini Code Assistant](https://cloud.google.com/products/gemini/code-assist)
 
+
+## Title: FOLIO 
+
+## Description
+This all day pre-conference introduces Artificial Intelligence to the FOLIO community 
+with a focus on using Generative AI with FOLIO and Okapi. Participants in the morning
+will survey the application and ethical considerations of using AI in libraries, ending
+with exercises using ChatGPT and other LLMs. The afternoon will continue the exploration 
+of Generative AI using the *Chatting with Catalogs* application with specific AI and FOLIO 
+workflows demonstration with participants being able to actual use AI with FOLIO. The 
+preconference will end with open-ended call-to-action on how AI could be further integrated
+and adopted by FOLIO. 
 
 ## Full Day Proposal
 
@@ -23,6 +36,7 @@ conference [website](https://openlibraryfoundation.org/about/wolfcon/upcoming/)
 - Generative AI Use cases for FOLIO
   - Automated metadata generation and enrichment
   - Improving user and technical documentation
+  - Analysis and management of Financial Orders and Invoices
   - Collection management and optimization
   - Technical support for Orphaned Modules
 - Recommended resources for further learning and professional development in AI and Machine Learning
