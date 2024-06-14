@@ -4,5 +4,5 @@
   - What outcomes are you hoping to get out of this workshop?
 - Survey of direct AI usage
 - What I hope to get out this workshop
-  - Start requirements for a FOLIO `mod-ai`
+  - Start requirements for a FOLIO `edge-ai`
   - Gauge interest in follow-up activities 
