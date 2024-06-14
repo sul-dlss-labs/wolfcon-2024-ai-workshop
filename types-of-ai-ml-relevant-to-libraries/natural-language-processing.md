@@ -21,3 +21,9 @@ NLP has been used for extracting entities...
 - [NLTK](https://www.nltk.org/)
 - [spaCy](https://spacy.io/)
 - [CoreNLP](https://stanfordnlp.github.io/CoreNLP/)
+=======
+# Natural Language Processing (NLP)
+Natural Language Processing or NLP, is a branch of AI that is primarily 
+concerned with with textual information.
+
+## Resources
