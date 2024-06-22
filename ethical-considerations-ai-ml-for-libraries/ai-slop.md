@@ -9,3 +9,5 @@ As Simon Willison describes in his blog post [Slop is the new name for unwanted 
 > Not all promotional content is spam, and not all AI-generated content is slop. 
 > But if it’s mindlessly generated and thrust upon someone who didn’t ask 
 > for it, slop is the perfect term for it.
+
+[Noah's take on the role of Slop to degrade the Internet](https://www.noahpinion.blog/p/the-death-again-of-the-internet-as)
