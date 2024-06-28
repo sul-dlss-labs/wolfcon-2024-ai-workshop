@@ -13,15 +13,15 @@
     - [ ] Regression
     - [ ] Transformers Neural Nets
   - [ ] Ethical Considerations
-    - [ ] Academic Fraud
-    - [ ] AI Slop
-    - [ ] Bias
-    - [ ] Carbon Footprint
-    - [ ] Creator Attribution
-    - [ ] Deep Fakes
-    - [ ] Hallucinations and Generative AI
-    - [ ] Privacy
-    - [ ] p(doom) and AGI
+    - [ ] Academic Fraud (108 words)
+    - [ ] AI Slop (111 words)
+    - [ ] Bias (286 words)
+    - [ ] Carbon Footprint (49 words)
+    - [ ] Creator Attribution (120 words)
+    - [ ] Deep Fakes (171 words)
+    - [ ] Hallucinations and Generative AI (9 words)
+    - [ ] Privacy (125 words)
+    - [ ] p(doom) and AGI (34 words) - need to add survey for participants to enter their number and justification
   - [ ] Exploring LLMs
     - [ ] ChatGPT
     - [ ] Claude
