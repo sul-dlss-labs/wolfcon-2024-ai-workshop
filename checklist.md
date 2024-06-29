@@ -4,35 +4,121 @@
 - [ ] Final Copy (at least 250 words for each page, LLM copyedit) of the following sections:
   - [ ] Introduction
     - [ ] Welcome
+      - [ ] 250 words
+      - [ ] LLMs copyedit
+      - [ ] References copied into resources
+
     - [ ] Concepts
+      - [ ] 250 words
+      - [ ] LLMs copyedit
+      - [ ] References copied into resources
+
     - [ ] Compound AI
+      - [ ] 250 words
+      - [ ] LLMs copyedit
+      - [ ] References copied into resources
+
     - [ ] Sober AI vs Hyped AI
+      - [ ] 250 words
+      - [ ] LLMs copyedit
+      - [ ] References copied into resources
+
   - [ ] Types of AI and ML Relevant to Libraries
     - [ ] Baysian
+      - [ ] 250 words
+      - [ ] LLMs copyedit
+      - [ ] References copied into resources
+
     - [ ] Natural Language Processing
+      - [ ] 250 words
+      - [ ] LLMs copyedit
+      - [ ] References copied into resources
     - [ ] Regression
+      - [ ] 250 words
+      - [ ] LLMs copyedit
+      - [ ] References copied into resources
     - [ ] Transformers Neural Nets
+      - [ ] 250 words
+      - [ ] LLMs copyedit
+      - [ ] References copied into resources
   - [ ] Ethical Considerations
-    - [ ] Academic Fraud (108 words)
+    - [ ] Academic Fraud 
+      - [ ] 250 words
+      - [ ] LLMs copyedit
+      - [ ] References copied into resources
     - [ ] AI Slop (111 words)
+      - [ ] 250 words
+      - [ ] LLMs copyedit
+      - [ ] References copied into resources
     - [ ] Bias (286 words)
+      - [ ] 250 words
+      - [ ] LLMs copyedit
+      - [ ] References copied into resources
     - [ ] Carbon Footprint (49 words)
+      - [ ] 250 words
+      - [ ] LLMs copyedit
+      - [ ] References copied into resources
     - [ ] Creator Attribution (120 words)
+      - [ ] 250 words
+      - [ ] LLMs copyedit
+      - [ ] References copied into resources
     - [ ] Deep Fakes (171 words)
+      - [ ] 250 words
+      - [ ] LLMs copyedit
+      - [ ] References copied into resources
     - [ ] Hallucinations and Generative AI (9 words)
+      - [ ] 250 words
+      - [ ] LLMs copyedit
+      - [ ] References copied into resources
     - [ ] Privacy (125 words)
+      - [ ] 250 words
+      - [ ] LLMs copyedit
+      - [ ] References copied into resources
     - [ ] p(doom) and AGI (34 words) - need to add survey for participants to enter their number and justification
+      - [ ] 250 words
+      - [ ] LLMs copyedit
+      - [ ] References copied into resources
   - [ ] Exploring LLMs
     - [ ] ChatGPT
+      - [ ] 250 words
+      - [ ] LLMs copyedit
+      - [ ] References copied into resources
     - [ ] Claude
+      - [ ] 250 words
+      - [ ] LLMs copyedit
+      - [ ] References copied into resources
     - [ ] Gemini
+      - [ ] 250 words
+      - [ ] LLMs copyedit
+      - [ ] References copied into resources
     - [ ] Generative Video
+      - [ ] 250 words
+      - [ ] LLMs copyedit
+      - [ ] References copied into resources
     - [ ] I-Ching Exercise
+      - [ ] 250 words
+      - [ ] LLMs copyedit
+      - [ ] References copied into resources
     - [ ] Local Llama
+      - [ ] 250 words
+      - [ ] LLMs copyedit
+      - [ ] References copied into resources
     - [ ] Midjourney
+      - [ ] 250 words
+      - [ ] LLMs copyedit
+      - [ ] References copied into resources
     - [ ] Prompt Engineering
+      - [ ] 250 words
+      - [ ] LLMs copyedit
+      - [ ] References copied into resources
     - [ ] Retrieval Augmented Generation
+      - [ ] 250 words
+      - [ ] LLMs copyedit
+      - [ ] References copied into resources
     - [ ] Training LLMs
+      - [ ] 250 words
+      - [ ] LLMs copyedit
+      - [ ] References copied into resources
   - [ ] Generative AI Use Cases for FOLIO
     - [ ] Analysis and Management of Financial Orders and Invoices
     - [ ] Automated Metadata Generation and Enrichment
@@ -43,12 +129,22 @@
     - [ ] Technical Support for Orphaned Modules
   - [ ] Next Steps for Adopting AI and ML in FOLIO
     - [ ] edge-ai to mod-ai
+      - [ ] 250 words
+      - [ ] LLMs copyedit
+      - [ ] References copied into resources
     - [ ] Conclusion
+      - [ ] 250 words
+      - [ ] LLMs copyedit
+      - [ ] References copied into resources
   - [ ] Recommended Resources for Further Learning
+      - [ ] LLMs copyedit
 - [ ] Workshop Website
   - [ ] Generation from Markdown
   - [ ] Deployment to Github pages
 ## edge-ai
+- [ ] Github Actions
+  - [ ] Run pytest, ruff on PR
+  - [ ] Build docker image on merge to main
 - [ ] Inventory Endpoint
   - [ ] Record Similarity
   - [ ] Instance Generation
