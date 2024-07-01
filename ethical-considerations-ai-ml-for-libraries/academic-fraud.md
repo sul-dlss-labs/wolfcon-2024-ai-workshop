@@ -13,6 +13,8 @@ Examples are widely shared in social media[^X_ELSIVER] are becoming increasingly
 ## What is acceptable use?
 
 ## Resources
+- [Artificial intelligence and academic integrity: striking a balance](https://www.timeshighereducation.com/campus/artificial-intelligence-and-academic-integrity-striking-balance)
+
 [^ARXIV_01]: [Mapping the Increasing Use of LLMs in Scientific Papers](https://arxiv.org/abs/2404.01268)
 [^HAI_LLM]: [How Much Research Is Being Written by Large Language Models?](https://hai.stanford.edu/news/how-much-research-being-written-large-language-models)
 [^X_ELSIVER]: https://x.com/gcabanac/status/1767574447337124290?s=20
