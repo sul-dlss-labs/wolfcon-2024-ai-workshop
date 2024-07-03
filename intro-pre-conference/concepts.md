@@ -16,9 +16,7 @@ Terminator, logical and unemotional like Data from Star Trek the Next Generation
 or more benevolent and playful like Ian Banks Spaceship AI. 
 
 #### Question: What are your favorite fictional AIs? 
-
-##  
-
+  
 ## Importance of Data
 The old computer science cliche GIGO (Garbage In, Garbage out) refers to a long-standing
 observation that computer software development that the best algorithms,  defensive 
@@ -28,8 +26,14 @@ and you expect certain assurances in the outputs.
 *However, does this cliche reflect more of deterministic computing and not statistical based
 AI?* 
 
+Other issues with model training data include:
+- Bias that reflect the prejudices from the creators of the data
+- Amount of high-quality data
+
 
 Andrew Ng, AI scientist and entrepreneur, is a strong advocate of "data-centric 
-artificial intelligence", 
+artificial intelligence", where more time is spent in curating, cleaning, and managing
+data sets for use in model training and validation, especially for workflows that may
+not have a large amount of data to begin with. 
 
-## Learning  
+## Machine Learning  
