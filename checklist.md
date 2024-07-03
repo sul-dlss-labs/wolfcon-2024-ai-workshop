@@ -4,28 +4,24 @@
 - [ ] Final Copy (at least 250 words for each page, LLM copyedit) of the following sections:
   - [ ] Introduction
     - [ ] Welcome
-      - [ ] 250 words
+      - [x] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
     - [ ] Concepts
-      - [ ] 250 words
+      - [x] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
     - [ ] Compound AI
-      - [ ] 250 words
-      - [ ] LLMs copyedit
-      - [ ] References copied into resources
-    - [ ] Sober AI vs Hyped AI
-      - [ ] 250 words
+      - [x] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
   - [ ] Types of AI and ML Relevant to Libraries
     - [ ] Baysian
-      - [ ] 250 words
+      - [x] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
     - [ ] Natural Language Processing
-      - [ ] 250 words
+      - [x] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
     - [ ] Regression
@@ -38,15 +34,15 @@
       - [ ] References copied into resources
   - [ ] Ethical Considerations
     - [ ] Academic Fraud 
-      - [ ] 250 words
+      - [x] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
     - [ ] AI Slop (111 words)
-      - [ ] 250 words
+      - [x] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
     - [ ] Bias (286 words)
-      - [ ] 250 words
+      - [x] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
     - [ ] Carbon Footprint (49 words)
@@ -58,7 +54,7 @@
       - [ ] LLMs copyedit
       - [ ] References copied into resources
     - [ ] Deep Fakes (171 words)
-      - [ ] 250 words
+      - [x] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
     - [ ] Hallucinations and Generative AI (9 words)

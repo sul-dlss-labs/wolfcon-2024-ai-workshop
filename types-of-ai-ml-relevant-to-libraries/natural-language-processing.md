@@ -1,5 +1,5 @@
-# Natural Language Processing
-[Natural Language Processing](https://www.ibm.com/topics/natural-language-processing) or 
+# Natural Language Processing 
+[Natural Language Processing][^NLP_IBM] or 
 NLP is a set of machine learning technologies for 
 interpreting, generating, and comprehending human languages. Some examples of
 NLP processes include:
@@ -15,15 +15,23 @@ NLP processes include:
 - **Text Generation** - generates text usually based on a prompt
 
 ## Use in Libraries
-NLP has been used for extracting entities...
+NLP has been used for extracting entities from semi-structured text or from 
+library metadata.
 
 ## NLP Software
-- [NLTK](https://www.nltk.org/)
-- [spaCy](https://spacy.io/)
-- [CoreNLP](https://stanfordnlp.github.io/CoreNLP/)
-=======
-# Natural Language Processing (NLP)
-Natural Language Processing or NLP, is a branch of AI that is primarily 
-concerned with with textual information.
+The 
+- [Annif](https://annif.org/) - A platform that uses subject vocabularies like [FAST][^FAST], to
+  train a model on a corpus of data and then provides subject suggestions.
+- [NLTK](https://www.nltk.org/) - An open-source platform and Python package that provides interfaces to 
+  a number of corpus and documents as well as a rich set of classification, tokenization,
+  stemming, tagging, parsing, and semantic reasoning libraries.
+- [spaCy](https://spacy.io/) -  An open-source Python package that offers tooling for named entity-matching,
+  test summarization, part of speech tagging, and sentiment analysis as well as tools for model training
+  and large language model integrations. 
+- [CoreNLP](https://stanfordnlp.github.io/CoreNLP/) - An open-source Java library that includies token and 
+  sentence boundaries, parts of speech, named entities, numeric and time values, dependency and constituency parsing,
+  sentiment analysis, and quote attributions.#i#i# 
 
-## Resources
+
+[^FAST]: https://www.oclc.org/research/areas/data-science/fast.html
+[^NLP_IBM]: https://www.ibm.com/topics/natural-language-processing
