@@ -1,25 +1,34 @@
 # Natural Language Processing 
-[Natural Language Processing][^NLP_IBM] or 
+Natural Language Processing[^NLP_IBM] or 
 NLP is a set of machine learning technologies for 
 interpreting, generating, and comprehending human languages. Some examples of
 NLP processes include:
 
-- **Language translation** - translate from one language to another
-- **Text summarization** - summarizes main points from a large text 
-- **Named Entity Recognition** - tags words or phrases such as proper
-  names of people, places, and concepts
-- **Part of Speech Tagging** - identifies grammar components like nouns, 
-  verbs, and adjectives, in a text sample 
-- **Sentiment analysis** - classifies the emotional or subjective human language in 
-  a text sample 
-- **Text Generation** - generates text usually based on a prompt
+- **Language translation** - Translating text from one language to another. 
+- **Text summarization** - Summarizing the main points from a large text.
+- **Named Entity Recognition** - Tagging words or phrases such as proper 
+  names of people, places, and concepts. 
+- **Part of Speech Tagging** - Identifying grammar components like nouns, 
+  verbs, and adjectives in a text sample. 
+- **Sentiment analysis** - Classifying the emotional or subjective tone in a 
+  text sample.  
+- **Text Generation** - Generating text usually based on a prompt.
 
 ## Use in Libraries
-NLP has been used for extracting entities from semi-structured text or from 
-library metadata.
+NLP has been used in libraries in the following ways:
+
+- Extracting entities from semi-structured text or library metadata.
+- Improving search functionality through semantic understanding
+- Automating cataloging and classification processes
+- Enhancing user interfaces with natural language queries
+- Assisting in content recommendations based on user preferences
 
 ## NLP Software
-The 
+Choosing the right NLP software depends on your specific needs and technical expertise. For instance, 
+NLTK offers a rich set of functionalities for developers, while spaCy provides a user-friendly 
+interface for common NLP tasks and Annif offers library-specific functionality.
+
+
 - [Annif](https://annif.org/) - A platform that uses subject vocabularies like [FAST][^FAST], to
   train a model on a corpus of data and then provides subject suggestions.
 - [NLTK](https://www.nltk.org/) - An open-source platform and Python package that provides interfaces to 
@@ -30,7 +39,7 @@ The
   and large language model integrations. 
 - [CoreNLP](https://stanfordnlp.github.io/CoreNLP/) - An open-source Java library that includies token and 
   sentence boundaries, parts of speech, named entities, numeric and time values, dependency and constituency parsing,
-  sentiment analysis, and quote attributions.#i#i# 
+  sentiment analysis, and quote attributions.
 
 
 [^FAST]: https://www.oclc.org/research/areas/data-science/fast.html

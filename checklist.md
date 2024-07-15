@@ -5,31 +5,31 @@
   - [ ] Introduction
     - [ ] Welcome
       - [x] 250 words
-      - [ ] LLMs copyedit
+      - [x] LLMs copyedit
       - [ ] References copied into resources
     - [ ] Concepts
       - [x] 250 words
-      - [ ] LLMs copyedit
+      - [x] LLMs copyedit
       - [ ] References copied into resources
     - [ ] Compound AI
       - [x] 250 words
-      - [ ] LLMs copyedit
+      - [x] LLMs copyedit
       - [ ] References copied into resources
   - [ ] Types of AI and ML Relevant to Libraries
     - [ ] Baysian
       - [x] 250 words
-      - [ ] LLMs copyedit
+      - [x] LLMs copyedit
       - [ ] References copied into resources
     - [ ] Natural Language Processing
       - [x] 250 words
-      - [ ] LLMs copyedit
+      - [x] LLMs copyedit
       - [ ] References copied into resources
-    - [ ] Regression
+    - [ ] Basic Neural Nets
       - [ ] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
     - [ ] Transformers Neural Nets
-      - [ ] 250 words
+      - [x] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
   - [ ] Ethical Considerations

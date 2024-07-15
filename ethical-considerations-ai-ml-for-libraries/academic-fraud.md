@@ -1,8 +1,7 @@
-# Academic Fraud
-While Artificial Intelligence 
+# Academic Fraud and Artificial Intelligence 
 
 ## Plagiarism 
-One of the immediate concerns of concerning academic fraud is the use of 
+One of the immediate concerns regarding academic fraud academic fraud is the use of 
 Large Language Models (LLMs) that generate convincing and coherent text that
 students and researchers can pass off as original work. The growth and inclusion 
 of generative text into academic articles has been widespread, particularly in 
@@ -12,16 +11,18 @@ Examples are widely shared in social media[^X_ELSIVER] and are becoming increasi
 
 
 ## What is acceptable use?
-Many journals like Nature[^NATURE], Science[^SCIENCE], Elsevier[^ELSEVIER], and IEEE[^IEEE] have 
-similar requirements for using Generative AI in the writing of academic articles, they all 
-allow the use of LLMs for copy-editing tasks like grammar checking. Another commonality in these
+Many journals like Nature[^NATURE], Science[^SCIENCE], Elsevier[^ELSEVIER], and IEEE [^IEEE]
+have similar requirements for using 
+Generative AI in academic articles.
+They all allow the use of LLMs for copy-editing tasks like grammar checking. Another commonality in these
 guidelines is the disclosure of using of LLMs or other AI, with some journals requiring the specific
 AI system to be included in the article.
 
 > Just as a reminder; LLMs have been used for copy-editing purpose for 
 > the content of this workshop!
 
-Some of the journals prohibit the listing or attributing authorship of an article by a LLM model[^NATURE][^SCIENCE].
+Some of the journals prohibit the listing or attributing authorship of an article by a 
+LLM model[^NATURE][^SCIENCE].
 
 A general recommendation is to be overly cautious and disclose any use of Generative AI in the creation
 of academic work unless prohibited by the journal.
