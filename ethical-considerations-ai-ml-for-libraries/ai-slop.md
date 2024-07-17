@@ -1,8 +1,8 @@
 # AI Slop
 AI Slop is a term that describes the anti-pattern of publishing or disseminating 
-content that has been created by LLMs, often for unscrupulous means like [Deep Fakes](deep-fakes.md),  
-[Academic Fraud](academic-fraud.md), or search-engine optimization that really doesn't provide
-value for the consumer of this work.
+content that has been created by Large Language Models (LLMs), often for unscrupulous 
+means like [Deep Fakes](deep-fakes.md),  [Academic Fraud](academic-fraud.md), or 
+search-engine optimization that really doesn't provide value for the consumer of this work.
 
 As Simon Willison describes in this blog post[^WILLISON],
 
@@ -10,13 +10,13 @@ As Simon Willison describes in this blog post[^WILLISON],
 > But if it’s mindlessly generated and thrust upon someone who didn’t ask 
 > for it, slop is the perfect term for it.
 
-The easy of generating text and other media from generative AI and then publishing that 
+The ease of generating text and other media from generative AI and then publishing that 
 material to the web, has resulted in a general degradation of search result quality by 
 large Search companies like Google[^GOOG]. This already contributes to what Cory Doctorow 
 calls the "enshitification"[^ENSHITIFICATION] of the internet by companies as they try to 
-maximize profits and lack the incentives to improve or even keep the same level of service 
-for their products. Om Malik makes the further point that although AI Slop will continue to 
-increase[^OM]:
+maximize profits, large services do not have any incentive to improve their products or even 
+keep the same level of service for their products. Om Malik makes the further point that
+although AI Slop will continue to increase[^OM]:
 
 > The rise of generative AI means that there will be more indistinguishable content on the 
 > internet, and the only way to stand out — is by reminding people that you are human.

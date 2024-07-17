@@ -35,9 +35,9 @@
   - [ ] Ethical Considerations
     - [ ] Academic Fraud 
       - [x] 250 words
-      - [ ] LLMs copyedit
+      - [x] LLMs copyedit
       - [ ] References copied into resources
-    - [ ] AI Slop (111 words)
+    - [ ] AI Slop
       - [x] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
