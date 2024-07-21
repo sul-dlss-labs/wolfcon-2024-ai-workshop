@@ -18,12 +18,16 @@ and other open-source models is using a project called [gpt4all][GPT4ALL]. While
 requirements can very depending on your laptop's hardware and OS, there are desktop versions
 for [Macintosh](https://gpt4all.io/installers/gpt4all-installer-darwin.dmg), 
 [Windows](https://gpt4all.io/installers/gpt4all-installer-win64.exe), and 
-[Ubuntu](https://gpt4all.io/installers/gpt4all-installer-linux.run).
-
+[Ubuntu](https://gpt4all.io/installers/gpt4all-installer-linux.run). 
 ## Using gpt4all 
 For the purposes of this workshop, we will demonstrate a few crucial aspects of using and extending
-LLM using [gpt4all][GPT4ALL], including [Retrieval Augmented Generation](retrival-augment-generation.md) 
-and [training LLMs](training-llms.md).
+LLM using [gpt4all][GPT4ALL], including [Retrieval Augmented Generation (RAG)](retrival-augment-generation.md) 
+and [training LLMs](training-llms.md). If you haven't already prior to this workshop (and if you have
+administrative rights on your local laptop), please download and install [gpt4all][GPT4ALL].
+
+A nice feature of [gpt4all][GPT4ALL], is that you can use a locally running LLM without an internet connection. 
+This also means that you can restrict access and improve your own security when using RAG on sensitive 
+or private documentation.
 
  
 [GPT4ALL]: https://gpt4all.io/

@@ -91,7 +91,7 @@
       - [ ] LLMs copyedit
       - [ ] References copied into resources
     - [ ] Local Llama
-      - [ ] 250 words
+      - [x] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
     - [ ] Midjourney
