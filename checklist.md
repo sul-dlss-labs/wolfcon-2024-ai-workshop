@@ -41,12 +41,12 @@
       - [x] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
-    - [ ] Bias (286 words)
+    - [ ] Bias
       - [x] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
-    - [ ] Carbon Footprint (49 words)
-      - [ ] 250 words
+    - [ ] Carbon Footprint 
+      - [x] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
     - [ ] Creator Attribution (120 words)
