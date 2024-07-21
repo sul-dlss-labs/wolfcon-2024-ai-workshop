@@ -53,7 +53,7 @@
       - [x] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
-    - [ ] Deep Fakes (171 words)
+    - [ ] Deep Fakes
       - [x] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
@@ -71,7 +71,7 @@
       - [ ] References copied into resources
   - [ ] Exploring LLMs
     - [ ] ChatGPT
-      - [ ] 250 words
+      - [x] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
     - [ ] Claude
