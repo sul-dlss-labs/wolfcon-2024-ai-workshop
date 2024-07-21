@@ -49,8 +49,8 @@
       - [x] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
-    - [ ] Creator Attribution (120 words)
-      - [ ] 250 words
+    - [ ] Creator Attribution
+      - [x] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
     - [ ] Deep Fakes (171 words)
