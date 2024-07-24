@@ -79,7 +79,7 @@
       - [ ] LLMs copyedit
       - [ ] References copied into resources
     - [ ] Claude
-      - [ ] 250 words
+      - [x] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
     - [ ] Gemini
