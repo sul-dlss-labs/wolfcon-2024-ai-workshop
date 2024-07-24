@@ -7,6 +7,10 @@
       - [x] 250 words
       - [x] LLMs copyedit
       - [ ] References copied into resources
+   - [ ] I-Ching Exercise
+      - [ ] 250 words
+      - [ ] LLMs copyedit
+      - [ ] References copied into resources
     - [ ] Concepts
       - [x] 250 words
       - [x] LLMs copyedit
@@ -57,8 +61,8 @@
       - [x] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
-    - [ ] Hallucinations and Generative AI (9 words)
-      - [ ] 250 words
+    - [ ] Hallucinations and Generative AI 
+      - [x] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
     - [ ] Privacy (125 words)
@@ -86,10 +90,7 @@
       - [ ] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
-    - [ ] I-Ching Exercise
-      - [ ] 250 words
-      - [ ] LLMs copyedit
-      - [ ] References copied into resources
+ 
     - [ ] Local Llama
       - [x] 250 words
       - [ ] LLMs copyedit
