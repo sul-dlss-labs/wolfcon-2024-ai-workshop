@@ -86,16 +86,12 @@
       - [ ] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
-    - [ ] Generative Video
-      - [ ] 250 words
+    - [ ] Generative Images and Video
+      - [x] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
     - [ ] Local Llama
       - [x] 250 words
-      - [ ] LLMs copyedit
-      - [ ] References copied into resources
-    - [ ] Midjourney
-      - [ ] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
     - [ ] Prompt Engineering
