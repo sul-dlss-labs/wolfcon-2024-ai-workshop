@@ -65,8 +65,8 @@
       - [x] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
-    - [ ] Privacy (125 words)
-      - [ ] 250 words
+    - [ ] Privacy
+      - [x] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
     - [ ] p(doom) and AGI (34 words) - need to add survey for participants to enter their number and justification
