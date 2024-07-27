@@ -115,7 +115,7 @@
     - [ ] Narrative Circulation Rules
     - [ ] Technical Support for Orphaned Modules
   - [ ] Next Steps for Adopting AI and ML in FOLIO
-    - [ ] edge-ai to mod-ai
+    - [ ] edge-ai
       - [ ] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
@@ -127,6 +127,7 @@
       - [ ] LLMs copyedit
 - [ ] Workshop Website
   - [ ] Generation from Markdown
+  - [ ] Bootstrap design template
   - [ ] Deployment to Github pages
 ## edge-ai
 - [ ] Github Actions

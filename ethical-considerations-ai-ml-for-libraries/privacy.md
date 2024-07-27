@@ -8,7 +8,7 @@ other organizations, there have emerged a number of significant privacy issues[^
 
 
 ## Training Data 
-the privacy of individuals may be compromised if their personal 
+The privacy of individuals may be compromised if their personal 
 information is part of the massive amount of textual and other data used to train 
 these models. Inclusion of personal information in the training data is problematic 
 because the individuals in question have not consented to have their data included and
@@ -30,7 +30,6 @@ Even if the training data has been anonymized for personal details, by combining
 responses from LLMs, individuals could potential be identified thereby comprising their privacy
 when using the LLM. 
 
-## Resources
-- [^GEN_AI_PRIVACY]: [Generative AI's privacy problem](https://www.axios.com/2024/03/14/generative-ai-privacy-problem-chatgpt-openai)
-- [^PRIVACY_LLM]: [Privacy in Large Language Models: Attacks, Defenses and Future Directions](https://arxiv.org/abs/2310.10383)
-- [^SCALEABLE]: [Scalable Extraction of Training Data from (Production) Language Models](https://arxiv.org/abs/2311.17035)
+[^PRIVACY_LLM]: [Privacy in Large Language Models: Attacks, Defenses and Future Directions](https://arxiv.org/abs/2310.10383)
+[^SCALEABLE]: [Scalable Extraction of Training Data from (Production) Language Models](https://arxiv.org/abs/2311.17035)
+[^GEN_AI_PRIVACY]: [Generative AI's privacy problem](https://www.axios.com/2024/03/14/generative-ai-privacy-problem-chatgpt-openai)
