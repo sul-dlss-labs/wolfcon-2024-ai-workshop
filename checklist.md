@@ -61,7 +61,7 @@
       - [x] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
-    - [ ] Hallucinations and Generative AI 
+    -] Hallucinations and Generative AI 
       - [x] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
@@ -69,9 +69,10 @@
       - [x] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
-    - [ ] p(doom) and AGI (34 words) - need to add survey for participants to enter their number and justification
-      - [ ] 250 words
+    - [ ] p(doom) and AGI 
+      - [x] 250 words
       - [ ] LLMs copyedit
+      - [x] Survey for participants to enter their number and justification
       - [ ] References copied into resources
   - [ ] Exploring LLMs
     - [ ] ChatGPT
