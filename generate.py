@@ -101,7 +101,7 @@ def html_pages():
             nav_lookup = navigation_lookup(index)
             for page in row.glob("*.md"):
                 page_output = row / f"{page.stem}.html"     
-                topic_html = markdown.markdown(page.read_text(), extensions=['footnotes'])
+                topic_html = markdown.markdown(page.read_text(), extensions=['footnotes', 'attr_list', 'fenced_code'])
                 page_title = get_title(topic_html)
                 page_html = html_template.render(
                     content=topic_html,

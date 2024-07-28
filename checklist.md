@@ -96,14 +96,14 @@
       - [ ] LLMs copyedit
       - [ ] References copied into resources
     - [ ] Prompt Engineering
-      - [ ] 250 words
+      - [x] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
     - [ ] Retrieval Augmented Generation
       - [ ] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
-    - [ ] Training LLMs
+    - [ ] Fine-tuning or Training LLMs
       - [ ] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources

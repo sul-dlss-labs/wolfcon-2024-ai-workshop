@@ -1,32 +1,73 @@
 # Prompt Engineering
-To effectively use LLMs and generative AI, you will need to construct a short textual 
+
+<figure>
+  <blockquote class="blockquote">
+   The technique of prompt engineering, which entails the crafting of precise, 
+   task-specific instructions in natural language, either manually or through 
+   automated means, and the careful selection of representative examples for 
+   inclusion in the prompt, has become a central area of investigation for LLMs.
+  </blockquote>
+  <figcaption class="blockquote-footer">
+   Principled Instructions Are All You Need for Questioning LLaMA-1/2, GPT-3.5/4
+   <sup id="fnref:PRINCIPLED"><a class="footnote-ref" href="#fn:PRINCIPLED">1</a></sup>
+  </figcaption>
+</figure>
+
+
+To effectively use Large Language Models (LLMs) and generative AI, you will need to construct a short textual 
 description, called a prompt, that the LLM will use to generate text, images, or 
-other media. Often, you will need to tweak and change your prompt to improve the LLMs
-outputs and iterate a few times until you have a result that meets your need. How 
-you construct your prompt will also impact aspects of the model's output, like 
+other media. Usually, you will need to iterate and change your prompt to improve the LLMs
+outputs a few times until you have a result that meets your needs. 
+
+How you construct your prompt will also impact aspects of the model's output, like 
 accuracy and verbosity or if you want to customize the style of the output. Together,
 a set of techniques and approaches for constructing prompts is collective called 
 prompt engineering. 
 
+In Anthropic's Prompt Engineering Guide, they suggest the before you begin applying 
+specific prompt engineering techniques, you have a clear definition of success criteria
+for your use case, ways to empirically test those criteria, and a first draft of your 
+prompt.[^ANTHROPIC]
 
-## General Construction of Prompts
+## Popular Prompt Engineering Techniques
 
-### Examples or Zero Shot
-Often, you'll want to include an example of an expected output, particularly for code 
-or data outputs, that can help the LLM construct an output that match a certain pattern.
+### Zero Shot
+In a zero-shot prompt, ask the LLM perform a task that the LLM has not been explicitly 
+trained on but is dependent on the LLM general knowledge and understanding of the language
+based on it's training data. 
 
-Or, if you do what is called a zero shot prompt, or a prompt with any examples or other 
-guidance for the LLM if you don't need or care about the specifics format or construction 
-of the LLM's output.
+**Example**: Please translate this sentence into Spanish, "The 2024 Summer Olympics are being
+held in France".
+
+The LLM likely hasn't been trained on translating this exact sentence but uses it's general 
+understanding and translation patterns to provide a response.  
+
+### Including Examples or Multishot Prompting 
+In this technique, you provide a few (1-5) examples of the LLMs output in your prompt and is 
+particularly helpful when you require the output to include structured data like FOLIO JSON 
+documents. 
+
+**Example**: You are an expert cataloger, please return any records as FOLIO JSON, here is an
+example:
+
+```
+Q: Parable of the Sower by Octiva Butler, published in 1993 by Four Walls Eight Windows in New York 
+
+A: {"title": "Parable of the Sower", "source": "ChatGPT", 
+    "contributors": [{"name": "Octiva Butler", "contributorTypeText": "Author"}], 
+    "publication": [{"publisher": "Four Walls Eight Windows", "dateOfPublication": "1993", "place": "New York"}] }}
+```
 
 ### Chain-of-Thought
 Another useful prompt technique is called *chain-of-thought* where you explicitly ask 
 the LLM to provide the reasoning or steps the model went through to construct the output.
 This can be helpful if you're confused how or why a model return the output to your prompt.
 
-## Tips and Tricks for Prompts
+**Example** Create a circulation report template that includes all books that have been checked
+out in the past month. Please show your thinking step-by-step as you construct the report.
 
+## Remember you can combine multiple prompt techniques! 
 
+[^PRINCPLED]: [Principled Instructions Are All You Need for Questioning LLaMA-1/2, GPT-3.5/4](https://arxiv.org/abs/2312.16171)
+[^ANTHROPIC]: [Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/)
 
-## Resources
-- https://github.com/microsoft/promptbase/tree/main
