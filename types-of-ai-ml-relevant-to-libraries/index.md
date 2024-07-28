@@ -3,5 +3,5 @@
 ## Topics
 - [Naïve Bayes](bayesian.html)
 - [Natural Language Processing](natural-language-processing.html)
-- [Basics of Neural Nets](basics-neural-nets.html)
+- [Basics of Neural Networks](basics-neural-nets.html)
 - [Transformers](transformers-neural-nets.html)
