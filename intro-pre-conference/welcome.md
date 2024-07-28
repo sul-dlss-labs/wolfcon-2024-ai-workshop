@@ -1,4 +1,4 @@
-# Welcome to the AI-Powered Workflows in FOLIO pre-conference workshop
+# Welcome!
 
 ## Introductions
 Please introduce yourself, your institution, and answer this question:
@@ -7,8 +7,9 @@ Please introduce yourself, your institution, and answer this question:
 
 My name is Jeremy Nelson and I am a software engineer at Stanford University 
 Libraries. My expectations for outcomes include:
-* Starting requirements and development on the `edge-ai` backend FOLIO module
-* Gauge interest among the workshop participants and explore potential for collaboration 
+
+- Starting requirements and development on the `edge-ai` backend FOLIO module
+- Gauge interest among the workshop participants and explore potential for collaboration 
   on AI-related work and functionality within the FOLIO community.
 
 ## Survey of direct AI usage

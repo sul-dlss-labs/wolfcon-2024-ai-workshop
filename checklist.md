@@ -127,8 +127,9 @@
   - [ ] Recommended Resources for Further Learning
       - [ ] LLMs copyedit
 - [ ] Workshop Website
-  - [ ] Generation from Markdown
-  - [ ] Bootstrap design template
+  - [x] Workshop flow 
+  - [x] Generation from Markdown
+  - [x] Bootstrap design template
   - [ ] Deployment to Github pages
 ## edge-ai
 - [ ] Github Actions

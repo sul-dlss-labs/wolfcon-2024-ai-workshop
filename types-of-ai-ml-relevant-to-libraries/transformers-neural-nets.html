@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI Workflows for FOLIO - Transformers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+
+    </style>
+  </head>
+  <body>
+    <div class="header">
+     <div class="container">
+       <h1 style="color: #0a3a85; font-size: 3em;">WOLFcon 2024 - Understanding and Using AI Workflows with FOLIO</h1>
+       <h3>23 September 2024</h3>
+       <hr>
+     </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <article class="col-9">
+         <h1>Transformers</h1>
+<p>Large Language Models (LLMs) are a specific type of neural net called a Transformer.
+In a simplified transformer model, text is feed into a stack of encoders, where each 
+encoder is made of two sub-layers that have different weights that feeds the text 
+through the encoders stack and then text is sent to decoder stack that then 
+assembles the output text.</p>
+<h2>Encoders</h2>
+<p>A transformer with multiple, identical encoders with each encoder is made up of the 
+following layers:</p>
+<ul>
+<li><strong>Self-Attention Layer</strong> - helps the encoder consider the context of a word in the
+  input sentence. As the model processes each word self attention allows it to look at
+  others positions in the input sequence for clues for improving the encoding of the word.</li>
+<li><strong>Feed Forward Neural Network</strong> - outputs from the self-attention layer are feed to 
+  and independently applied to this layer.</li>
+</ul>
+<p>The bottom encoder (#0) is the only encoder that directly creates a vector of the word
+through an embedding algorithm. All downstream encoders from the first use the output
+of vectors generated from the encoder's feed-forward layer.</p>
+<h2>Decoders</h2>
+<p>After the text prompt have been feed through the encoders, the outputs from each of the
+encoders are feed to the decoders. A decoder is made of three layers:</p>
+<ul>
+<li><strong>Self-Attention Layer</strong> - same as the encoder, allows the word in context with the other
+  words in the input sentence. </li>
+<li><strong>Encoder-Decoder Attention</strong> - a separate layer that assists the decoder in focusing on 
+  the relevant parts in the input sentence.</li>
+<li><strong>Feed Forward Neural Network</strong> </li>
+</ul>
+        </article>
+        <div class="col-3">
+          <h4>Navigation</h4>
+          <ol><li><a href="/intro-pre-conference/index.html">Introduction to WOLFcon AI Pre-conference Workshop</a></li><li><a href="/types-of-ai-ml-relevant-to-libraries/index.html">General Overview of AI and Machine Learning for Libraries</a><ul><li><a href="bayesian.html">Naïve Bayes</a></li><li><a href="natural-language-processing.html">Natural Language Processing</a></li><li><a href="basics-neural-nets.html">Basics of Neural Nets</a></li><li><strong>Transformers</strong></li></ul></li><li><a href="/ethical-considerations-ai-ml-for-libraries/index.html">Ethical Considerations on using AI and Machine Learning for Libraries</a></li><li><a href="/exploring-llms/index.html">Exploring Large Language Models</a></li><li><a href="/folio-ai-use-cases/index.html">FOLIO AI Use Cases</a></li><li><a href="/next-steps-for-adopting-ai-and-ml-in-folio/index.html">Next Steps for Adopting AI and Machine Learning in FOLIO</a></li><li><a href="/recommended-resources-for-further-learning/index.html">Recommended Resources for Further Learning</a></li></ol>
+        </div>
+      </div>
+    </div>
+    <footer style="background-color: #0a3a85; color: white;" >
+     <div class="container">Original Content by Jeremy Nelson &copy; 2024, <a href="https://github.com/jermnelson/wolfcon-02024-ai">Github</a></div>
+    </footer> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

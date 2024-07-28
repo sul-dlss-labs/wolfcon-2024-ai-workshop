@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI Workflows for FOLIO - Naïve Bayes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+
+    </style>
+  </head>
+  <body>
+    <div class="header">
+     <div class="container">
+       <h1 style="color: #0a3a85; font-size: 3em;">WOLFcon 2024 - Understanding and Using AI Workflows with FOLIO</h1>
+       <h3>23 September 2024</h3>
+       <hr>
+     </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <article class="col-9">
+         <h1>Naïve Bayes</h1>
+<p>A decades old approach to generative machine learning, <a href="https://www.ibm.com/topics/naive-bayes">Naïve Bayes</a>
+is based on <a href="https://www.investopedia.com/terms/b/bayes-theorem.asp">Bayes Theorem</a>, 
+a mathematical formula for calculating a conditional probability of an event given 
+new or additional information about the event.</p>
+<p>Naïve Bayes makes simplifying assumptions: features are treated as independent (not 
+influencing each other), and all features are considered equally important for prediction.</p>
+<p>While in practice, these assumptions may not necessarily hold, Naïve Bayesian inference is
+still a powerful technique that allows for decision making based on the incomplete information
+while updating the probabilities of events as new evidence emerges or is known. It also
+formulates a process that is conceptually similar to how many of us make decisions when
+faced with changing conditions and incomplete information.</p>
+<h2>Formulation</h2>
+<p>P (A|B) = P(A) * P(B|A) / P(B)</p>
+<p>Where:</p>
+<ul>
+<li>P(A) is the probability of A occurring</li>
+<li>P(B) is the probability of B occurring</li>
+<li>P(A|B) is the probability of A given B</li>
+<li>P(B|A) is the probability of B given A</li>
+</ul>
+<h2>Example</h2>
+<p>Imagine a library is trying to classify new books as either "popular" or "academic" based on features like 
+word count, presence of illustrations, and subject matter. Naïve Bayes could be used to calculate the 
+probability of a book being "popular" given these features, even if we don't have complete information 
+about all new books.</p>
+<p>Features we'll consider:</p>
+<ol>
+<li>Word Count (WC): Low (&lt;50,000 words) or High (≥50,000 words)</li>
+<li>Illustrations (IL): Present or Absent</li>
+<li>Subject Matter (SM): General or Specialized</li>
+</ol>
+<h3>Step 1: Define our sample data</h3>
+<p>Let's say we have data on 100 books:</p>
+<ul>
+<li>60 are classified as "Popular" and 40 as "Academic"</li>
+<li>Among Popular books: 45 have low WC, 40 have illustrations, 50 have general SM</li>
+<li>Among Academic books: 10 have low WC, 5 have illustrations, 35 have specialized SM</li>
+</ul>
+<h3>Step 2: Calculate prior probabilities</h3>
+<p>P(Popular) = 60/100 = 0.6</p>
+<p>P(Academic) = 40/100 = 0.4</p>
+<h3>Step 3: Calculate conditional probabilities</h3>
+<h4>For Popular books:</h4>
+<p>P(Low WC | Popular) = 45/60 = 0.75</p>
+<p>P(Illustrations Present | Popular) = 40/60 = 0.67</p>
+<p>P(General SM | Popular) = 50/60 = 0.83</p>
+<h4>For Academic books:</h4>
+<p>P(Low WC | Academic) = 10/40 = 0.25</p>
+<p>P(Illustrations Present | Academic) = 5/40 = 0.125</p>
+<p>P(Specialized SM | Academic) = 35/40 = 0.875</p>
+<h3>Step 4: Apply Naive Bayes to a new book</h3>
+<p>Let's say we have a new book with these features:
+- Low word count
+- Illustrations present
+- General subject matter</p>
+<p>We'll use the formula:</p>
+<p>P(Class|Features) = P(Class) * P(Feature1|Class) * P(Feature2|Class) * P(Feature3|Class) / P(Features)</p>
+<h4>Calculate for Popular:</h4>
+<p>P(Popular|Features) = 0.6 * 0.75 * 0.67 * 0.83 = 0.25</p>
+<h4>Calculate for Academic:</h4>
+<p>P(Academic|Features) = 0.4 * 0.25 * 0.125 * (1 - 0.875) = 0.0015625</p>
+<h3>Step 5: Normalize the probabilities</h3>
+<p>Total = 0.25 + 0.0015625 = 0.2515625</p>
+<p>P(Popular|Features) = 0.25 / 0.2515625 = 0.994 or 99.4%</p>
+<p>P(Academic|Features) = 0.0015625 / 0.2515625 = 0.006 or 0.6%</p>
+<h3>Conclusion:</h3>
+<p>Based on this Naive Bayes calculation, we would classify this new book as "Popular" with 99.4% probability.</p>
+<h2>Application to Libraries</h2>
+<p>While Naïve Bayes has limitations due to its assumptions, it offers a powerful and efficient approach for classification tasks.
+A common use of Bayesian inference in technologies used in libraries include SPAM 
+filtering emails. While the [literature]<sup id="fnref:CLASSIFY"><a class="footnote-ref" href="#fn:CLASSIFY">1</a></sup> for using Bayesian inference in libraries
+is rather limited, improving the decision making around topics like collection development and 
+financial accountability could be a useful application if this technique was embedded into the
+technology we use. A nice feature of Bayesian inference is that it easily scalable and doesn't 
+require the massive resources necessary for large language models or other AI computational 
+approaches. </p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:CLASSIFY">
+<p><a href="https://scholarworks.sjsu.edu/cgi/viewcontent.cgi?article=8375&amp;context=etd_theses">Automated Classification to Improve the Efficiency of Weeding library Collections</a>&#160;<a class="footnote-backref" href="#fnref:CLASSIFY" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+        </article>
+        <div class="col-3">
+          <h4>Navigation</h4>
+          <ol><li><a href="/intro-pre-conference/index.html">Introduction to WOLFcon AI Pre-conference Workshop</a></li><li><a href="/types-of-ai-ml-relevant-to-libraries/index.html">General Overview of AI and Machine Learning for Libraries</a><ul><li><strong>Naïve Bayes</strong></li><li><a href="natural-language-processing.html">Natural Language Processing</a></li><li><a href="basics-neural-nets.html">Basics of Neural Nets</a></li><li><a href="transformers-neural-nets.html">Transformers</a></li></ul></li><li><a href="/ethical-considerations-ai-ml-for-libraries/index.html">Ethical Considerations on using AI and Machine Learning for Libraries</a></li><li><a href="/exploring-llms/index.html">Exploring Large Language Models</a></li><li><a href="/folio-ai-use-cases/index.html">FOLIO AI Use Cases</a></li><li><a href="/next-steps-for-adopting-ai-and-ml-in-folio/index.html">Next Steps for Adopting AI and Machine Learning in FOLIO</a></li><li><a href="/recommended-resources-for-further-learning/index.html">Recommended Resources for Further Learning</a></li></ol>
+        </div>
+      </div>
+    </div>
+    <footer style="background-color: #0a3a85; color: white;" >
+     <div class="container">Original Content by Jeremy Nelson &copy; 2024, <a href="https://github.com/jermnelson/wolfcon-02024-ai">Github</a></div>
+    </footer> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

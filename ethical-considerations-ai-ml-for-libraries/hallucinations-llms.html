@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI Workflows for FOLIO - Hallucinations and Generative AI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+
+    </style>
+  </head>
+  <body>
+    <div class="header">
+     <div class="container">
+       <h1 style="color: #0a3a85; font-size: 3em;">WOLFcon 2024 - Understanding and Using AI Workflows with FOLIO</h1>
+       <h3>23 September 2024</h3>
+       <hr>
+     </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <article class="col-9">
+         <h1>Hallucinations and Generative AI</h1>
+<p>From the initial release of ChatGPT 3.5 in 2022, a major criticism of Large 
+Language Models (LLMs) is the tendency of these models to fabricate factual 
+incorrect statements. Because LLMs work through predictive means based on the text and
+context of the prompt based on the model weights, the resulting output is not<br />
+a deductive process based on the model's training source material. These hallucinations 
+have been broken down into the following categories<sup id="fnref:TURING"><a class="footnote-ref" href="#fn:TURING">3</a></sup>:</p>
+<ul>
+<li><strong>Fact-conflicting</strong> - the LLMs output contains statements that are known to be false
+  i.e. 2+2=5</li>
+<li><strong>Input-conflicting</strong> - the LLMs output diverges from what the user prompt and context,
+  i.e. asking a LLM to summarize an article and the summarization adds information not present
+  in the article.</li>
+<li><strong>Context-conflicting</strong> - the LLMs output contains inconsistent or self-contradictions, particularly 
+  in larger, mult-part responses.</li>
+</ul>
+<h2>Correcting Hallucinations</h2>
+<p>To correct these hallucinations, corporations like OpenAI, Anthropic, and Google use a
+varied of techniques. These include:</p>
+<ul>
+<li>Chain-of-thought (COT)</li>
+<li>One-shot and Few-shot Prompts</li>
+<li>Retrieval Augmented Generation (RAG)</li>
+<li>Fine-tuning</li>
+<li>Reinforcement Learning with Human Feedback (RLHF)</li>
+</ul>
+<h2>Workshop Exercise</h2>
+<p>Take the LLM service of your choice (ChatGPT, Claude, Gemini, Llama) and enter the following prompt.</p>
+<p><code>Who is the first person to swim across the Pacific Ocean?</code></p>
+<h2>Final Thought</h2>
+<blockquote>
+<p>TLDR I know I'm being super pedantic but the LLM has no "hallucination problem". 
+Hallucination is not a bug, it is LLM's greatest feature. 
+The LLM Assistant has a hallucination problem, and we should fix it.
+Andrej Karpathy <sup id="fnref:KARPATHY"><a class="footnote-ref" href="#fn:KARPATHY">1</a></sup> </p>
+</blockquote>
+<h2>Resources</h2>
+<ul>
+<li>https://medium.com/@colin.fraser/hallucinations-errors-and-dreams-c281a66f3c35</li>
+</ul>
+<h2>Footnotes</h2>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:KARPATHY">
+<p>X post on <a href="https://x.com/karpathy/status/1733299213503787018?lang=en">8 December 2023</a>&#160;<a class="footnote-backref" href="#fnref:KARPATHY" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:NYTIMES">
+<p><a href="https://www.nytimes.com/2024/04/15/technology/ai-models-measurement.html">A.I. Has a Measurement Problem</a>&#160;<a class="footnote-backref" href="#fnref:NYTIMES" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:TURING">
+<p><a href="https://www.turing.com/resources/minimize-llm-hallucinations-strategy">Best Strategies to Minimize Hallucinations in LLMs: A Comprehensive Guide</a>&#160;<a class="footnote-backref" href="#fnref:TURING" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+        </article>
+        <div class="col-3">
+          <h4>Navigation</h4>
+          <ol><li><a href="/intro-pre-conference/index.html">Introduction to WOLFcon AI Pre-conference Workshop</a></li><li><a href="/types-of-ai-ml-relevant-to-libraries/index.html">General Overview of AI and Machine Learning for Libraries</a></li><li><a href="/ethical-considerations-ai-ml-for-libraries/index.html">Ethical Considerations on using AI and Machine Learning for Libraries</a><ul><li><a href="bias.html">Bias and AI</a></li><li><a href="academic-fraud.html">Academic Fraud - Plagiarism and Acceptable Use</a></li><li><a href="creator-attribution.html">Creator Attribution and Copyright</a></li><li><a href="privacy.html">Privacy</a></li><li><a href="carbon-footprint.html">Carbon Footprint of LLMs</a></li><li><a href="deepfakes.html">Deepfakes</a></li><li><a href="ai-slop.html">AI Slop</a></li><li><strong>Hallucinations and Generative AI</strong></li><li><a href="p-doom-agi.html">p(doom) and Artificial General Intelligence (AGI)</a></li></ul></li><li><a href="/exploring-llms/index.html">Exploring Large Language Models</a></li><li><a href="/folio-ai-use-cases/index.html">FOLIO AI Use Cases</a></li><li><a href="/next-steps-for-adopting-ai-and-ml-in-folio/index.html">Next Steps for Adopting AI and Machine Learning in FOLIO</a></li><li><a href="/recommended-resources-for-further-learning/index.html">Recommended Resources for Further Learning</a></li></ol>
+        </div>
+      </div>
+    </div>
+    <footer style="background-color: #0a3a85; color: white;" >
+     <div class="container">Original Content by Jeremy Nelson &copy; 2024, <a href="https://github.com/jermnelson/wolfcon-02024-ai">Github</a></div>
+    </footer> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

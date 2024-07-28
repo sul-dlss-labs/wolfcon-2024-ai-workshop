@@ -2,7 +2,7 @@
 
 ## Topics
 
-- [Welcome](welcome.md)
-- [Core Concepts of AI and Machine Learning](concepts.md)
-- [Sober AI vs Hyped AI - Compound AI Systems](compound-ai.md)
-- [Glossary of Terms](glossary.md)
+- [Welcome!](welcome.html)
+- [I-Ching Exercises](i-ching-exercise.html)
+- [Core Concepts of AI and Machine Learning](concepts.html)
+- [Compound AI Systems](compound-ai.html)
