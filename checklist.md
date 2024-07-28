@@ -100,8 +100,8 @@
       - [ ] LLMs copyedit
       - [ ] References copied into resources
     - [ ] Retrieval Augmented Generation
-      - [ ] 250 words
-      - [ ] LLMs copyedit
+      - [x] 250 words
+      - [x] LLMs copyedit
       - [ ] References copied into resources
     - [ ] Fine-tuning or Training LLMs
       - [ ] 250 words

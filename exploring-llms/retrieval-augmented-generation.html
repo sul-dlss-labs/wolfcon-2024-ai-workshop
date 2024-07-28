@@ -21,11 +21,44 @@
       <div class="row">
         <article class="col-9">
          <h1>Retrieval Augmented Generation (RAG)</h1>
-<p>Retrieval Augmented Generation (RAG) is a natural language processing (NLP) 
-technique that uses semantic search over a corpus of documents to enhance
-and localize the use of generative-based large language models (LLM). RAG is
-often used to improve the accuracy and reliability of LLMs by providing a
-better method for contextualizing the generative abilities of these models.</p>
+<p>Retrieval Augmented Generation (RAG) is a Natural Language Processing (NLP) 
+technique to enhance and localize the use of generative based Large Language 
+Models (LLMs) by including specific external content in the LLM's context window. </p>
+<p>RAG is often employed to improve the accuracy and reliability of LLMs by 
+better contextualizing the generative abilities of these models.</p>
+<h3>Key features of RAG:</h3>
+<ul>
+<li>First proposed in a 2020 paper<sup id="fnref:RAG_NLP"><a class="footnote-ref" href="#fn:RAG_NLP">1</a></sup></li>
+<li>Provides a means to ground LLM output</li>
+<li>Allows LLMs to act as a narrative interface for document corpora or data repositories</li>
+<li>Enables LLMs to cite specific documents or data, reducing the chance of incorrect answers</li>
+</ul>
+<h2>Embeddings and Vector Databases</h2>
+<p>While the RAG technique doesn't require the use of embeddings or vector databases,
+adding an information retrieval component to your RAG system can improve overall
+performance of compound AI systems. To create a vector database, first the documents
+or data is converted into a mathematical representation of meaning, a text embedding,
+that is a set of numeric vectors that are used for matching and creating relationships.</p>
+<p>These text embeddings are then stored in a database or datastore and then can be queried
+by first converting a query into a text embedding and then finding the stored embeddings
+that most closely match the query. The resulting embeddings are then converted back to
+textual documents and then sent as a part of the context window to the LLM.</p>
+<h2>Application to FOLIO</h2>
+<p>Creating a vector database of FOLIO JSON documents offers a number of advantages to 
+AI workflows; both in the generative aspects of creating new documents
+like invoices or inventory records from text or automatic prompts, and
+minimize errors in the LLMs output. </p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:RAG_NLP">
+<p><a href="https://arxiv.org/abs/2005.11401">Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks</a>&#160;<a class="footnote-backref" href="#fnref:RAG_NLP" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:GUIDE_RAG">
+<p><a href="https://www.smashingmagazine.com/2024/01/guide-retrieval-augmented-generation-language-models/">A Simple Guide To Retrieval Augmented Generation Language Models</a>&#160;<a class="footnote-backref" href="#fnref:GUIDE_RAG" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
         </article>
         <div class="col-3">
           <h4>Navigation</h4>
