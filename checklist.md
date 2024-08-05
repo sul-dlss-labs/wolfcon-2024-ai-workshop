@@ -139,7 +139,9 @@
   - [ ] Record Similarity
   - [ ] Instance Generation
     - [ ] From text prompt
+      - [x] Mermaid Diagram
     - [ ] From uploaded image
+      - [x] Mermaid Diagram
   - [ ] Embeddings
     - [ ] Retrieve Vector
     - [ ] Generate Vector
