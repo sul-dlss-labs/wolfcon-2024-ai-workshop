@@ -8,7 +8,7 @@
       - [x] LLMs copyedit
       - [ ] References copied into resources
    - [ ] I-Ching Exercise
-      - [ ] 250 words
+      - [x] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
     - [ ] Concepts
@@ -43,7 +43,7 @@
       - [ ] References copied into resources
     - [ ] AI Slop
       - [x] 250 words
-      - [ ] LLMs copyedit
+      - [x] LLMs copyedit
       - [ ] References copied into resources
     - [ ] Bias
       - [x] 250 words
