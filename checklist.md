@@ -9,7 +9,7 @@
       - [ ] References copied into resources
    - [ ] I-Ching Exercise
       - [x] 250 words
-      - [ ] LLMs copyedit
+      - [x] LLMs copyedit
       - [ ] References copied into resources
     - [ ] Concepts
       - [x] 250 words
