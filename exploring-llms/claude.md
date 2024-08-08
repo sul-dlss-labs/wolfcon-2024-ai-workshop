@@ -26,7 +26,6 @@ To use Claude at the free-tier, you will need to sign-up for an account on [Anth
 website. Even with a free account, you will need to purchase credits to use 
 the [API](https://www.anthropic.com/api). 
 
-## Footnotes
 - [^CLAUDE]: [Introducing the next generation of Claude](https://www.anthropic.com/news/claude-3-family)
 
 [ANTH]: https://www.anthropic.com/
