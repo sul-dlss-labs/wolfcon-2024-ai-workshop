@@ -26,58 +26,93 @@
 to AI systems that produce biased results that reflect and perpetuate human 
 biases within a society, including historical and current social inequality. 
 Bias can be found in the initial training data, the algorithm, or the 
-predictions the algorithm produces.
-<a href="https://www.ibm.com/blog/shedding-light-on-ai-bias-with-real-world-examples/">Shedding light on AI bias with real world examples</a></p>
+predictions the algorithm produces.<sup id="fnref:IBM_AI_BIAS"><a class="footnote-ref" href="#fn:IBM_AI_BIAS">1</a></sup></p>
 </blockquote>
 <h2>Sources of Bias</h2>
 <h3>Training data</h3>
 <ul>
-<li>Training data can over or under sample underrepresented groups</li>
-</ul>
-<p><strong>Examples</strong>:
-  Exclusively training on copyright free material from the 1930s and 
-  earlier introduces would under sample many groups.</p>
+<li>
+<p>Training data can over or under sample underrepresented groups</p>
 <ul>
-<li>Training data can also be bias in labeling by excluding or over-representing
-  certain categories or characteristics.</li>
+<li><strong>Example</strong>:
+  Exclusively using copyright-free material from the 1930s and earlier 
+  may under-represent many groups.</li>
 </ul>
-<p><strong>Examples</strong>
+</li>
+<li>
+<p>Training data can also be bias in labeling by excluding or over-representing
+  certain categories or characteristics.</p>
+<ul>
+<li><strong>Example</strong>
   If using a controlled vocabulary that focuses on Western categories and concepts,
-  may miss valid indigenous concepts and constructions that may be present in the
-  training data.  </p>
+  might miss valid valid indigenous concepts and constructions that may be present in the
+  training data.  </li>
+</ul>
+</li>
+</ul>
 <h3>Algorithms</h3>
 <ul>
-<li>Algorithms based on biased data could perpetrate underlying flaws</li>
-</ul>
-<p><strong>Examples</strong>
+<li>
+<p>Algorithms based on biased data could perpetrate underlying flaws</p>
+<ul>
+<li><strong>Example</strong>
   If training data is taken to be relatively free of bias but bias exist, 
-  algorithms at risk of Type II error of erroneous acceptance. </p>
-<ul>
-<li>Programmers can introduce personal bias intentionally or unintentionally</li>
+  algorithms at risk of Type II error of erroneous acceptance. </li>
 </ul>
-<p><strong>Examples</strong></p>
+</li>
+<li>
+<p>Programmers could introduce personal bias intentionally or unintentionally</p>
+</li>
+<li>
+<p>Unintended consequences of using proxies for characteristics in the 
+  population</p>
 <ul>
-<li>Unintended consequences of using proxies for characteristics in the 
-  population</li>
+<li><strong>Example</strong>
+  Using geographic location as a proxy for income may skew analysis </li>
 </ul>
-<p><strong>Examples</strong>
-  Using geographic location as a proxy for income may skew analysis </p>
+</li>
+</ul>
 <h3>Cognitive</h3>
 <ul>
-<li>People are influenced by their experience and preferences, can introduce 
-  and favor bias or weighting of outcomes or selection of data.</li>
+<li>People's experiences and preferences can introduce and favor bias or 
+  weighting of outcomes or selection of data.</li>
 </ul>
 <h2>Mitigation and Responses</h2>
 <p>How can we mitigate or respond to AI and Machine Learning bias? </p>
 <p>See how the LLM vendors respond and attempt to mitigate bias in their models:</p>
-<h3>OpenAI</h3>
-<h3>Anthropic</h3>
-<h3>Google</h3>
+<ul>
+<li>
+<p><strong>OpenAI</strong> Description of using Fine-tuning to addressing bias<sup id="fnref:HOW_AI_BEHAVE"><a class="footnote-ref" href="#fn:HOW_AI_BEHAVE">2</a></sup></p>
+</li>
+<li>
+<p><strong>Anthropic</strong> Evaluating and Mitigating Discrimination in Language Model Decisions<sup id="fnref:CLAUDE_LANG"><a class="footnote-ref" href="#fn:CLAUDE_LANG">3</a></sup></p>
+</li>
+<li>
+<p><strong>Google</strong> Gemini for Google Cloud and responsible AI<sup id="fnref:GEMINI"><a class="footnote-ref" href="#fn:GEMINI">4</a></sup></p>
+</li>
+</ul>
 <h2>Resources</h2>
 <ul>
 <li>https://www.nist.gov/news-events/news/2022/03/theres-more-ai-bias-biased-data-nist-report-highlights</li>
 <li>https://lin-web.clarkson.edu/~jmatthew/publications/ManagingBiasInAI_CAMERAREADY.pdf </li>
 </ul>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:IBM_AI_BIAS">
+<p><a href="https://www.ibm.com/blog/shedding-light-on-ai-bias-with-real-world-examples/">Shedding light on AI bias with real world examples</a>&#160;<a class="footnote-backref" href="#fnref:IBM_AI_BIAS" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:HOW_AI_BEHAVE">
+<p><a href="https://openai.com/index/how-should-ai-systems-behave/">How should AI systems behave, and who should decide?</a>&#160;<a class="footnote-backref" href="#fnref:HOW_AI_BEHAVE" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:CLAUDE_LANG">
+<p><a href="https://www.anthropic.com/news/evaluating-and-mitigating-discrimination-in-language-model-decisions">Evaluating and Mitigating Discrimination in Language Model Decisions</a>&#160;<a class="footnote-backref" href="#fnref:CLAUDE_LANG" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:GEMINI">
+<p><a href="https://cloud.google.com/gemini/docs/discover/responsible-ai">Gemini for Google Cloud and responsible AI</a>&#160;<a class="footnote-backref" href="#fnref:GEMINI" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
         </article>
         <div class="col-3">
           <h4>Navigation</h4>

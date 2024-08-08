@@ -47,7 +47,7 @@
       - [ ] References copied into resources
     - [ ] Bias
       - [x] 250 words
-      - [ ] LLMs copyedit
+      - [x] LLMs copyedit
       - [ ] References copied into resources
     - [ ] Carbon Footprint 
       - [x] 250 words
