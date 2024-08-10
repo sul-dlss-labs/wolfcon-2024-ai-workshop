@@ -18,7 +18,7 @@
     - [ ] Compound AI
       - [x] 250 words
       - [x] LLMs copyedit
-      - [ ] Add Use Case(s)
+      - [x] Add Use Case(s)
       - [ ] References copied into resources
   - [ ] Types of AI and ML Relevant to Libraries
     - [ ] Baysian
@@ -49,7 +49,7 @@
     - [ ] AI Slop
       - [x] 250 words
       - [x] LLMs copyedit
-      - [ ] Add Use Case(s)
+      - [x] Add Use Case(s)
       - [ ] References copied into resources
     - [ ] Bias
       - [x] 250 words

@@ -29,13 +29,16 @@ calls out AI Slop as an new negative externality of the internet. It may make se
 individuals or corporations to produce low quality images and videos using generative AI but
 that collectively all of this material lowers the overall quality of content on the internet.
 
-
 ## What can libraries do?
 While not a new problem, libraries can continue to provide quality collections that, coupled 
 with our traditional role as intellectual or academic gatekeepers, minimize the inclusion of 
 resources of low-quality material. 
 
 
+## Workshop Use-cases
+- [Collection Management and Optimization](https://github.com/folio-labs/edge-ai/wiki/Collection-Management-and-Optimization)
+- [Information Discovery](https://github.com/folio-labs/edge-ai/wiki/Information-Discovery)
+- [Improving User and Technical Documentation](https://github.com/folio-labs/edge-ai/wiki/Improving-User-and-Technical-Documentation)
 
 [^WILLISON]: [Slop is the new name for unwanted AI-generated content](https://simonwillison.net/2024/May/8/slop/)
 [^GOOG]: [Google Searches Prefer AI Spam to Real Content](https://www.inc.com/kit-eaton/google-searches-prefer-ai-spam-to-real-content.html)

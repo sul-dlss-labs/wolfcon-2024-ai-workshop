@@ -38,6 +38,10 @@ into FOLIO systems. We will:
 
 This approach allows us to leverage the unique capabilities of AI while building upon FOLIO's established infrastructure.
 
+## Workshop Use-cases
+- [Automated Metadata Generation Enrichment](https://github.com/folio-labs/edge-ai/wiki/Automated-Metadata-Generation-Enrichment)
+- [Create Course reserves from a csv](https://github.com/folio-labs/edge-ai/wiki/Create-Course-reserves-from-a-csv)
+- [Information Discovery](https://github.com/folio-labs/edge-ai/wiki/Information-Discovery)
 
 
 [^SOBER_AI]: https://www.dbreunig.com/2024/06/12/sober-ai-is-the-norm.html
