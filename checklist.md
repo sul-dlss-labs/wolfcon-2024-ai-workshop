@@ -18,15 +18,18 @@
     - [ ] Compound AI
       - [x] 250 words
       - [x] LLMs copyedit
+      - [ ] Add Use Case(s)
       - [ ] References copied into resources
   - [ ] Types of AI and ML Relevant to Libraries
     - [ ] Baysian
       - [x] 250 words
       - [x] LLMs copyedit
+      - [ ] Add Use Case(s)
       - [ ] References copied into resources
     - [ ] Natural Language Processing
       - [x] 250 words
       - [x] LLMs copyedit
+      - [ ] Add Use Case(s)
       - [ ] References copied into resources
     - [ ] Basic Neural Nets
       - [x] 250 words
@@ -35,39 +38,48 @@
     - [ ] Transformers Neural Nets
       - [x] 250 words
       - [ ] LLMs copyedit
+      - [ ] Add Use Case(s)
       - [ ] References copied into resources
   - [ ] Ethical Considerations
     - [ ] Academic Fraud 
       - [x] 250 words
       - [x] LLMs copyedit
+      - [ ] Add Use Case(s)
       - [ ] References copied into resources
     - [ ] AI Slop
       - [x] 250 words
       - [x] LLMs copyedit
+      - [ ] Add Use Case(s)
       - [ ] References copied into resources
     - [ ] Bias
       - [x] 250 words
       - [x] LLMs copyedit
+      - [ ] Add Use Case(s)
       - [ ] References copied into resources
     - [ ] Carbon Footprint 
       - [x] 250 words
       - [ ] LLMs copyedit
+      - [ ] Add Use Case(s)
       - [ ] References copied into resources
     - [ ] Creator Attribution
       - [x] 250 words
       - [ ] LLMs copyedit
+      - [ ] Add Use Case(s)
       - [ ] References copied into resources
     - [ ] Deep Fakes
       - [x] 250 words
       - [ ] LLMs copyedit
+      - [ ] Add Use Case(s)
       - [ ] References copied into resources
     -] Hallucinations and Generative AI 
       - [x] 250 words
       - [ ] LLMs copyedit
+      - [ ] Add Use Case(s)
       - [ ] References copied into resources
     - [ ] Privacy
       - [x] 250 words
       - [ ] LLMs copyedit
+      - [ ] Add Use Case(s)
       - [ ] References copied into resources
     - [ ] p(doom) and AGI 
       - [x] 250 words
@@ -78,34 +90,42 @@
     - [ ] ChatGPT
       - [x] 250 words
       - [ ] LLMs copyedit
+      - [ ] Add Use Case(s)
       - [ ] References copied into resources
     - [ ] Claude
       - [x] 250 words
       - [ ] LLMs copyedit
+      - [ ] Add Use Case(s)
       - [ ] References copied into resources
     - [ ] Gemini
       - [x] 250 words
       - [ ] LLMs copyedit
+      - [ ] Add Use Case(s)
       - [ ] References copied into resources
     - [ ] Generative Images and Video
       - [x] 250 words
       - [ ] LLMs copyedit
+      - [ ] Add Use Case(s)
       - [ ] References copied into resources
     - [ ] Local Llama
       - [x] 250 words
       - [ ] LLMs copyedit
+      - [ ] Add Use Case(s)
       - [ ] References copied into resources
     - [ ] Prompt Engineering
       - [x] 250 words
       - [ ] LLMs copyedit
+      - [ ] Add Use Case(s)
       - [ ] References copied into resources
     - [ ] Retrieval Augmented Generation
       - [x] 250 words
       - [x] LLMs copyedit
+      - [ ] Add Use Case(s)
       - [ ] References copied into resources
     - [ ] Fine-tuning or Training LLMs
       - [ ] 250 words
       - [ ] LLMs copyedit
+      - [ ] Add Use Case(s)
       - [ ] References copied into resources
   - [ ] Generative AI Use Cases for FOLIO
     - [ ] Analysis and Management of Financial Orders and Invoices
