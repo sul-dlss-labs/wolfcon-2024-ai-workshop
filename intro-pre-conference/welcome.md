@@ -33,7 +33,7 @@ FOLIO functionality. We will conclude with resources for further learning on AI 
 for future implementation of AI in FOLIO.
 
 ## Disclaimer
-[Google Gemini](https://gemini.google.com), [ChatGPT 4.o](https://chatgpt.com/), and 
+[Google Gemini](https://gemini.google.com), [ChatGPT 4.0](https://chatgpt.com/), and 
 [Claude 3.5](https://claude.ai/) LLMs were all used in copyediting all content in 
 this workshop.
 
