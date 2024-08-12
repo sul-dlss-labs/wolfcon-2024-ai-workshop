@@ -5,6 +5,8 @@
 - [Academic Fraud - Plagiarism and Acceptable Use](academic-fraud.html)
 - [Creator Attribution and Copyright](creator-attribution.html)
 - [Privacy](privacy.html)
+- [Guidelines for Incorporating AI](guidelines.html)
+
 
 ## Social and Existential Risks 
 - [Carbon Footprint of LLMs](carbon-footprint.html)
@@ -12,6 +14,7 @@
 - [AI Slop](ai-slop.html)
 - [Hallucinations and Generative AI](hallucinations-llms.html)
 - [p(doom) and Artificial General Intelligence (AGI)](p-doom-agi.html)
+
 
 
 
