@@ -1,6 +1,6 @@
 # Carbon Footprint of LLMs
 A real concern of Large Language Models (LLMs) is the amount of energy and water 
-required to training and deploying these models. For example, in their 2024 report[^GOOG_2024],
+required for training and deploying these models. For example, in their 2024 report[^GOOG_2024],
 Google admitted that their carbon output increased over 13% year-over-year primarily due to the 
 increase energy usage of their customer-facing AI efforts, including the training and inference
 of their flagship [Gemini LLM](https://gemini.google.com/). In the report they admit:
