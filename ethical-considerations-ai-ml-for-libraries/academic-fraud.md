@@ -1,7 +1,7 @@
 # Academic Fraud and Artificial Intelligence 
 
 ## Plagiarism 
-One of the immediate concerns regarding academic fraud academic fraud is the use of 
+One of the immediate concerns regarding academic fraud is the use of 
 Large Language Models (LLMs) that generate convincing and coherent text that
 students and researchers can pass off as original work. The growth and inclusion 
 of generative text into academic articles has been widespread, particularly in 
