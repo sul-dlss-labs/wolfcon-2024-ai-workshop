@@ -58,7 +58,7 @@
       - [ ] References copied into resources
     - [ ] Carbon Footprint 
       - [x] 250 words
-      - [ ] LLMs copyedit
+      - [x] LLMs copyedit
       - [ ] Add Use Case(s)
       - [ ] References copied into resources
     - [ ] Creator Attribution
