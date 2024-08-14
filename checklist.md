@@ -24,7 +24,6 @@
     - [ ] Baysian
       - [x] 250 words
       - [x] LLMs copyedit
-      - [ ] Add Use Case(s)
       - [ ] References copied into resources
     - [ ] Natural Language Processing
       - [x] 250 words
@@ -37,7 +36,7 @@
       - [ ] References copied into resources
     - [ ] Transformers Neural Nets
       - [x] 250 words
-      - [ ] LLMs copyedit
+      - [x] LLMs copyedit
       - [ ] Add Use Case(s)
       - [ ] References copied into resources
   - [ ] Ethical Considerations
@@ -150,6 +149,7 @@
   - [x] Workshop flow 
   - [x] Generation from Markdown
   - [x] Bootstrap design template
+  - [ ] Home page
   - [ ] Deployment to Github pages
 ## edge-ai
 - [ ] Github Actions
