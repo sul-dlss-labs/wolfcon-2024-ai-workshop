@@ -35,5 +35,12 @@ encoders are feed to the decoders. A decoder is made of three layers:
 - **Feed Forward Neural Network** 
 
 
+## Workshop Use-cases
+- [Analysis and Management Financial Orders and Invoices](https://github.com/folio-labs/edge-ai/wiki/Analysis-and-Management-Financial-Orders-and-Invoices)
+- [Automated Metadata Generation Enrichment](https://github.com/folio-labs/edge-ai/wiki/Automated-Metadata-Generation-Enrichment)
+- [Create Course reserves from a csv](https://github.com/folio-labs/edge-ai/wiki/Create-Course-reserves-from-a-csv)
+- [Narrative Circulation Rules](https://github.com/folio-labs/edge-ai/wiki/Narrative-Circulation-Rules)
+
+
 [EXPLANIER]: https://poloclub.github.io/transformer-explainer/
 [^EXPLAIN_PAPER]: [Transformer Explainer: Interactive Learning of Text-Generative Models](https://arxiv.org/abs/2408.04619)

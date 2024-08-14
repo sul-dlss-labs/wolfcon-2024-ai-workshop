@@ -37,7 +37,7 @@
     - [ ] Transformers Neural Nets
       - [x] 250 words
       - [x] LLMs copyedit
-      - [ ] Add Use Case(s)
+      - [x] Add Use Case(s)
       - [ ] References copied into resources
   - [ ] Ethical Considerations
     - [ ] Academic Fraud 
