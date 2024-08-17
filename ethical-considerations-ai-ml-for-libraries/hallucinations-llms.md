@@ -39,10 +39,17 @@ Who is the first person to swim across the Pacific Ocean?
 > The LLM Assistant has a hallucination problem, and we should fix it.
 > Andrej Karpathy [^KARPATHY] 
 
+## Workshop Use-cases
+
+### Primary
+
+### Secondary
+
+### Tertiary
+
 ## Resources
 - https://medium.com/@colin.fraser/hallucinations-errors-and-dreams-c281a66f3c35
 
-## Footnotes
-- [^KARPATHY]: X post on [8 December 2023](https://x.com/karpathy/status/1733299213503787018?lang=en)
-- [^NYTIMES]: [A.I. Has a Measurement Problem](https://www.nytimes.com/2024/04/15/technology/ai-models-measurement.html)
-- [^TURING]: [Best Strategies to Minimize Hallucinations in LLMs: A Comprehensive Guide](https://www.turing.com/resources/minimize-llm-hallucinations-strategy)
+[^KARPATHY]: X post on [8 December 2023](https://x.com/karpathy/status/1733299213503787018?lang=en)
+[^NYTIMES]: [A.I. Has a Measurement Problem](https://www.nytimes.com/2024/04/15/technology/ai-models-measurement.html)
+[^TURING]: [Best Strategies to Minimize Hallucinations in LLMs: A Comprehensive Guide](https://www.turing.com/resources/minimize-llm-hallucinations-strategy)

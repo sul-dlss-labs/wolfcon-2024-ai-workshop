@@ -1,0 +1,53 @@
+[
+  {
+    "author": "Dave Winer",
+    "cite": {
+      "link": "http://scripting.com/2024/06/17/025755.html",
+      "title": "The creativity of ChatGPT",
+      "type": "Blog post"
+    },
+    "date": "2024-06-17",
+    "quote": " I love the creativity of ChatGPT, some call it hallucinations, but maybe all the rest of this stuff is hallucinating, maybe only ChatGPT sees what's real? Could be."
+  },
+  {
+    "author": "Andrej Karpathy",
+    "cite": {
+      "link": "https://x.com/karpathy/status/1617979122625712128?lang=en",
+      "title": "Source",
+      "type": "X post"
+    },
+    "date": "2023-01-24",
+    "quote": "The hottest new programming language is English"
+  },
+  {
+    "author": "Nikhil Suresh",
+    "cite": {
+      "link": "https://ludic.mataroa.blog/blog/i-will-fucking-piledrive-you-if-you-mention-ai-again/",
+      "title": "I Will Fucking Piledrive You If You Mention AI Again",
+      "type": "Blog post"
+    },
+    "date": "2024-06-19",
+    "quote": "So it is with great regret that I announce that the next person to talk about rolling out AI is  going to receive a complimentary chiropractic adjustment in the style of Dr. Bourne, i.e, I am going to fucking break your neck. I am truly, deeply, sorry."
+  },
+  {
+    "author": "Tyler Cowen",
+    "cite": {
+      "link": "https://marginalrevolution.com/marginalrevolution/2024/08/okie-dokie-solve-for-the-equilibrium.html",
+      "title": "Okie-dokie, solve for the equilibrium",
+      "type": "Blog post"
+    },
+    "date": "2024-08-15",
+    "quote": "I've said it before, and I'll say it again. The marginal product of LLMs is when they are interacting with well-prepared, intricately cooperating humans at their peak, not when you pose them random queries for fun."
+  },
+  {
+    "author": "Andrej Karpathy",
+    "cite": {
+      "link": "https://x.com/karpathy/status/1733299213503787018?lang=en",
+      "title": "Source",
+      "type": "X post"
+
+    },
+    "date": "2023-12-8",
+    "quote": "TLDR I know I'm being super pedantic but the LLM has no 'hallucination problem'.  Hallucination is not a bug, it is LLM's greatest feature.The LLM Assistant has a hallucination problem, and we should fix it."
+  }
+]

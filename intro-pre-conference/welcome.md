@@ -28,8 +28,13 @@ Large Language Models (LLMs) and generative AI.
 We will conduct a survey of ethical and problematic uses of AI in the broader culture and higher 
 education.
 The morning session will include small group and interactive activities using LLMs in 
-multiple contexts, in followed by a group activity in the afternoon on AI use cases targeting 
-FOLIO functionality. We will conclude with resources for further learning on AI and planning 
+multiple contexts. After each topic area or section, we will break up into small teams, with
+each team working on the one of use-cases. As part of the homework prior to the workshop, everyone
+should have selected a primary, secondary, and tertiary use-case. To keep the group size roughly 
+equal, I ask that you self-select one of three use-cases and encourage you to mix it up for the 
+small group exercises.  
+
+We will conclude with resources for further learning on AI and planning 
 for future implementation of AI in FOLIO.
 
 ## Disclaimer

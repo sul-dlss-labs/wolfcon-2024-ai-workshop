@@ -36,6 +36,14 @@ Information literacy programs run by libraries are evolving its methods of evalu
 include basic research in how to evaluate and use different sources should be able to help patrons to
 decide if a content found on the internet are legitimate.
 
+## Workshop Use-cases
+
+### Primary
+
+### Secondary
+
+### Tertiary
+
 [^AFP_JAN_24]:  https://factcheck.afp.com/doc.afp.com.34EQ8F9
 [^AFP_JAN_24_02]: https://factcheck.afp.com/doc.afp.com.349D8R6
 [^AL_JAZEERA_FEB_24]: https://www.aljazeera.com/economy/2024/2/12/how-ai-is-used-to-resurrect-dead-indian-politicians-as-elections-loom

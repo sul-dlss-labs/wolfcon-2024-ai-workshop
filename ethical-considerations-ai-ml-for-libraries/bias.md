@@ -54,6 +54,25 @@ See how the LLM vendors respond and attempt to mitigate bias in their models:
 
 - **Google** Gemini for Google Cloud and responsible AI[^GEMINI]
 
+## Workshop Use-cases
+
+### Primary
+- [Automated Metadata Generation Enrichment](https://github.com/folio-labs/ai-workflows/wiki/Automated-Metadata-Generation-Enrichment)
+- [Collection Management and Optimization](https://github.com/folio-labs/ai-workflows/wiki/Collection-Management-and-Optimization)
+- [Information Discovery](https://github.com/folio-labs/ai-workflows/wiki/Information-Discovery)
+- [Improving User and Technical Documentation](https://github.com/folio-labs/ai-workflows/wiki/Improving-User-and-Technical-Documentation)
+
+### Secondary
+- [Create Course reserves from a csv](https://github.com/folio-labs/ai-workflows/wiki/Create-Course-reserves-from-a-csv)
+- [Narrative Circulation Rules](https://github.com/folio-labs/ai-workflows/wiki/Narrative-Circulation-Rules)
+- [Technical Support for Orphaned Modules](https://github.com/folio-labs/ai-workflows/wiki/Technical-Support-for-Orphaned-Modules)
+
+### Tertiary
+- [Analysis and Management Financial Orders and Invoices](https://github.com/folio-labs/ai-workflows/wiki/Analysis-and-Management-Financial-Orders-and-Invoices)
+- [De‐duplicate and Cluster Existing FOLIO Inventory Records](https://github.com/folio-labs/ai-workflows/wiki/De%E2%80%90duplicate-and-Cluster-Existing-FOLIO-Inventory-Records)
+- [From an Instance Title, find Circ Status and Researve Item](https://github.com/folio-labs/ai-workflows/wiki/From-an-Instance-Title,-find-Circ-Status-and-Researve-Item)
+
+
 [^IBM_AI_BIAS]: [Shedding light on AI bias with real world examples](https://www.ibm.com/blog/shedding-light-on-ai-bias-with-real-world-examples/)
 [^HOW_AI_BEHAVE]: [How should AI systems behave, and who should decide?](https://openai.com/index/how-should-ai-systems-behave/)
 [^CLAUDE_LANG]: [Evaluating and Mitigating Discrimination in Language Model Decisions](https://www.anthropic.com/news/evaluating-and-mitigating-discrimination-in-language-model-decisions)

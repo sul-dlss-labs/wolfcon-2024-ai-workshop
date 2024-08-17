@@ -30,6 +30,24 @@ of academic work unless prohibited by the journal.
 ## Resources
 - [Artificial intelligence and academic integrity: striking a balance](https://www.timeshighereducation.com/campus/artificial-intelligence-and-academic-integrity-striking-balance)
 
+## Workshop Use-cases
+
+### Primary
+- [Collection Management and Optimization](https://github.com/folio-labs/ai-workflows/wiki/Collection-Management-and-Optimization)
+- [Improving User and Technical Documentation](https://github.com/folio-labs/ai-workflows/wiki/Improving-User-and-Technical-Documentation)
+- [Information Discovery](https://github.com/folio-labs/ai-workflows/wiki/Information-Discovery)
+
+### Secondary
+- [Automated Metadata Generation Enrichment](https://github.com/folio-labs/ai-workflows/wiki/Automated-Metadata-Generation-Enrichment)
+- [De‐duplicate and Cluster Existing FOLIO Inventory Records](https://github.com/folio-labs/ai-workflows/wiki/De%E2%80%90duplicate-and-Cluster-Existing-FOLIO-Inventory-Records)
+- [From an Instance Title, find Circ Status and Researve Item](https://github.com/folio-labs/ai-workflows/wiki/From-an-Instance-Title,-find-Circ-Status-and-Researve-Item)
+- [Technical Support for Orphaned Modules](https://github.com/folio-labs/ai-workflows/wiki/Technical-Support-for-Orphaned-Modules)
+
+### Tertiary
+- [Analysis and Management Financial Orders and Invoices](https://github.com/folio-labs/ai-workflows/wiki/Analysis-and-Management-Financial-Orders-and-Invoices)
+- [Create Course reserves from a csv](https://github.com/folio-labs/ai-workflows/wiki/Create-Course-reserves-from-a-csv)
+- [Narrative Circulation Rules](https://github.com/folio-labs/ai-workflows/wiki/Narrative-Circulation-Rules)
+
 [^ARXIV_01]: [Mapping the Increasing Use of LLMs in Scientific Papers](https://arxiv.org/abs/2404.01268)
 [^ELSEVIER]: [The use of generative AI and AI-assisted technologies in writing for Elsevier](https://www.elsevier.com/about/policies-and-standards/the-use-of-generative-ai-and-ai-assisted-technologies-in-writing-for-elsevier)
 [^HAI_LLM]: [How Much Research Is Being Written by Large Language Models?](https://hai.stanford.edu/news/how-much-research-being-written-large-language-models)

@@ -69,6 +69,14 @@ out in the past month. Please show your thinking step-by-step as you construct t
 ## Remember you can combine multiple prompt techniques! 
 For more examples, please check-out Prompt Engineering Guide[^PROMPT_GUIDE].
 
+## Workshop Use-cases
+
+### Primary
+
+### Secondary
+
+### Tertiary
+
 [^PRINCPLED]: [Principled Instructions Are All You Need for Questioning LLaMA-1/2, GPT-3.5/4](https://arxiv.org/abs/2312.16171)
 [^ANTHROPIC]: [Antropic Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/)
 [^PROMPT_GUIDE]: [Prompt Engineering Guide](https://www.promptingguide.ai/)

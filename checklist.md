@@ -28,7 +28,6 @@
     - [ ] Natural Language Processing
       - [x] 250 words
       - [x] LLMs copyedit
-      - [ ] Add Use Case(s)
       - [ ] References copied into resources
     - [ ] Basic Neural Nets
       - [x] 250 words
@@ -43,7 +42,7 @@
     - [ ] Academic Fraud 
       - [x] 250 words
       - [x] LLMs copyedit
-      - [ ] Add Use Case(s)
+      - [x] Add Use Case(s)
       - [ ] References copied into resources
     - [ ] AI Slop
       - [x] 250 words
@@ -53,7 +52,7 @@
     - [ ] Bias
       - [x] 250 words
       - [x] LLMs copyedit
-      - [ ] Add Use Case(s)
+      - [x] Add Use Case(s)
       - [ ] References copied into resources
     - [ ] Carbon Footprint 
       - [x] 250 words
@@ -149,7 +148,7 @@
   - [x] Workshop flow 
   - [x] Generation from Markdown
   - [x] Bootstrap design template
-  - [ ] Home page
+  - [x] Home page
   - [ ] Deployment to Github pages
 ## edge-ai
 - [ ] Github Actions

@@ -30,6 +30,14 @@ Even if the training data has been anonymized for personal details, by combining
 responses from LLMs, individuals could potential be identified thereby comprising their privacy
 when using the LLM. 
 
+## Workshop Use-cases
+
+### Primary
+
+### Secondary
+
+### Tertiary
+
 [^PRIVACY_LLM]: [Privacy in Large Language Models: Attacks, Defenses and Future Directions](https://arxiv.org/abs/2310.10383)
 [^SCALEABLE]: [Scalable Extraction of Training Data from (Production) Language Models](https://arxiv.org/abs/2311.17035)
 [^GEN_AI_PRIVACY]: [Generative AI's privacy problem](https://www.axios.com/2024/03/14/generative-ai-privacy-problem-chatgpt-openai)

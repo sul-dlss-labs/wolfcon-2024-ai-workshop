@@ -36,11 +36,22 @@ encoders are feed to the decoders. A decoder is made of three layers:
 
 
 ## Workshop Use-cases
+
+### Primary
 - [Analysis and Management Financial Orders and Invoices](https://github.com/folio-labs/edge-ai/wiki/Analysis-and-Management-Financial-Orders-and-Invoices)
 - [Automated Metadata Generation Enrichment](https://github.com/folio-labs/edge-ai/wiki/Automated-Metadata-Generation-Enrichment)
 - [Create Course reserves from a csv](https://github.com/folio-labs/edge-ai/wiki/Create-Course-reserves-from-a-csv)
 - [Narrative Circulation Rules](https://github.com/folio-labs/edge-ai/wiki/Narrative-Circulation-Rules)
 
+### Secondary
+- [Collection Management and Optimization](https://github.com/folio-labs/ai-workflows/wiki/Collection-Management-and-Optimization)
+- [De‐duplicate and Cluster Existing FOLIO Inventory Records](https://github.com/folio-labs/ai-workflows/wiki/De%E2%80%90duplicate-and-Cluster-Existing-FOLIO-Inventory-Records)
+- [Improving User and Technical Documentation](https://github.com/folio-labs/ai-workflows/wiki/Improving-User-and-Technical-Documentation)
+
+### Tertiary
+- [From an Instance Title, find Circ Status and Researve Item](https://github.com/folio-labs/ai-workflows/wiki/From-an-Instance-Title,-find-Circ-Status-and-Researve-Item)
+- [Technical Support for Orphaned Modules](https://github.com/folio-labs/ai-workflows/wiki/Technical-Support-for-Orphaned-Modules)
+- [Information Discovery](https://github.com/folio-labs/ai-workflows/wiki/Information-Discovery)
 
 [EXPLANIER]: https://poloclub.github.io/transformer-explainer/
 [^EXPLAIN_PAPER]: [Transformer Explainer: Interactive Learning of Text-Generative Models](https://arxiv.org/abs/2408.04619)

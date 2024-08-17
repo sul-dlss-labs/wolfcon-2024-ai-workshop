@@ -1,4 +1,5 @@
 import datetime
+import json
 import pathlib
 
 import markdown
@@ -43,6 +44,33 @@ html_template = Template("""<!doctype html>
   </body>
 </html>""")
 
+quotes_carousel = Template("""<div id="carousel-ai-quotes" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    {% for quote in quotes %}
+    <div class="carousel-item {% if loop.first %}active{% endif %}">
+      <figure class="d-block w-100">
+        <blockquote class="blockquote">
+         <p>{{ quote.quote| safe }}</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+         {{ quote.author }} on {{ quote.date }} from {{ quote.cite.type }} <cite title="{{ quote.cite.title }}">
+          <a href="{{ quote.cite.link }}">{{ quote.cite.title }}</a></cite>
+        </figcaption>
+      </figure>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carousel-ai-quotes" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carousel-ai-quotes" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+ """)
 
 area_order = [
     {"title": "Introduction to WOLFcon AI Pre-conference Workshop", "link": "/intro-pre-conference/index.html" },
@@ -88,11 +116,32 @@ def navigation_lookup(index):
         lookup[link.attrs['href']] = link.text
     return lookup
 
+def home_page():
+    quotes_path = pathlib.Path("quotes.json")
+    with quotes_path.open() as fo:
+        quotes=json.load(fo)
+
+    carousel = quotes_carousel.render(quotes=quotes)
+
+    page_navigation = "<ol>"
+    for area in area_order:
+        page_navigation += f"""<li><a href="{area['link']}">{area['title']}</a></li>""" 
+    page_navigation += "</ol>"
+
+    index_html = html_template.render(
+        content=carousel,
+        title="Home Page",
+        page_navigation=page_navigation
+    )
+  
+    index_path = pathlib.Path("index.html")
+    index_path.write_text(index_html)
+    
 
 def html_pages():
     base_dir = pathlib.Path(".")
     for row in base_dir.iterdir():
-        if row.name in ["prep", ".ipynb_checkpoints", ".git"]:
+        if row.name in ["prep", ".ipynb_checkpoints", ".git", "notebooks"]:
             continue
         if row.is_dir():
             index = row / "index.md"
@@ -116,3 +165,4 @@ if __name__ == "__main__":
     current = datetime.datetime.now()
     print(f"Generating HTML from Markdown content at {current}")
     html_pages()
+    home_page()

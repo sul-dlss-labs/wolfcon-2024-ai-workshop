@@ -39,9 +39,22 @@ into FOLIO systems. We will:
 This approach allows us to leverage the unique capabilities of AI while building upon FOLIO's established infrastructure.
 
 ## Workshop Use-cases
-- [Automated Metadata Generation Enrichment](https://github.com/folio-labs/edge-ai/wiki/Automated-Metadata-Generation-Enrichment)
-- [Create Course reserves from a csv](https://github.com/folio-labs/edge-ai/wiki/Create-Course-reserves-from-a-csv)
-- [Information Discovery](https://github.com/folio-labs/edge-ai/wiki/Information-Discovery)
+
+### Primary
+- [Automated Metadata Generation Enrichment](https://github.com/folio-labs/ai-workflows/wiki/Automated-Metadata-Generation-Enrichment)
+- [Create Course reserves from a csv](https://github.com/folio-labs/ai-workflows/wiki/Create-Course-reserves-from-a-csv)
+- [Information Discovery](https://github.com/folio-labs/ai-workflows/wiki/Information-Discovery)
+
+### Secondary
+- [Analysis and Management Financial Orders and Invoices](https://github.com/folio-labs/ai-workflows/wiki/Analysis-and-Management-Financial-Orders-and-Invoices)
+- [Narrative Circulation Rules](https://github.com/folio-labs/ai-workflows/wiki/Narrative-Circulation-Rules)a
+- [From an Instance Title, find Circ Status and Researve Item](https://github.com/folio-labs/ai-workflows/wiki/From-an-Instance-Title,-find-Circ-Status-and-Researve-Item)
+- [De‐duplicate and Cluster Existing FOLIO Inventory Records](https://github.com/folio-labs/ai-workflows/wiki/De%E2%80%90duplicate-and-Cluster-Existing-FOLIO-Inventory-Records)
+
+### Tertiary
+- [Create Course reserves from a csv](https://github.com/folio-labs/ai-workflows/wiki/Create-Course-reserves-from-a-csv)
+- [Improving User and Technical Documentation](https://github.com/folio-labs/ai-workflows/wiki/Improving-User-and-Technical-Documentation)
+- [Technical Support for Orphaned Modules](https://github.com/folio-labs/ai-workflows/wiki/Technical-Support-for-Orphaned-Modules)
 
 
 [^SOBER_AI]: https://www.dbreunig.com/2024/06/12/sober-ai-is-the-norm.html
