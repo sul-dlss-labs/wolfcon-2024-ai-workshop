@@ -61,7 +61,7 @@
       - [ ] References copied into resources
     - [ ] Creator Attribution
       - [x] 250 words
-      - [ ] LLMs copyedit
+      - [x] LLMs copyedit
       - [ ] Add Use Case(s)
       - [ ] References copied into resources
     - [ ] Deep Fakes
