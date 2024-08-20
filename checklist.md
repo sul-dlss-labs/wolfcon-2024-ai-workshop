@@ -66,7 +66,7 @@
       - [ ] References copied into resources
     - [ ] Deep Fakes
       - [x] 250 words
-      - [ ] LLMs copyedit
+      - [x] LLMs copyedit
       - [ ] Add Use Case(s)
       - [ ] References copied into resources
     -] Hallucinations and Generative AI 
