@@ -1,11 +1,11 @@
 # Compound AI Systems
-In the blog post, [The Shift from Models to Compound AI Systems](https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/), 
+In the blog post, *The Shift from Models to Compound AI Systems*[^BERKELEY], 
 a group of Berkeley AI Researchers note the difference between using Large Language Models (LLMs) 
 as monolithic models versus as using LLMs as components in larger, compound systems that include both LLMs and other technology. 
 
 Building on the Berkeley authors definition, author Drew Breunig differentiates between what he calls 
-[**Sober AI** verses **Hyped AI**][^SOBER_AI]
-with the insight that most organizations and corporations use LLMs as part of larger AI systems.
+Sober AI[^SOBER_AI]
+with the insight that most organizations and corporations use LLMs as part of larger enterprise systems.
 
 By leveraging the unique capabilities of LLMs as part of data and machine learning pipelines.
 He then offers the following table to illustrate these differences:
@@ -56,6 +56,6 @@ This approach allows us to leverage the unique capabilities of AI while building
 - [Improving User and Technical Documentation](https://github.com/folio-labs/ai-workflows/wiki/Improving-User-and-Technical-Documentation)
 - [Technical Support for Orphaned Modules](https://github.com/folio-labs/ai-workflows/wiki/Technical-Support-for-Orphaned-Modules)
 
-
-[^SOBER_AI]: https://www.dbreunig.com/2024/06/12/sober-ai-is-the-norm.html
+[^BERKELEY]: [The Shift from Models to Compound AI Systems](https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/)
+[^SOBER_AI]: [Sober AI is the Norm](https://www.dbreunig.com/2024/06/12/sober-ai-is-the-norm.html)
 [^STICKLE_BRICK]: [The Stickle-Brick Approach to Big AI](https://spectrum.ieee.org/large-language-models)
