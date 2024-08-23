@@ -6,11 +6,11 @@
     - [ ] Welcome
       - [x] 250 words
       - [x] LLMs copyedit
-      - [ ] References copied into resources
+      - [x] References copied into resources
    - [ ] I-Ching Exercise
       - [x] 250 words
       - [x] LLMs copyedit
-      - [ ] References copied into resources
+      - [x] References copied into resources
     - [ ] Concepts
       - [x] 250 words
       - [x] LLMs copyedit
