@@ -49,5 +49,15 @@
     },
     "date": "2023-12-8",
     "quote": "TLDR I know I'm being super pedantic but the LLM has no 'hallucination problem'.  Hallucination is not a bug, it is LLM's greatest feature.The LLM Assistant has a hallucination problem, and we should fix it."
+  },
+  {
+    "author": "Om Malik",
+    "cite": {
+      "link": "https://om.co/2024/08/07/googles-real-googly-no-not-the-anti-trust/",
+      "title": "Google’s Real Googly. No Not The Anti-Trust!",
+      "type": "Blog post"
+    },
+    "date": "2024-08-7",
+    "quote": "ChatGPT is foretelling a future where traditional input devices like keyboards and mice will be replaced by more interactive methods such as voice commands and gestures. In a mixed-reality world, navigating through information layers will rely on these intuitive interactions, diminishing the relevance of traditional web formats like 10 blue links and prompting the need for new monetization models."
   }
 ]
