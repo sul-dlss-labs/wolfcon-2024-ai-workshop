@@ -19,7 +19,7 @@
       - [x] 250 words
       - [x] LLMs copyedit
       - [x] Add Use Case(s)
-      - [ ] References copied into resources
+      - [x] References copied into resources
   - [ ] Types of AI and ML Relevant to Libraries
     - [ ] Baysian
       - [x] 250 words
