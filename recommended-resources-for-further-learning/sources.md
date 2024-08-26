@@ -9,3 +9,6 @@
 
 ### I-Ching Exercise
 - [I-Ching](https://www.ichingonline.net/)
+
+### Concepts
+- [Encyclopedia Britannica](https://www.britannica.com/technology/artificial-intelligence)
