@@ -19,6 +19,11 @@
 - [The Stickle-Brick Approach to Big AI](https://spectrum.ieee.org/large-language-models)
 
 ## Types of AI and ML Relevant to Libraries
+### Naïve Bayes
+- [Automated Classification to Improve the Efficiency of Weeding library Collections](https://scholarworks.sjsu.edu/cgi/viewcontent.cgi?article=8375&context=etd_theses)
+- [Bayes Theorem](https://www.investopedia.com/terms/b/bayes-theorem.asp)
+- [Naïve Bayes](https://www.ibm.com/topics/naive-bayes)
+
 
 ## Ethical Considerations
 

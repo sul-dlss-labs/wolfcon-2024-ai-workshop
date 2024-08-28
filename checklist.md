@@ -24,7 +24,7 @@
     - [ ] Baysian
       - [x] 250 words
       - [x] LLMs copyedit
-      - [ ] References copied into resources
+      - [x] References copied into resources
     - [ ] Natural Language Processing
       - [x] 250 words
       - [x] LLMs copyedit
