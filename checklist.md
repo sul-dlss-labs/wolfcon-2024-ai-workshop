@@ -149,7 +149,7 @@
   - [x] Generation from Markdown
   - [x] Bootstrap design template
   - [x] Home page
-  - [ ] Deployment to Github pages
+  - [x] Deployment to Github pages
 ## edge-ai
 - [ ] Github Actions
   - [ ] Run pytest, ruff on PR
@@ -163,7 +163,7 @@
       - [x] Mermaid Diagram
   - [ ] Embeddings
     - [ ] Retrieve Vector
-    - [ ] Generate Vector
+    - [x] Generate Vector
 - [ ] Finance Endpoint
   - [ ] Order Validation
   - [ ] Invoice Validation
