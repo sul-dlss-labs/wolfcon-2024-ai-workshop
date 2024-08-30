@@ -5,9 +5,9 @@ import pathlib
 import markdown
 
 from bs4 import BeautifulSoup
-from jinja2 import Template
+from jinja2 import DictLoader, Environment
 
-html_template = Template("""<!doctype html>
+base_template = """<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -27,6 +27,17 @@ html_template = Template("""<!doctype html>
      </div>
     </div>
     <div class="container">
+    {% block main %}{% endblock %}
+    </div>
+    <footer style="background-color: #0a3a85; color: white;" >
+      <div class="container">Original Content by Jeremy Nelson &copy; 2024, <a href="https://github.com/jermnelson/wolfcon-02024-ai">Github</a></div>
+    </footer> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>"""
+
+html_template = """{% extends "base.html" %}
+{% block main %}
       <div class="row">
         <article class="col-9">
          {{ content|safe }}
@@ -36,15 +47,15 @@ html_template = Template("""<!doctype html>
           {{ page_navigation|safe }}
         </div>
       </div>
-    </div>
-    <footer style="background-color: #0a3a85; color: white;" >
-     <div class="container">Original Content by Jeremy Nelson &copy; 2024, <a href="https://github.com/jermnelson/wolfcon-02024-ai">Github</a></div>
-    </footer> 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
-</html>""")
+{% endblock %}
+"""
 
-quotes_carousel = Template("""<div id="carousel-ai-quotes" class="carousel slide" data-bs-ride="carousel">
+quotes_carousel = """{% extends "base.html" %}
+
+{% block main %}
+<div class="row">
+<div>
+ <div id="carousel-ai-quotes" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     {% for quote in quotes %}
     <div class="carousel-item {% if loop.first %}active{% endif %}">
@@ -60,8 +71,8 @@ quotes_carousel = Template("""<div id="carousel-ai-quotes" class="carousel slide
     </div>
     {% endfor %}
   </div>
-</div>
-<button class="carousel-control-prev" type="button" data-bs-target="#carousel-ai-quotes" data-bs-slide="prev">
+ </div>
+ <button class="carousel-control-prev" type="button" data-bs-target="#carousel-ai-quotes" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
@@ -69,8 +80,29 @@ quotes_carousel = Template("""<div id="carousel-ai-quotes" class="carousel slide
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
+ </div>
 </div>
- """)
+<div class="row">
+  <div>
+     <h2>Workshop</h2>
+      {{ page_navigation|safe }}
+  </div>
+  <div>
+     <h2>Prerequisites</h2>
+  </div>
+</div>
+{% endblock %}
+ """
+
+jinja_env = Environment(
+    loader=DictLoader(
+        {
+            "base.html": base_template,
+            "topic.html": html_template,
+            "home.html": quotes_carousel,
+        }
+    )
+)
 
 area_order = [
     {"title": "Introduction to WOLFcon AI Pre-conference Workshop", "link": "/intro-pre-conference/index.html" },
@@ -121,15 +153,16 @@ def home_page():
     with quotes_path.open() as fo:
         quotes=json.load(fo)
 
-    carousel = quotes_carousel.render(quotes=quotes)
+    home_template = jinja_env.get_template("home.html")
+
 
     page_navigation = "<ol>"
     for area in area_order:
         page_navigation += f"""<li><a href="{area['link']}">{area['title']}</a></li>""" 
     page_navigation += "</ol>"
 
-    index_html = html_template.render(
-        content=carousel,
+    index_html = home_template.render(
+        quotes=quotes,
         title="Home Page",
         page_navigation=page_navigation
     )
@@ -140,6 +173,7 @@ def home_page():
 
 def html_pages():
     base_dir = pathlib.Path(".")
+    html_template = jinja_env.get_template("topic.html")
     for row in base_dir.iterdir():
         if row.name in ["prep", ".ipynb_checkpoints", ".git", "notebooks"]:
             continue
