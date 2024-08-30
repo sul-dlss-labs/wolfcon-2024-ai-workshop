@@ -15,6 +15,6 @@
 - [Hallucinations and Generative AI](hallucinations-llms.html)
 - [p(doom) and Artificial General Intelligence (AGI)](p-doom-agi.html)
 
-
+[AI Risk Repository](https://airisk.mit.edu/)
 
 
