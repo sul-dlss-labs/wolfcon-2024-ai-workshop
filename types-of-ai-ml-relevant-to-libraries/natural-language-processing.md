@@ -42,5 +42,5 @@ interface for common NLP tasks and Annif offers library-specific functionality.
   sentiment analysis, and quote attributions.
 
 
-[^FAST]: https://www.oclc.org/research/areas/data-science/fast.html
-[^NLP_IBM]: https://www.ibm.com/topics/natural-language-processing
+[^FAST]: [FAST Subject Headings](https://www.oclc.org/research/areas/data-science/fast.html)
+[^NLP_IBM]: [Natural Language Processing](https://www.ibm.com/topics/natural-language-processing)

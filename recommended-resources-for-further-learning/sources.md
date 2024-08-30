@@ -24,6 +24,14 @@
 - [Bayes Theorem](https://www.investopedia.com/terms/b/bayes-theorem.asp)
 - [Naïve Bayes](https://www.ibm.com/topics/naive-bayes)
 
+### Natural Language Processing
+- [Annif](https://annif.org/)
+- [CoreNLP](https://stanfordnlp.github.io/CoreNLP/)
+- [FAST Subject Headings](https://www.oclc.org/research/areas/data-science/fast.html)
+- [NLTK](https://www.nltk.org/)
+- [Natural Language Processing](https://www.ibm.com/topics/natural-language-processing)
+- [spaCy](https://spacy.io/) 
+
 
 ## Ethical Considerations
 
@@ -37,4 +45,13 @@
 - [Science Journals Editorial Policies](https://www.science.org/content/page/science-journals-editorial-policies)
 - [The use of generative AI and AI-assisted technologies in writing for Elsevier](https://www.elsevier.com/about/policies-and-standards/the-use-of-generative-ai-and-ai-assisted-technologies-in-writing-for-elsevier)
 - [X Post on use of LLMs in an Elsevier article](https://x.com/gcabanac/status/1767574447337124290?s=20)
+
+### AI Slop
+- [Google Searches Prefer AI Spam to Real Content](https://www.inc.com/kit-eaton/google-searches-prefer-ai-spam-to-real-content.html)
+- [Slop is the new name for unwanted AI-generated content](https://simonwillison.net/2024/May/8/slop/)
+- [The death (again) of the internet as we know it](https://www.noahpinion.blog/i/144512843/slop) 
+- [Too big to care](https://doctorow.medium.com/https-pluralistic-net-2024-04-04-teach-me-how-to-shruggie-kagi-caaa88c221f2)
+- [Why I redesigned my home page?](https://om.co/2024/03/16/why-i-redesigned-my-home-page/)
+
+
 

@@ -28,7 +28,7 @@
     - [ ] Natural Language Processing
       - [x] 250 words
       - [x] LLMs copyedit
-      - [ ] References copied into resources
+      - [x] References copied into resources
     - [ ] Basic Neural Nets
       - [x] 250 words
       - [x] LLMs copyedit
@@ -48,7 +48,7 @@
       - [x] 250 words
       - [x] LLMs copyedit
       - [x] Add Use Case(s)
-      - [ ] References copied into resources
+      - [x] References copied into resources
     - [ ] Bias
       - [x] 250 words
       - [x] LLMs copyedit
