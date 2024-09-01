@@ -32,6 +32,10 @@
 - [Natural Language Processing](https://www.ibm.com/topics/natural-language-processing)
 - [spaCy](https://spacy.io/) 
 
+### Basics of Neural Networks
+- [Machine Learning for Beginners: An Introduction to Neural Networks](https://victorzhou.com/blog/intro-to-neural-networks/)
+- [Neural Network (machine learning)](https://en.wikipedia.org/wiki/Neural_network_(machine_learning)
+- [What is a neural network?](https://www.geeksforgeeks.org/neural-networks-a-beginners-guide/)
 
 ## Ethical Considerations
 

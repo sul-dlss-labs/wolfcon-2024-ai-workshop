@@ -32,7 +32,7 @@
     - [ ] Basic Neural Nets
       - [x] 250 words
       - [x] LLMs copyedit
-      - [ ] References copied into resources
+      - [x] References copied into resources
     - [ ] Transformers Neural Nets
       - [x] 250 words
       - [x] LLMs copyedit

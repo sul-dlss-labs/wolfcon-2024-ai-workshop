@@ -36,5 +36,5 @@ Neural networks can be trained using supervised learning or unsupervised learnin
 
 
 [^NN_BEG]: [What is a neural network?](https://www.geeksforgeeks.org/neural-networks-a-beginners-guide/)
-[^WIKIPEDIA]: [Neural Network (machine learning)](https://en.wikipedia.org/wiki/Neural_network_(machine_learning))
+[^WIKIPEDIA]: [Neural Network (machine learning)](https://en.wikipedia.org/wiki/Neural_network_(machine_learning)
 [^HOU]: [Machine Learning for Beginners: An Introduction to Neural Networks](https://victorzhou.com/blog/intro-to-neural-networks/)
