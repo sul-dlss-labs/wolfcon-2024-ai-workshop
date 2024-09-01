@@ -72,7 +72,7 @@
       - [x] 250 words
       - [ ] LLMs copyedit
       - [ ] Add Use Case(s)
-      - [ ] References copied into resources
+      - [x] References copied into resources
     - [ ] Privacy
       - [x] 250 words
       - [ ] LLMs copyedit

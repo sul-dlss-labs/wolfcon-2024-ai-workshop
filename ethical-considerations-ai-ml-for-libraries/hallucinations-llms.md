@@ -33,23 +33,23 @@ Who is the first person to swim across the Pacific Ocean?
  
 
 ## Final Thought
+<figure>
+  <blockquote class="blockquote">
+   <p>
+    TLDR I know I'm being super pedantic but the LLM has no "hallucination problem". 
+    Hallucination is not a bug, it is LLM's greatest feature. 
+    The LLM Assistant has a hallucination problem, and we should fix it.
+   </p>
+  </blockquote>
+  <figcaption class="blockquote-footer" markdown="span">
+   Andrej Karpathy <sup><a class="footnote-ref" href="#fn:TURING">3</a></sup>
+  </figcaption>
+</figure>
 
-> TLDR I know I'm being super pedantic but the LLM has no "hallucination problem". 
-> Hallucination is not a bug, it is LLM's greatest feature. 
-> The LLM Assistant has a hallucination problem, and we should fix it.
-> Andrej Karpathy [^KARPATHY] 
-
-## Workshop Use-cases
-
-### Primary
-
-### Secondary
-
-### Tertiary
 
 ## Resources
-- https://medium.com/@colin.fraser/hallucinations-errors-and-dreams-c281a66f3c35
+- [Hallucinations, Errors, and Dreams](https://medium.com/@colin.fraser/hallucinations-errors-and-dreams-c281a66f3c35)
 
-[^KARPATHY]: X post on [8 December 2023](https://x.com/karpathy/status/1733299213503787018?lang=en)
-[^NYTIMES]: [A.I. Has a Measurement Problem](https://www.nytimes.com/2024/04/15/technology/ai-models-measurement.html)
 [^TURING]: [Best Strategies to Minimize Hallucinations in LLMs: A Comprehensive Guide](https://www.turing.com/resources/minimize-llm-hallucinations-strategy)
+[^NYTIMES]: [A.I. Has a Measurement Problem](https://www.nytimes.com/2024/04/15/technology/ai-models-measurement.html)
+[^KARPATHY]: X post on [8 December 2023](https://x.com/karpathy/status/1733299213503787018?lang=en)
