@@ -79,5 +79,7 @@
 - [Microsoft How can we advance sustainability? 2024 Environmental Sustainability Report](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW1lMjE)
 - [Reducing the Environmental Impact of Generative AI: a Guide for Practitioners](https://techcommunity.microsoft.com/t5/azure-architecture-blog/reducing-the-environmental-impact-of-generative-ai-a-guide-for/)
 
-
-
+### Creator Attribution and Copyright
+- [Generative AI Has a Visual Plagiarism Problem Experiments with Midjourney and DALL-E 3 show a copyright minefield](https://spectrum.ieee.org/midjourney-copyright)
+- [New York Times Legal Complaint December 2023](https://nytco-assets.nytimes.com/2023/12/NYT_Complaint_Dec2023.pdf)
+- [Training Generative AI Models on Copyrighted Works Is Fair Use](https://www.arl.org/blog/training-generative-ai-models-on-copyrighted-works-is-fair-use/)
