@@ -37,6 +37,11 @@
 - [Neural Network (machine learning)](https://en.wikipedia.org/wiki/Neural_network_(machine_learning)
 - [What is a neural network?](https://www.geeksforgeeks.org/neural-networks-a-beginners-guide/)
 
+### Transformers
+- [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
+- [Transformer Explainer Demonstration](https://poloclub.github.io/transformer-explainer/)
+- [Transformer Explainer: Interactive Learning of Text-Generative Models](https://arxiv.org/abs/2408.04619)
+
 ## Ethical Considerations
 
 ### Academic Fraud
@@ -57,5 +62,12 @@
 - [Too big to care](https://doctorow.medium.com/https-pluralistic-net-2024-04-04-teach-me-how-to-shruggie-kagi-caaa88c221f2)
 - [Why I redesigned my home page?](https://om.co/2024/03/16/why-i-redesigned-my-home-page/)
 
-
+### Bias
+- [Evaluating and Mitigating Discrimination in Language Model Decisions](https://www.anthropic.com/news/evaluating-and-mitigating-discrimination-in-language-model-decisions)
+- [Gemini for Google Cloud and responsible AI](https://cloud.google.com/gemini/docs/discover/responsible-ai)
+- [How should AI systems behave, and who should decide?](https://openai.com/index/how-should-ai-systems-behave/)
+- [Managing Bias in AI](https://lin-web.clarkson.edu/~jmatthew/publications/ManagingBiasInAI_CAMERAREADY.pdf)
+- [Shedding light on AI bias with real world examples](https://www.ibm.com/blog/shedding-light-on-ai-bias-with-real-world-examples/)
+- [There’s More to AI Bias Than Biased Data, NIST Report Highlights](https://www.nist.gov/news-events/news/2022/03/theres-more-ai-bias-biased-data-nist-report-highlights)
+- 
 

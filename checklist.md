@@ -53,7 +53,7 @@
       - [x] 250 words
       - [x] LLMs copyedit
       - [x] Add Use Case(s)
-      - [ ] References copied into resources
+      - [x] References copied into resources
     - [ ] Carbon Footprint 
       - [x] 250 words
       - [x] LLMs copyedit
