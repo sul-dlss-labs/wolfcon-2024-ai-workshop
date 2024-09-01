@@ -69,5 +69,15 @@
 - [Managing Bias in AI](https://lin-web.clarkson.edu/~jmatthew/publications/ManagingBiasInAI_CAMERAREADY.pdf)
 - [Shedding light on AI bias with real world examples](https://www.ibm.com/blog/shedding-light-on-ai-bias-with-real-world-examples/)
 - [There’s More to AI Bias Than Biased Data, NIST Report Highlights](https://www.nist.gov/news-events/news/2022/03/theres-more-ai-bias-biased-data-nist-report-highlights)
-- 
+
+### Carbon Footprint of LLMs
+- [AI Chatbots: Energy usage of 2023’s most popular chatbots (so far)](https://www.trgdatacenters.com/resource/ai-chatbots-energy-usage-of-2023s-most-popular-chatbots-so-far/)
+- [Assessing the environmental impact of large language models](https://www.techtarget.com/searchenterpriseai/tip/Assessing-the-environmental-impact-of-large-language-models)
+- [Gen AI’s Environmental Ledger: A Closer Look at the Carbon Footprint of ChatGPT](https://piktochart.com/blog/carbon-footprint-of-chatgpt/)
+- [Google Environmental Report 2024](https://www.gstatic.com/gumdrop/sustainability/google-2024-environmental-report.pdf)
+- [LLMCarbon: Modeling the end-to-end Carbon Footprint of Large Language Models](https://arxiv.org/abs/2309.14393)
+- [Microsoft How can we advance sustainability? 2024 Environmental Sustainability Report](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW1lMjE)
+- [Reducing the Environmental Impact of Generative AI: a Guide for Practitioners](https://techcommunity.microsoft.com/t5/azure-architecture-blog/reducing-the-environmental-impact-of-generative-ai-a-guide-for/)
+
+
 

@@ -35,14 +35,6 @@ and users of these LLMs that can help reduce the environmental impact of these m
   of their models as well as evaluate the output of the models for safety and risk concerns.
 
 
-## Workshop Use-cases
-
-### Primary
-
-### Secondary
-
-### Tertiary
-
 
 ## Resources
 - [Assessing the environmental impact of large language models](https://www.techtarget.com/searchenterpriseai/tip/Assessing-the-environmental-impact-of-large-language-models)
