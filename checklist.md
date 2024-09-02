@@ -78,7 +78,7 @@
       - [x] 250 words
       - [x] LLMs copyedit
       - [x] Survey for participants to enter their number and justification
-      - [ ] References copied into resources
+      - [x] References copied into resources
   - [ ] Exploring LLMs
     - [ ] ChatGPT
       - [x] 250 words

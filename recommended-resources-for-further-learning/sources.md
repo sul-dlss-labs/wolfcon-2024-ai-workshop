@@ -94,3 +94,11 @@
 - [Generative AI's privacy problem](https://www.axios.com/2024/03/14/generative-ai-privacy-problem-chatgpt-openai)
 - [Privacy in Large Language Models: Attacks, Defenses and Future Directions](https://arxiv.org/abs/2310.10383)
 - [Scalable Extraction of Training Data from (Production) Language Models](https://arxiv.org/abs/2311.17035)
+
+### p(doom) and Artificial General Intelligence (AGI)
+- [Artificial General Intelligence](https://en.wikipedia.org/wiki/Artificial_general_intelligence)
+- [Benefits & Risks of Artificial Intelligence](https://futureoflife.org/ai/benefits-risks-of-artificial-intelligence/)
+- [Ethical Issues in Advanced Artificial Intelligence](https://nickbostrom.com/ethics/ai)
+- [List of p(doom) values](https://pauseai.info/pdoom)
+- [P(doom) is AI’s latest apocalypse metric. Here’s how to calculate your score](https://www.fastcompany.com/90994526/pdoom-explained-how-to-calculate-your-score-on-ai-apocalypse-metric)
+- [State of AI Engineering 2023](https://elemental-croissant-32a.notion.site/State-of-AI-Engineering-2023-20c09dc1767f45988ee1f479b4a84135#694f89e86f9148cb855220ec05e9c631)
