@@ -70,7 +70,7 @@
       - [ ] References copied into resources
     -] Hallucinations and Generative AI 
       - [x] 250 words
-      - [ ] LLMs copyedit
+      - [x] LLMs copyedit
       - [ ] Add Use Case(s)
       - [x] References copied into resources
     - [ ] Privacy

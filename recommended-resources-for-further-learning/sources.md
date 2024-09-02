@@ -85,7 +85,8 @@
 - [Training Generative AI Models on Copyrighted Works Is Fair Use](https://www.arl.org/blog/training-generative-ai-models-on-copyrighted-works-is-fair-use/)
 
 ### Hallucinations and Generative AI
+- [Andrej Karpathy X post on 8 December 2023](https://x.com/karpathy/status/1733299213503787018?lang=en)
 - [A.I. Has a Measurement Problem](https://www.nytimes.com/2024/04/15/technology/ai-models-measurement.html)
 - [Best Strategies to Minimize Hallucinations in LLMs: A Comprehensive Guide](https://www.turing.com/resources/minimize-llm-hallucinations-strategy)
 - [Hallucinations, Errors, and Dreams](https://medium.com/@colin.fraser/hallucinations-errors-and-dreams-c281a66f3c35)
-- Andrej Karpathy X post on [8 December 2023](https://x.com/karpathy/status/1733299213503787018?lang=en)
+

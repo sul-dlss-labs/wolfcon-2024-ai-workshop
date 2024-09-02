@@ -1,31 +1,36 @@
 # Hallucinations and Generative AI
-From the initial release of ChatGPT 3.5 in 2022, a major criticism of Large 
-Language Models (LLMs) is the tendency of these models to fabricate factual 
-incorrect statements. Because LLMs work through predictive means based on the text and
-context of the prompt based on the model weights, the resulting output is not  
-a deductive process based on the model's training source material. These hallucinations 
-have been broken down into the following categories[^TURING]:
+Since the initial release of ChatGPT 3.5 in 2022, a major criticism of Large 
+Language Models (LLMs) has been the tendency of these models to fabricate factually
+incorrect statements. LLMs generate text by predicting the most likely continuation
+based on the prompt's text, context, and model internal weights. Unlike a deductive process, LLMs
+do not directly reference their training source material to generate responses. 
 
-- **Fact-conflicting** - the LLMs output contains statements that are known to be false
-  i.e. 2+2=5
-- **Input-conflicting** - the LLMs output diverges from what the user prompt and context,
-  i.e. asking a LLM to summarize an article and the summarization adds information not present
-  in the article.
-- **Context-conflicting** - the LLMs output contains inconsistent or self-contradictions, particularly 
-  in larger, mult-part responses.
+Hallucinations in LLMs can be categorized as follows[^TURING]:
+
+- **Fact-conflicting**: The LLM's output contains statements that are known to be false
+  (e.g. 2+2=5)
+- **Input-conflicting**: The LLM's output diverges from the user prompt and context
+  (e.g. the model summarize an article and adds information not present in the original text).
+- **Context-conflicting**: The LLM's output contains inconsistent or self-contradictions, particularly 
+  in larger, multi-part responses.
 
 ## Correcting Hallucinations
-To correct these hallucinations, corporations like OpenAI, Anthropic, and Google use a
-varied of techniques. These include:
+To address these hallucinations, companiess like OpenAI, Anthropic, and Google
+suggest using a variety of techniques[^TURING], including:
 
-- Chain-of-thought (COT)
-- One-shot and Few-shot Prompts
-- Retrieval Augmented Generation (RAG)
-- Fine-tuning
-  - Reinforcement Learning with Human Feedback (RLHF)
+- **Chain-of-thought (COT)**: A technique prompting the model to break down its reasoning process
+  into sequential steps,explaining how it arrived to its final answer.
+- **One-shot and Few-shot Prompts**: Techniques that provide context by offering sample responses in 
+  a given format, enabling the model to infer patterns for consistency and accuracy in its
+  answers.
+- **Retrieval Augmented Generation (RAG)**: Combines contextual examples with the prompt, grounding the
+  model in factual, current material from external sources, and reducing the model's dependence on 
+  outdated or incomplete information training data.
+- **Reinforcement Learning with Human Feedback (RLHF)**: A fine-tuning technique of adding direct human 
+  feedback to a model's responses by rewarding factual responses and penalizing hallucinations.  
 
 ## Workshop Exercise
-Take the LLM service of your choice (ChatGPT, Claude, Gemini, Llama) and enter the following prompt.
+Choose an LLM service (ChatGPT, Claude, Gemini, Llama) and enter the following prompt.
 
 ```
 Who is the first person to swim across the Pacific Ocean?
