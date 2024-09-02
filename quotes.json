@@ -59,5 +59,15 @@
     },
     "date": "2024-08-7",
     "quote": "ChatGPT is foretelling a future where traditional input devices like keyboards and mice will be replaced by more interactive methods such as voice commands and gestures. In a mixed-reality world, navigating through information layers will rely on these intuitive interactions, diminishing the relevance of traditional web formats like 10 blue links and prompting the need for new monetization models."
+  },
+  {
+    "author": "Colin Fraser",
+    "cite": {
+      "link": "https://medium.com/@colin.fraser/hallucinations-errors-and-dreams-c281a66f3c35",
+      "title": "Hallucinations, Errors, and Dreams",
+      "type": "Blog post"
+    },
+    "date": "2024-04-17",
+    "quote": "Machine Learning is a paradigm of computer programming where, rather than applying deductive logic to produce output that is known to be correct like a pocket calculator, programs are designed to produce predictions, which are expected to be occasionally wrong. "
   }
 ]
