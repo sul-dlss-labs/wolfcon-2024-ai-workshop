@@ -71,13 +71,11 @@
     -] Hallucinations and Generative AI 
       - [x] 250 words
       - [x] LLMs copyedit
-      - [ ] Add Use Case(s)
       - [x] References copied into resources
     - [ ] Privacy
       - [x] 250 words
       - [x] LLMs copyedit
-      - [ ] Add Use Case(s)
-      - [ ] References copied into resources
+      - [x] References copied into resources
     - [ ] p(doom) and AGI 
       - [x] 250 words
       - [ ] LLMs copyedit
