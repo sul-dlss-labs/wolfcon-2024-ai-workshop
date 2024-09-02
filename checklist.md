@@ -75,7 +75,7 @@
       - [x] References copied into resources
     - [ ] Privacy
       - [x] 250 words
-      - [ ] LLMs copyedit
+      - [x] LLMs copyedit
       - [ ] Add Use Case(s)
       - [ ] References copied into resources
     - [ ] p(doom) and AGI 

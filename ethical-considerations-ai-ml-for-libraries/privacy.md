@@ -1,42 +1,35 @@
-# Privacy 
-With the wide-spread release of Large Language Models (LLMs) by various corporate and 
-other organizations, there have emerged a number of significant privacy issues[^PRIVACY_LLM], including:
+# Privacy Concerns in Large Language Models
+With the widespread release of Large Language Models (LLMs) by various  
+organizations, significant privacy issues[^PRIVACY_LLM] have emerged, including:
 
-- Personal details in Training data
-- Personal details in logged prompts
-- Re-identification of individuals
+- **Personal details in training data**: Names, addresses, and financial information may
+  be included in the training data for these models. 
+- **Logged prompts containing sensitive information**: User inputs, including private 
+  details, can be logged by the companies managing these LLMs. 
+- **Re-identification of individuals:** Even in anonymized training data, individuals can potentially be
+  re-identified through the model outputs and usage patterns.
 
 
 ## Training Data 
-The privacy of individuals may be compromised if their personal 
-information is part of the massive amount of textual and other data used to train 
-these models. Inclusion of personal information in the training data is problematic 
-because the individuals in question have not consented to have their data included and
-even if the corporations have included counter-measures to keep personal data private,
-there exist prompt engineering attacks that can reveal the raw training data from such 
-models as ChatGPT.[^SCALEABLE]   
+The privacy of individuals can be compromised if their personal 
+information is included in the large datasets used to train LLMs. Since people have often not 
+consented to this data usage, and even anonymization techniques are vulnerable to prompt 
+engineering attacks, there is a significant risk that raw training data, containing sensitive 
+details, can be exposed by models as OpenAI's ChatGPT[^SCALEABLE].  
 
-## Inference Data privacy i.e. Revealing Too Much in your prompts
-As people use LLMs for such personal issues and topics like relationship advice, medical
-information on current or potential conditions, and psychological counseling, the privacy 
-risks of disclosing this information through prompts continues to grow.[^GEN_AI_PRIVACY].
+## Inference Data Privacy: Revealing Too Much in Prompts
+As people engage with LLMs on personal topics such relationship counseling, medical advice, 
+and psychological concerns, the privacy risks associated with disclosing sensitive information
+increase.[^GEN_AI_PRIVACY].
 
-These prompts are often collected and logged by organizations like OpenAI or Google and the
-inclusion of sensitive details that are potentially damaging to the reputation and mental
-health of the users that
+These prompts are often collected and logged by organizations like OpenAI or Google, creating 
+privacy concerns if the inclusion of sensitive details becomes part of the future training data for 
+these models.
 
 ## Re-identification
-Even if the training data has been anonymized for personal details, by combining and collecting
-responses from LLMs, individuals could potential be identified thereby comprising their privacy
-when using the LLM. 
-
-## Workshop Use-cases
-
-### Primary
-
-### Secondary
-
-### Tertiary
+Even when personal information in LLMs is anonymized, it can be vulnerable to re-identification. By 
+analyzing LLMs responses, individuals could potential be identified thereby comprising their privacy
+when interacting with theses AI systems. 
 
 [^PRIVACY_LLM]: [Privacy in Large Language Models: Attacks, Defenses and Future Directions](https://arxiv.org/abs/2310.10383)
 [^SCALEABLE]: [Scalable Extraction of Training Data from (Production) Language Models](https://arxiv.org/abs/2311.17035)
