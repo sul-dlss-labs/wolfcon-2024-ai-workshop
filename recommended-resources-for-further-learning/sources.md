@@ -102,3 +102,16 @@
 - [List of p(doom) values](https://pauseai.info/pdoom)
 - [P(doom) is AI’s latest apocalypse metric. Here’s how to calculate your score](https://www.fastcompany.com/90994526/pdoom-explained-how-to-calculate-your-score-on-ai-apocalypse-metric)
 - [State of AI Engineering 2023](https://elemental-croissant-32a.notion.site/State-of-AI-Engineering-2023-20c09dc1767f45988ee1f479b4a84135#694f89e86f9148cb855220ec05e9c631)
+
+## Exploring Large Language Models
+
+### OpenAI's ChatGPT
+- [Arizona State University](https://news.asu.edu/20240118-university-news-new-collaboration-openai-charts-future-ai-higher-education)
+- [ChatGPT](https://chatgpt.com/)
+- [ChatGPT API](https://platform.openai.com/docs/api-reference)
+- [DALL-E 3](https://openai.com/index/dall-e-3/)
+- [Harvey](https://openai.com/index/harvey/)
+- [Microsoft Copilot](https://copilot.microsoft.com/)
+- [Open AI](https://openai.com/)
+- [Open AI GPTs](https://chatgpt.com/gpts).
+- [OSCAR](https://openai.com/index/oscar/)

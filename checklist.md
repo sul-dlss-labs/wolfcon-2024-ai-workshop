@@ -83,7 +83,7 @@
     - [ ] ChatGPT
       - [x] 250 words
       - [x] LLMs copyedit
-      - [ ] References copied into resources
+      - [x] References copied into resources
     - [ ] Claude
       - [x] 250 words
       - [ ] LLMs copyedit
