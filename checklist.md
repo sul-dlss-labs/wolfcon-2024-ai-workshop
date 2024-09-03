@@ -87,8 +87,7 @@
     - [ ] Claude
       - [x] 250 words
       - [ ] LLMs copyedit
-      - [ ] Add Use Case(s)
-      - [ ] References copied into resources
+      - [x] References copied into resources
     - [ ] Gemini
       - [x] 250 words
       - [ ] LLMs copyedit

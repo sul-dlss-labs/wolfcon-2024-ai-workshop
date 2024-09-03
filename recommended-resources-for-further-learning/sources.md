@@ -115,3 +115,10 @@
 - [Open AI](https://openai.com/)
 - [Open AI GPTs](https://chatgpt.com/gpts).
 - [OSCAR](https://openai.com/index/oscar/)
+
+### Anthropic's Claude
+- [Anthropic](https://www.anthropic.com/)
+- [Claude](https://www.anthropic.com/claude)
+- [Claude API](https://www.anthropic.com/api)
+- [Introducing the next generation of Claude](https://www.anthropic.com/news/claude-3-family)
+
