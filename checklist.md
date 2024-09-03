@@ -82,8 +82,7 @@
   - [ ] Exploring LLMs
     - [ ] ChatGPT
       - [x] 250 words
-      - [ ] LLMs copyedit
-      - [ ] Add Use Case(s)
+      - [x] LLMs copyedit
       - [ ] References copied into resources
     - [ ] Claude
       - [x] 250 words
