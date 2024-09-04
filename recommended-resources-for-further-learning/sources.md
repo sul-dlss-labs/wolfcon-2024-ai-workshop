@@ -122,3 +122,12 @@
 - [Claude API](https://www.anthropic.com/api)
 - [Introducing the next generation of Claude](https://www.anthropic.com/news/claude-3-family)
 
+### Google Gemini
+- [Download or install libraries to access Gemini](https://ai.google.dev/gemini-api/docs/downloads)
+- [Google Gemini](https://gemini.google.com/)
+- [Gemini 1.0 Pro](https://ai.google.dev/gemini-api/docs/models/gemini#gemini-1.5-pro)
+- [Gemini 1.5 Flash](https://ai.google.dev/gemini-api/docs/models/gemini#gemini-1.5-flash)
+- [Gemini 1.5 Pro](https://ai.google.dev/gemini-api/docs/models/gemini#gemini-1.5-pro)
+- [Google](https://www.google.com/)
+- [Why Google’s AI tool was slammed for showing images of people of colour](https://www.aljazeera.com/news/2024/3/9/why-google-gemini-wont-show-you-white-people)
+
