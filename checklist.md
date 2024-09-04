@@ -90,7 +90,7 @@
       - [x] References copied into resources
     - [ ] Gemini
       - [x] 250 words
-      - [ ] LLMs copyedit
+      - [x] LLMs copyedit
       - [ ] References copied into resources
     - [ ] Generative Images and Video
       - [x] 250 words
