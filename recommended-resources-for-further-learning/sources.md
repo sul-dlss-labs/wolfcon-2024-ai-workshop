@@ -140,3 +140,7 @@
 - [Sora](https://openai.com/index/sora/)
 - [Why Google’s AI tool was slammed for showing images of people of colour](https://www.aljazeera.com/news/2024/3/9/why-google-gemini-wont-show-you-white-people)
 
+### Prompt Engineering
+- [Antropic Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/)
+- [Principled Instructions Are All You Need for Questioning LLaMA-1/2, GPT-3.5/4](https://arxiv.org/abs/2312.16171)
+- [Prompt Engineering Guide](https://www.promptingguide.ai/)
