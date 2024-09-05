@@ -131,3 +131,12 @@
 - [Google](https://www.google.com/)
 - [Why Google’s AI tool was slammed for showing images of people of colour](https://www.aljazeera.com/news/2024/3/9/why-google-gemini-wont-show-you-white-people)
 
+### Generative AI Images and Videos
+- [Discord](https://discord.com/)
+- [Dream Machine](https://lumalabs.ai/dream-machine)
+- [Google's Gemini](https://gemini.google.com/)
+- [Luma Labs](https://lumalabs.ai/)
+- [Open AI](https://openai.com/)
+- [Sora](https://openai.com/index/sora/)
+- [Why Google’s AI tool was slammed for showing images of people of colour](https://www.aljazeera.com/news/2024/3/9/why-google-gemini-wont-show-you-white-people)
+
