@@ -20,26 +20,27 @@ other media. Usually, you will need to iterate and change your prompt to improve
 outputs a few times until you have a result that meets your needs. 
 
 How you construct your prompt will also impact aspects of the model's output, like 
-accuracy and verbosity or if you want to customize the style of the output. Together,
-a set of techniques and approaches for constructing prompts is collective called 
+accuracy, verbosity, or style customization. Together,
+a set of techniques and approaches for constructing prompts is collectively called 
 prompt engineering. 
 
-In Anthropic's Prompt Engineering Guide, they suggest the before you begin applying 
+In Anthropic's Prompt Engineering Guide, they suggest that before you begin applying 
 specific prompt engineering techniques, you have a clear definition of success criteria
 for your use case, ways to empirically test those criteria, and a first draft of your 
 prompt.[^ANTHROPIC]
 
 ## Popular Prompt Engineering Techniques
+Let's explore some popular prompt engineering techniques in detail.
 
 ### Zero Shot
-In a zero-shot prompt, ask the LLM perform a task that the LLM has not been explicitly 
+In a Zero-Shot prompt, ask the LLM perform a task that the LLM has not been explicitly 
 trained on but is dependent on the LLM general knowledge and understanding of the language
-based on it's training data. 
+based on its training data. 
 
 **Example**: Please translate this sentence into Spanish, "The 2024 Summer Olympics are being
 held in France".
 
-The LLM likely hasn't been trained on translating this exact sentence but uses it's general 
+The LLM likely hasn't been trained on translating this exact sentence but uses its general 
 understanding and translation patterns to provide a response.  
 
 ### Including Examples or Multishot Prompting 
@@ -61,21 +62,13 @@ A: {"title": "Parable of the Sower", "source": "ChatGPT",
 ### Chain-of-Thought
 Another useful prompt technique is called *chain-of-thought* where you explicitly ask 
 the LLM to provide the reasoning or steps the model went through to construct the output.
-This can be helpful if you're confused how or why a model return the output to your prompt.
+This can be helpful if you're confused how or why a model returns the output to your prompt.
 
 **Example** Create a circulation report template that includes all books that have been checked
 out in the past month. Please show your thinking step-by-step as you construct the report.
 
 ## Remember you can combine multiple prompt techniques! 
 For more examples, please check-out Prompt Engineering Guide[^PROMPT_GUIDE].
-
-## Workshop Use-cases
-
-### Primary
-
-### Secondary
-
-### Tertiary
 
 [^PRINCPLED]: [Principled Instructions Are All You Need for Questioning LLaMA-1/2, GPT-3.5/4](https://arxiv.org/abs/2312.16171)
 [^ANTHROPIC]: [Antropic Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/)

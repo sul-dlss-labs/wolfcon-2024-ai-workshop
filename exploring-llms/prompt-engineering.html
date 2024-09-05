@@ -40,21 +40,22 @@ description, called a prompt, that the LLM will use to generate text, images, or
 other media. Usually, you will need to iterate and change your prompt to improve the LLMs
 outputs a few times until you have a result that meets your needs. </p>
 <p>How you construct your prompt will also impact aspects of the model's output, like 
-accuracy and verbosity or if you want to customize the style of the output. Together,
-a set of techniques and approaches for constructing prompts is collective called 
+accuracy, verbosity, or style customization. Together,
+a set of techniques and approaches for constructing prompts is collectively called 
 prompt engineering. </p>
-<p>In Anthropic's Prompt Engineering Guide, they suggest the before you begin applying 
+<p>In Anthropic's Prompt Engineering Guide, they suggest that before you begin applying 
 specific prompt engineering techniques, you have a clear definition of success criteria
 for your use case, ways to empirically test those criteria, and a first draft of your 
 prompt.<sup id="fnref:ANTHROPIC"><a class="footnote-ref" href="#fn:ANTHROPIC">2</a></sup></p>
 <h2>Popular Prompt Engineering Techniques</h2>
+<p>Let's explore some popular prompt engineering techniques in detail.</p>
 <h3>Zero Shot</h3>
-<p>In a zero-shot prompt, ask the LLM perform a task that the LLM has not been explicitly 
+<p>In a Zero-Shot prompt, ask the LLM perform a task that the LLM has not been explicitly 
 trained on but is dependent on the LLM general knowledge and understanding of the language
-based on it's training data. </p>
+based on its training data. </p>
 <p><strong>Example</strong>: Please translate this sentence into Spanish, "The 2024 Summer Olympics are being
 held in France".</p>
-<p>The LLM likely hasn't been trained on translating this exact sentence but uses it's general 
+<p>The LLM likely hasn't been trained on translating this exact sentence but uses its general 
 understanding and translation patterns to provide a response.  </p>
 <h3>Including Examples or Multishot Prompting</h3>
 <p>In this technique, you provide a few (1-5) examples of the LLMs output in your prompt and is 
@@ -71,15 +72,11 @@ A: {&quot;title&quot;: &quot;Parable of the Sower&quot;, &quot;source&quot;: &qu
 <h3>Chain-of-Thought</h3>
 <p>Another useful prompt technique is called <em>chain-of-thought</em> where you explicitly ask 
 the LLM to provide the reasoning or steps the model went through to construct the output.
-This can be helpful if you're confused how or why a model return the output to your prompt.</p>
+This can be helpful if you're confused how or why a model returns the output to your prompt.</p>
 <p><strong>Example</strong> Create a circulation report template that includes all books that have been checked
 out in the past month. Please show your thinking step-by-step as you construct the report.</p>
 <h2>Remember you can combine multiple prompt techniques!</h2>
 <p>For more examples, please check-out Prompt Engineering Guide<sup id="fnref:PROMPT_GUIDE"><a class="footnote-ref" href="#fn:PROMPT_GUIDE">3</a></sup>.</p>
-<h2>Workshop Use-cases</h2>
-<h3>Primary</h3>
-<h3>Secondary</h3>
-<h3>Tertiary</h3>
 <div class="footnote">
 <hr />
 <ol>

@@ -98,11 +98,11 @@
       - [x] References copied into resources
     - [ ] Local Llama
       - [x] 250 words
-      - [ ] LLMs copyedit
+      - [x] LLMs copyedit
       - [ ] References copied into resources
     - [ ] Prompt Engineering
       - [x] 250 words
-      - [ ] LLMs copyedit
+      - [x] LLMs copyedit
       - [ ] References copied into resources
     - [ ] Retrieval Augmented Generation
       - [x] 250 words
