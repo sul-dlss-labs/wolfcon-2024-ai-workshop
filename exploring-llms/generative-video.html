@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>AI Workflows for FOLIO - Generative Image and Video</title>
+    <title>AI Workflows for FOLIO - Generative AI Images and Videos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <style>
 
@@ -21,33 +21,38 @@
     
       <div class="row">
         <article class="col-9">
-         <h1>Generative Image and Video</h1>
-<p>The flexibility and power of transformer based models allows for uses of 
-Large Language Models (LLMs) beyond just text. LLM can be extend to generate audio,
-image, and videos with surprising results. </p>
+         <h1>Generative AI Images and Videos</h1>
+<p>The flexibility and power of transformer-based models allow for uses of 
+Large Language Models (LLMs) beyond just text. LLMs can be extended to generate audio,
+images, and videos with surprising creativity but with some limitations. </p>
 <h2>Google Gemini</h2>
-<p>Google's <a href="https://gemini.google.com/">Gemini</a> service provides options to generate images from text prompts.
-However, at this time Gemini will not create images of people after Google released this
-the image generation functionality in February 2024 because of the service generating
-inaccurate images of historical people as the wrong race and or gender.<sup id="fnref:GEMINI_PEOPLE"><a class="footnote-ref" href="#fn:GEMINI_PEOPLE">1</a></sup>.</p>
+<p>Google's <a href="https://gemini.google.com/">Gemini</a> allows you to generate images based on your text descriptions. 
+It currently avoids generating images of people due to earlier issues<sup id="fnref:GEMINI_PEOPLE"><a class="footnote-ref" href="#fn:GEMINI_PEOPLE">1</a></sup> with historical 
+figures appearing with incorrect racial or gender characteristics.</p>
 <h2>Midjourney</h2>
-<p>Midjourney is research lab that offers a Generative AI paid image generation service
-that is accessed through a <a href="https://discord.com/">Discord</a>. You will need to 
-sign-up for one of Midjourney's paid plan and then create a Discord account on their server.</p>
-<p>From there you interact with the Midjourny bot that will then create an image based on
-your text prompt.</p>
+<p>Midjourney is a research lab offering a paid Generative AI service for image creation.
+It operates through a <a href="https://discord.com/">Discord</a> server. To use this service, users 
+must subscribe to a paid plan and create a Discord account.</p>
+<p>Once set up, interact with the Midjourney bot using text prompts to generate images.</p>
 <h2>Sora</h2>
-<p>On 15 February 2024, <a href="https://openai.com/">OpenAI</a> released the results of a new text-to-video model
-called <a href="https://openai.com/index/sora/">Sora</a> but it is currently unavailable for use by
-their customers. The video demos were impressive and caused mixed reactions about the 
-quality and consistency of the video clips with <a href="https://openai.com/">OpenAI</a> currently running 
-red-team (or adversarial) testing of Sora before releasing the model of use by a 
-wider audience.</p>
-<p>Notable in their press release is the attempt to simulate the physical world in motion
-and the corresponding physics to make these scenes consistent and real. The lack of 
-grounding in the physical world is one criticism of Large Language Models.</p>
+<p><a href="https://openai.com/">OpenAI</a> recently unveiled <a href="https://openai.com/index/sora/">Sora</a>, a new 
+text-to-video model (released February 15, 2024). While not yet available to the public,
+ Sora's video demos have generated excitement, with some concerns raised about consistency. 
+OpenAI is currently conducting rigorous testing before releasing Sora for wider use. 
+Interestingly, Sora attempts to simulate real-world physics for enhanced realism, 
+addressing a common criticism of LLMs.</p>
 <h2>Luma Labs Dream Machine</h2>
-<p>https://lumalabs.ai/dream-machine</p>
+<p><a href="https://lumalabs.ai/">Luma Labs</a> is a San Francisco Bay area software company that offers 
+a text-to-video LLM-based service, <a href="https://lumalabs.ai/dream-machine">Dream Machine</a>. 
+Currently you can sign up for and use the service with a Google Account.</p>
+<h3>Example:</h3>
+<p>From this prompt, <em>Set in a library on a Saturn moon, a robotic librarian looks for a book on a shelf, 
+reaches up and opens a book with a title, "AI in FOLIO"</em>, Dream Machine generated the following video:</p>
+<video width="800" height="600" controls>
+ <source src="dream-machine-video.mp4" type="video/mp4">
+ Your browser does not support the video tag
+</video>
+
 <h2>Footnotes</h2>
 <div class="footnote">
 <hr />
@@ -60,7 +65,7 @@ grounding in the physical world is one criticism of Large Language Models.</p>
         </article>
         <div class="col-3">
           <h4>Navigation</h4>
-          <ol><li><a href="/wolfcon-2024-ai-workshop/intro-pre-conference/index.html">Introduction to WOLFcon AI Pre-conference Workshop</a></li><li><a href="/wolfcon-2024-ai-workshop/types-of-ai-ml-relevant-to-libraries/index.html">General Overview of AI and Machine Learning for Libraries</a></li><li><a href="/wolfcon-2024-ai-workshop/ethical-considerations-ai-ml-for-libraries/index.html">Ethical Considerations on using AI and Machine Learning for Libraries</a></li><li><a href="/wolfcon-2024-ai-workshop/exploring-llms/index.html">Exploring Large Language Models</a><ul><li><a href="chatgpt.html">OpenAI's ChatGPT</a></li><li><a href="claude.html">Anthropic's Claude</a></li><li><a href="gemini.html">Google Gemini</a></li><li><a href="local-llama.html">Meta's Llama</a></li><li><strong>Generative Image and Video</strong></li><li><a href="prompt-engineering.html">Prompt Engineering</a></li><li><a href="retrieval-augmented-generation.html">Retrieval Augmented Generation (RAG)</a></li><li><a href="training-llms.html">Training Large Language Models (LLMs)</a></li></ul></li><li><a href="/wolfcon-2024-ai-workshop/folio-ai-use-cases/index.html">FOLIO AI Use Cases</a></li><li><a href="/wolfcon-2024-ai-workshop/next-steps-for-adopting-ai-and-ml-in-folio/index.html">Next Steps for Adopting AI and Machine Learning in FOLIO</a></li><li><a href="/wolfcon-2024-ai-workshop/recommended-resources-for-further-learning/index.html">Recommended Resources for Further Learning</a></li></ol>
+          <ol><li><a href="/wolfcon-2024-ai-workshop/intro-pre-conference/index.html">Introduction to WOLFcon AI Pre-conference Workshop</a></li><li><a href="/wolfcon-2024-ai-workshop/types-of-ai-ml-relevant-to-libraries/index.html">General Overview of AI and Machine Learning for Libraries</a></li><li><a href="/wolfcon-2024-ai-workshop/ethical-considerations-ai-ml-for-libraries/index.html">Ethical Considerations on using AI and Machine Learning for Libraries</a></li><li><a href="/wolfcon-2024-ai-workshop/exploring-llms/index.html">Exploring Large Language Models</a><ul><li><a href="chatgpt.html">OpenAI's ChatGPT</a></li><li><a href="claude.html">Anthropic's Claude</a></li><li><a href="gemini.html">Google Gemini</a></li><li><a href="local-llama.html">Meta's Llama</a></li><li><strong>Generative AI Images and Videos</strong></li><li><a href="prompt-engineering.html">Prompt Engineering</a></li><li><a href="retrieval-augmented-generation.html">Retrieval Augmented Generation (RAG)</a></li><li><a href="training-llms.html">Training Large Language Models (LLMs)</a></li></ul></li><li><a href="/wolfcon-2024-ai-workshop/folio-ai-use-cases/index.html">FOLIO AI Use Cases</a></li><li><a href="/wolfcon-2024-ai-workshop/next-steps-for-adopting-ai-and-ml-in-folio/index.html">Next Steps for Adopting AI and Machine Learning in FOLIO</a></li><li><a href="/wolfcon-2024-ai-workshop/recommended-resources-for-further-learning/index.html">Recommended Resources for Further Learning</a></li></ol>
         </div>
       </div>
 

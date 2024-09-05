@@ -6,8 +6,8 @@
 - [Google Gemini](gemini.html)
 - [Meta's Llama](local-llama.html)
 
-## Generative Images and Video
-- [Generative Image and Video](generative-video.html)
+## Generative AI Images and Video
+- [Generative AI Images and Videos](generative-video.html)
 
 ## Techniques
 - [Prompt Engineering](prompt-engineering.html)

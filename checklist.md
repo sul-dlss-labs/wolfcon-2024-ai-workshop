@@ -94,7 +94,7 @@
       - [x] References copied into resources
     - [ ] Generative Images and Video
       - [x] 250 words
-      - [ ] LLMs copyedit
+      - [x] LLMs copyedit
       - [ ] References copied into resources
     - [ ] Local Llama
       - [x] 250 words

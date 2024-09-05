@@ -1,37 +1,42 @@
-# Generative Image and Video
-The flexibility and power of transformer based models allows for uses of 
-Large Language Models (LLMs) beyond just text. LLM can be extend to generate audio,
-image, and videos with surprising results. 
+# Generative AI Images and Videos
+The flexibility and power of transformer-based models allow for uses of 
+Large Language Models (LLMs) beyond just text. LLMs can be extended to generate audio,
+images, and videos with surprising creativity but with some limitations. 
 
 ## Google Gemini
-Google's [Gemini][GEMINI] service provides options to generate images from text prompts.
-However, at this time Gemini will not create images of people after Google released this
-the image generation functionality in February 2024 because of the service generating
-inaccurate images of historical people as the wrong race and or gender.[^GEMINI_PEOPLE].
+Google's [Gemini][GEMINI] allows you to generate images based on your text descriptions. 
+It currently avoids generating images of people due to earlier issues[^GEMINI_PEOPLE] with historical 
+figures appearing with incorrect racial or gender characteristics.
+ 
 
 ## Midjourney
-Midjourney is research lab that offers a Generative AI paid image generation service
-that is accessed through a [Discord](https://discord.com/). You will need to 
-sign-up for one of Midjourney's paid plan and then create a Discord account on their server.
+Midjourney is a research lab offering a paid Generative AI service for image creation.
+It operates through a [Discord](https://discord.com/) server. To use this service, users 
+must subscribe to a paid plan and create a Discord account.
 
-From there you interact with the Midjourny bot that will then create an image based on
-your text prompt.
+Once set up, interact with the Midjourney bot using text prompts to generate images.
 
 ## Sora
-On 15 February 2024, [OpenAI][OPENAI] released the results of a new text-to-video model
-called [Sora](https://openai.com/index/sora/) but it is currently unavailable for use by
-their customers. The video demos were impressive and caused mixed reactions about the 
-quality and consistency of the video clips with [OpenAI][OPENAI] currently running 
-red-team (or adversarial) testing of Sora before releasing the model of use by a 
-wider audience.
-
-Notable in their press release is the attempt to simulate the physical world in motion
-and the corresponding physics to make these scenes consistent and real. The lack of 
-grounding in the physical world is one criticism of Large Language Models.
+[OpenAI][OPENAI] recently unveiled [Sora](https://openai.com/index/sora/), a new 
+text-to-video model (released February 15, 2024). While not yet available to the public,
+ Sora's video demos have generated excitement, with some concerns raised about consistency. 
+OpenAI is currently conducting rigorous testing before releasing Sora for wider use. 
+Interestingly, Sora attempts to simulate real-world physics for enhanced realism, 
+addressing a common criticism of LLMs.
 
 ## Luma Labs Dream Machine
-https://lumalabs.ai/dream-machine
+[Luma Labs](https://lumalabs.ai/) is a San Francisco Bay area software company that offers 
+a text-to-video LLM-based service, [Dream Machine](https://lumalabs.ai/dream-machine). 
+Currently you can sign up for and use the service with a Google Account.
 
+### Example:
+From this prompt, *Set in a library on a Saturn moon, a robotic librarian looks for a book on a shelf, 
+reaches up and opens a book with a title, "AI in FOLIO"*, Dream Machine generated the following video:
+
+<video width="800" height="600" controls>
+ <source src="dream-machine-video.mp4" type="video/mp4">
+ Your browser does not support the video tag
+</video>
 
 ## Footnotes
 [^GEMINI_PEOPLE]: [Why Google’s AI tool was slammed for showing images of people of colour](https://www.aljazeera.com/news/2024/3/9/why-google-gemini-wont-show-you-white-people)
