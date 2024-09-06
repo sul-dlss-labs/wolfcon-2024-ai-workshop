@@ -44,6 +44,15 @@
 
 ## Ethical Considerations
 
+### Bias
+- [Evaluating and Mitigating Discrimination in Language Model Decisions](https://www.anthropic.com/news/evaluating-and-mitigating-discrimination-in-language-model-decisions)
+- [Gemini for Google Cloud and responsible AI](https://cloud.google.com/gemini/docs/discover/responsible-ai)
+- [How should AI systems behave, and who should decide?](https://openai.com/index/how-should-ai-systems-behave/)
+- [Managing Bias in AI](https://lin-web.clarkson.edu/~jmatthew/publications/ManagingBiasInAI_CAMERAREADY.pdf)
+- [Shedding light on AI bias with real world examples](https://www.ibm.com/blog/shedding-light-on-ai-bias-with-real-world-examples/)
+- [There’s More to AI Bias Than Biased Data, NIST Report Highlights](https://www.nist.gov/news-events/news/2022/03/theres-more-ai-bias-biased-data-nist-report-highlights)
+
+
 ### Academic Fraud
 - [Artificial Intelligence (AI) policies](https://www.nature.com/nature-portfolio/editorial-policies/ai) for Nature Publishing
 - [Crafting AI-Complementary Skills and Bulletproof Assessments](https://www.ggd.world/p/crafting-ai-complementary-skills)
@@ -55,20 +64,17 @@
 - [The use of generative AI and AI-assisted technologies in writing for Elsevier](https://www.elsevier.com/about/policies-and-standards/the-use-of-generative-ai-and-ai-assisted-technologies-in-writing-for-elsevier)
 - [X Post on use of LLMs in an Elsevier article](https://x.com/gcabanac/status/1767574447337124290?s=20)
 
-### AI Slop
-- [Google Searches Prefer AI Spam to Real Content](https://www.inc.com/kit-eaton/google-searches-prefer-ai-spam-to-real-content.html)
-- [Slop is the new name for unwanted AI-generated content](https://simonwillison.net/2024/May/8/slop/)
-- [The death (again) of the internet as we know it](https://www.noahpinion.blog/i/144512843/slop) 
-- [Too big to care](https://doctorow.medium.com/https-pluralistic-net-2024-04-04-teach-me-how-to-shruggie-kagi-caaa88c221f2)
-- [Why I redesigned my home page?](https://om.co/2024/03/16/why-i-redesigned-my-home-page/)
+### Creator Attribution and Copyright
+- [Generative AI Has a Visual Plagiarism Problem Experiments with Midjourney and DALL-E 3 show a copyright minefield](https://spectrum.ieee.org/midjourney-copyright)
+- [New York Times Legal Complaint December 2023](https://nytco-assets.nytimes.com/2023/12/NYT_Complaint_Dec2023.pdf)
+- [Training Generative AI Models on Copyrighted Works Is Fair Use](https://www.arl.org/blog/training-generative-ai-models-on-copyrighted-works-is-fair-use/)
 
-### Bias
-- [Evaluating and Mitigating Discrimination in Language Model Decisions](https://www.anthropic.com/news/evaluating-and-mitigating-discrimination-in-language-model-decisions)
-- [Gemini for Google Cloud and responsible AI](https://cloud.google.com/gemini/docs/discover/responsible-ai)
-- [How should AI systems behave, and who should decide?](https://openai.com/index/how-should-ai-systems-behave/)
-- [Managing Bias in AI](https://lin-web.clarkson.edu/~jmatthew/publications/ManagingBiasInAI_CAMERAREADY.pdf)
-- [Shedding light on AI bias with real world examples](https://www.ibm.com/blog/shedding-light-on-ai-bias-with-real-world-examples/)
-- [There’s More to AI Bias Than Biased Data, NIST Report Highlights](https://www.nist.gov/news-events/news/2022/03/theres-more-ai-bias-biased-data-nist-report-highlights)
+### Privacy Concerns in Large Language Models
+- [Generative AI's privacy problem](https://www.axios.com/2024/03/14/generative-ai-privacy-problem-chatgpt-openai)
+- [Privacy in Large Language Models: Attacks, Defenses and Future Directions](https://arxiv.org/abs/2310.10383)
+- [Scalable Extraction of Training Data from (Production) Language Models](https://arxiv.org/abs/2311.17035)
+
+### Guidelines for Incorporating AI
 
 ### Carbon Footprint of LLMs
 - [AI Chatbots: Energy usage of 2023’s most popular chatbots (so far)](https://www.trgdatacenters.com/resource/ai-chatbots-energy-usage-of-2023s-most-popular-chatbots-so-far/)
@@ -79,21 +85,32 @@
 - [Microsoft How can we advance sustainability? 2024 Environmental Sustainability Report](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW1lMjE)
 - [Reducing the Environmental Impact of Generative AI: a Guide for Practitioners](https://techcommunity.microsoft.com/t5/azure-architecture-blog/reducing-the-environmental-impact-of-generative-ai-a-guide-for/)
 
-### Creator Attribution and Copyright
-- [Generative AI Has a Visual Plagiarism Problem Experiments with Midjourney and DALL-E 3 show a copyright minefield](https://spectrum.ieee.org/midjourney-copyright)
-- [New York Times Legal Complaint December 2023](https://nytco-assets.nytimes.com/2023/12/NYT_Complaint_Dec2023.pdf)
-- [Training Generative AI Models on Copyrighted Works Is Fair Use](https://www.arl.org/blog/training-generative-ai-models-on-copyrighted-works-is-fair-use/)
+### Deepfakes
+- [Deepfake appears to show Bangladeshi politician dropping out of race](https://en.dismislab.com/how-disinformation-played-during-the-bangladesh-national-election/)
+- [Deepfake appears to show Eminem endorsing South African opposition party](https://africacheck.org/fact-checks/meta-programme-fact-checks/will-real-slim-shady-please-stand-eminem-video-endorsing)
+- [Deepfake of US congressman appears to support Taiwan’s Democratic Progressive Party](https://factcheck.afp.com/doc.afp.com.349D8R6)
+- [Deepfake shows Ukrainian president Volodymry Zelensky dancing](https://factcheck.afp.com/doc.afp.com.34EQ8F9)
+- [Fake image of Donald Trump with Black Voters](https://www.bbc.com/news/world-us-canada-68440150)
+- [Fake Joe Biden robocalls](https://www.nbcnews.com/politics/2024-election/fake-joe-biden-robocall-tells-new-hampshire-democrats-not-vote-tuesday-rcna134984)
+- [Fake recording of Mexico City Mayor interfering with Elections](https://apnews.com/world-news/general-news-fe47701d72cc861754be9ad3161ef5be)
+- [Fake Views: : The Good, The Bad, And The Ugly Of Soviet Photoshopping ](https://www.rferl.org/a/soviet-airbrushing-the-censors-who-scratched-out-history/29361426.html)
+- [Series of deepfakes encourage election boycotts in Pakistan](https://www.france24.com/en/tv-shows/truth-or-fake/20240208-artificial-intelligence-and-deepfakes-takeover-pakistan-elections)
+- [How AI is resurrecting dead Indian politicians as election looms](https://www.aljazeera.com/economy/2024/2/12/how-ai-is-used-to-resurrect-dead-indian-politicians-as-elections-loom)
+- [Wikipedia: Deepfake](https://en.wikipedia.org/wiki/Deepfake)
+
+
+### AI Slop
+- [Google Searches Prefer AI Spam to Real Content](https://www.inc.com/kit-eaton/google-searches-prefer-ai-spam-to-real-content.html)
+- [Slop is the new name for unwanted AI-generated content](https://simonwillison.net/2024/May/8/slop/)
+- [The death (again) of the internet as we know it](https://www.noahpinion.blog/i/144512843/slop) 
+- [Too big to care](https://doctorow.medium.com/https-pluralistic-net-2024-04-04-teach-me-how-to-shruggie-kagi-caaa88c221f2)
+- [Why I redesigned my home page?](https://om.co/2024/03/16/why-i-redesigned-my-home-page/)
 
 ### Hallucinations and Generative AI
 - [Andrej Karpathy X post on 8 December 2023](https://x.com/karpathy/status/1733299213503787018?lang=en)
 - [A.I. Has a Measurement Problem](https://www.nytimes.com/2024/04/15/technology/ai-models-measurement.html)
 - [Best Strategies to Minimize Hallucinations in LLMs: A Comprehensive Guide](https://www.turing.com/resources/minimize-llm-hallucinations-strategy)
 - [Hallucinations, Errors, and Dreams](https://medium.com/@colin.fraser/hallucinations-errors-and-dreams-c281a66f3c35)
-
-### Privacy Concerns in Large Language Models
-- [Generative AI's privacy problem](https://www.axios.com/2024/03/14/generative-ai-privacy-problem-chatgpt-openai)
-- [Privacy in Large Language Models: Attacks, Defenses and Future Directions](https://arxiv.org/abs/2310.10383)
-- [Scalable Extraction of Training Data from (Production) Language Models](https://arxiv.org/abs/2311.17035)
 
 ### p(doom) and Artificial General Intelligence (AGI)
 - [Artificial General Intelligence](https://en.wikipedia.org/wiki/Artificial_general_intelligence)

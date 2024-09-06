@@ -65,7 +65,7 @@
     - [ ] Deep Fakes
       - [x] 250 words
       - [x] LLMs copyedit
-      - [ ] References copied into resources
+      - [x] References copied into resources
     - [ ] Hallucinations and Generative AI 
       - [x] 250 words
       - [x] LLMs copyedit

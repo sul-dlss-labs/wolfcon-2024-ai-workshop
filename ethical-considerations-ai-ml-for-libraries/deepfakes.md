@@ -37,14 +37,6 @@ Libraries are adapting their information literacy programs to include new method
 By teaching patrons how to assess and verify content found online, libraries can help them determine the 
 legitimacy of what patrons encounter when consuming media.
 
-## Workshop Use-cases
-
-### Primary
-
-### Secondary
-
-### Tertiary
-
 [WIRED_AI_ELECTION]: https://www.wired.com/story/generative-ai-global-elections/
 
 [^soviet]: [Fake Views: : The Good, The Bad, And The Ugly Of Soviet Photoshopping ](https://www.rferl.org/a/soviet-airbrushing-the-censors-who-scratched-out-history/29361426.html)
@@ -54,7 +46,7 @@ legitimacy of what patrons encounter when consuming media.
 [^AP_NEWS_NOV_23]: [Fake recording of Mexico City Mayor interfering with Elections](https://apnews.com/world-news/general-news-fe47701d72cc861754be9ad3161ef5be)
 [^AFP_JAN_24]:  [Deepfake shows Ukrainian president Volodymry Zelensky dancing](https://factcheck.afp.com/doc.afp.com.34EQ8F9)
 [^FRANCE_24_FEB_24]: [Series of deepfakes encourage election boycotts in Pakistan](https://www.france24.com/en/tv-shows/truth-or-fake/20240208-artificial-intelligence-and-deepfakes-takeover-pakistan-elections)
-[^AL_JAZEERA_FEB_24]: [Series of deepfakes encourage election boycotts in Pakistan](https://www.aljazeera.com/economy/2024/2/12/how-ai-is-used-to-resurrect-dead-indian-politicians-as-elections-loom)
+[^AL_JAZEERA_FEB_24]: [How AI is resurrecting dead Indian politicians as election looms](https://www.aljazeera.com/economy/2024/2/12/how-ai-is-used-to-resurrect-dead-indian-politicians-as-elections-loom)
 [^DISMISS_LAB_JAN_24]: [Deepfake appears to show Bangladeshi politician dropping out of race](https://en.dismislab.com/how-disinformation-played-during-the-bangladesh-national-election/)
 [^AFP_JAN_24_02]:[Deepfake of US congressman appears to support Taiwan’s Democratic Progressive Party](https://factcheck.afp.com/doc.afp.com.349D8R6)
 [^wikipedia]: [Wikipedia: Deepfake](https://en.wikipedia.org/wiki/Deepfake)
