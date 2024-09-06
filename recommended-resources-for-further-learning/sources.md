@@ -75,6 +75,9 @@
 - [Scalable Extraction of Training Data from (Production) Language Models](https://arxiv.org/abs/2311.17035)
 
 ### Guidelines for Incorporating AI
+- [ARL: Research Libraries Guiding Principles for Artificial Intelligence](https://www.arl.org/news/association-of-research-libraries-releases-guiding-principles-for-artificial-intelligence/)
+- [European Union Requirements for Trustworthy AI](https://www.europarl.europa.eu/RegData/etudes/BRIE/2019/640163/EPRS_BRI(2019)640163_EN.pdf)
+- [Ontario Council of University Libraries: Artificial Intelligence/Machine Learning Final Report and Strategy](https://ocul.on.ca/ai-machine-learning-final-report-strategy)
 
 ### Carbon Footprint of LLMs
 - [AI Chatbots: Energy usage of 2023’s most popular chatbots (so far)](https://www.trgdatacenters.com/resource/ai-chatbots-energy-usage-of-2023s-most-popular-chatbots-so-far/)
