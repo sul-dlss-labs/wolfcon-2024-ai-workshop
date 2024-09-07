@@ -40,7 +40,7 @@ store in the `/models` directory under the main [LLaMA.cpp][LLAMA.CCP].
 
 ### Running the Model in Inference Mode
 
-[HUGFACE]: https://huggingface.co/l
+[HUGFACE]: https://huggingface.co/
 [LLAMA]: https://ai.meta.com/
 [LLAMA.CCP]: https://github.com/ggerganov/llama.cpp
 [OPENAI]: https://openai.com/

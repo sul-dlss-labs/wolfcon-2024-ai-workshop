@@ -168,3 +168,14 @@
 ### Retrieval Augmented Generation (RAG)
 - [A Simple Guide To Retrieval Augmented Generation Language Models](https://www.smashingmagazine.com/2024/01/guide-retrieval-augmented-generation-language-models/)
 - [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401)
+
+### Training Large Language Models (LLMs)
+- [GGUF](https://github.com/ggerganov/ggml/blob/master/docs/gguf.md)
+- [HuggingFace](https://huggingface.co/) 
+- [LLaMA from AI Meta](https://ai.meta.com/)
+- [LLaMA.cpp](https://github.com/ggerganov/llama.cpp)
+- [LLaMA.cpp with Docker](https://github.com/ggerganov/llama.cpp/blob/master/docs/docker.md)
+- [LLaMA.cpp Python SDK](https://github.com/abetlen/llama-cpp-python)
+- [Open AI](https://openai.com/)
+
+

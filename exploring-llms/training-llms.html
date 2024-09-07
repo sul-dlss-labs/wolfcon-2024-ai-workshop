@@ -46,11 +46,11 @@ OpenAI API compatible server that also allows us to integrate with <a href="dspy
 don't want or can't compile the C++ source code to run on your computer.</p>
 <h3>Downloading a LLaMA-based Model</h3>
 <p><a href="https://github.com/ggerganov/llama.cpp">LLaMA.cpp</a> uses the <a href="https://github.com/ggerganov/ggml/blob/master/docs/gguf.md">GGUF</a> 
-format for model inference and training. Look for GGUF models on <a href="https://huggingface.co/l">HuggingFace</a>
+format for model inference and training. Look for GGUF models on <a href="https://huggingface.co/">HuggingFace</a>
 and if you compiled <a href="https://github.com/ggerganov/llama.cpp">LLaMA.cpp</a> with <code>libcurl</code> support, you can use the <code>llama-cli</code> command-line
 client to download:</p>
 <p><code>./llama-cli --hf-repo lmstudio-community/Reflection-Llama-3.1-70B-GGUF --hf-file Reflection-Llama-3.1-70B-GGUF.gguf</code></p>
-<p>If <code>libcurl</code> hasn't been installed, you can usually directly download the models directly from <a href="https://huggingface.co/l">HuggingFace</a> and
+<p>If <code>libcurl</code> hasn't been installed, you can usually directly download the models directly from <a href="https://huggingface.co/">HuggingFace</a> and
 store in the <code>/models</code> directory under the main <a href="https://github.com/ggerganov/llama.cpp">LLaMA.cpp</a>.</p>
 <h3>Running the Model in Inference Mode</h3>
 <div class="footnote">

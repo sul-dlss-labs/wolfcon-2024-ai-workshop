@@ -111,7 +111,7 @@
     - [ ] Fine-tuning or Training LLMs
       - [x] 250 words
       - [ ] LLMs copyedit
-      - [ ] References copied into resources
+      - [x] References copied into resources
   - [ ] Generative AI Use Cases for FOLIO
     - [ ] Analysis and Management of Financial Orders and Invoices
     - [ ] Automated Metadata Generation and Enrichment
