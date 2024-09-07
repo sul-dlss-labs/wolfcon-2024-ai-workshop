@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>AI Workflows for FOLIO - Edge AI Module</title>
+    <title>AI Workflows for FOLIO - Edge AI Module and AI Workflows</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <style>
 
@@ -21,27 +21,47 @@
     
       <div class="row">
         <article class="col-9">
-         <h1>Edge AI Module</h1>
-<p>The FOLIO <a href="https://github.com/foliolabs/edge-ai">Edge AI Module</a> provides a set of 
+         <h1>Edge AI Module and AI Workflows</h1>
+<p>The FOLIO <a href="https://github.com/folio-labs/edge-ai">Edge AI Module</a> provides a set of 
 API endpoints for different FOLIO modules. This backend model supports the following 
 Generative AI services:</p>
 <ul>
 <li>OpenAI's ChatGPT (requires an API token)</li>
 <li>Anthropic Claude (requires an API token)</li>
 <li>Google Gemini (requires an API token)</li>
-<li>Locally hosted Llama model (through a hosted <a href="">GPT4ALL</a> instance)</li>
+<li>Locally hosted Llama model (through a hosted <a href="">GPT4ALL</a> or <a href="https://github.com/ggerganov/llama.cpp">LLaMA.cpp</a> instance)</li>
 </ul>
 <h2>Existing API endpoints</h2>
 <h3>Inventory</h3>
+<p>Most of the development so far on <a href="https://github.com/folio-labs/edge-ai">edge-ai</a> has been supporting the requirements from the 
+<a href="https://github.com/folio-labs/ai-workflows/wiki/Automated-Metadata-Generation-Enrichment">Automated Metadata Generation Enrichment</a>
+use-case. </p>
 <h3>Circulation</h3>
 <h3>Finance</h3>
+<h2>AI Workflows</h2>
+<p>The <a href="https://github.com/folio-labs/ai-workflows">ai-workflows</a> is a proof-of-concept open-source repository that </p>
+<h3>What about mod-workflow?</h3>
+<p>There is nothing that would prevent <a href="https://github.com/folio-labs/edge-ai">edge-ai</a> to use the new [mod-workflows][MOD_WRKFLW]
+module in FOLIO once it is available for use and release. The current Directed Acyclic Graphs (DAGs) in
+<a href="https://github.com/folio-labs/ai-workflows">ai-workflows</a> are simple enough that could be ported to [mod-workflows][MOD_WRKFLW] directly.</p>
+<p>Where the <a href="https://github.com/folio-labs/ai-workflows">ai-workflows</a> is positioned to support more complex DAGs and other features beyond
+<a href="https://github.com/folio-labs/edge-ai">edge-ai</a> and the planned functionality of [mod-workflows][MOD_WRKFLW] and should be able to 
+compliment and support both. </p>
 <h2>Connection to FOLIO AI Use-cases</h2>
 <p>From the edge-ai's use-cases hosted in the repository's wiki, a set of requirements are
-being formulated (thank-you for help!) and will help prioritize the development of edge-ai.</p>
+being formulated (thank-you for help!) and will help prioritize the development of <a href="https://github.com/folio-labs/edge-ai">edge-ai</a>.</p>
+<h2>TODO</h2>
+<ul>
+<li>Automate the deployment of the <a href="https://github.com/folio-labs/edge-ai">edge-ai</a> to a FOLIO environment API service, 
+  either <a href="https://github.com/folio-org/okapi">Okapi</a> or <a href="https://konghq.com/">Kong</a></li>
+<li>Increase Unit test coverage</li>
+<li>Add Integration Tests</li>
+</ul>
+<p>[MOD_WRKFLW]: </p>
         </article>
         <div class="col-3">
           <h4>Navigation</h4>
-          <ol><li><a href="/wolfcon-2024-ai-workshop/intro-pre-conference/index.html">Introduction to WOLFcon AI Pre-conference Workshop</a></li><li><a href="/wolfcon-2024-ai-workshop/types-of-ai-ml-relevant-to-libraries/index.html">General Overview of AI and Machine Learning for Libraries</a></li><li><a href="/wolfcon-2024-ai-workshop/ethical-considerations-ai-ml-for-libraries/index.html">Ethical Considerations on using AI and Machine Learning for Libraries</a></li><li><a href="/wolfcon-2024-ai-workshop/exploring-llms/index.html">Exploring Large Language Models</a></li><li><a href="/wolfcon-2024-ai-workshop/folio-ai-use-cases/index.html">FOLIO AI Use Cases</a></li><li><a href="/wolfcon-2024-ai-workshop/next-steps-for-adopting-ai-and-ml-in-folio/index.html">Next Steps for Adopting AI and Machine Learning in FOLIO</a><ul><li><strong>Edge AI Module</strong></li><li><a href="conclusion.html">Concluding Discussion</a></li></ul></li><li><a href="/wolfcon-2024-ai-workshop/recommended-resources-for-further-learning/index.html">Recommended Resources for Further Learning</a></li></ol>
+          <ol><li><a href="/wolfcon-2024-ai-workshop/intro-pre-conference/index.html">Introduction to WOLFcon AI Pre-conference Workshop</a></li><li><a href="/wolfcon-2024-ai-workshop/types-of-ai-ml-relevant-to-libraries/index.html">General Overview of AI and Machine Learning for Libraries</a></li><li><a href="/wolfcon-2024-ai-workshop/ethical-considerations-ai-ml-for-libraries/index.html">Ethical Considerations on using AI and Machine Learning for Libraries</a></li><li><a href="/wolfcon-2024-ai-workshop/exploring-llms/index.html">Exploring Large Language Models</a></li><li><a href="/wolfcon-2024-ai-workshop/folio-ai-use-cases/index.html">FOLIO AI Use Cases</a></li><li><a href="/wolfcon-2024-ai-workshop/next-steps-for-adopting-ai-and-ml-in-folio/index.html">Next Steps for Adopting AI and Machine Learning in FOLIO</a><ul><li><a href="edge-ai.html">Edge AI Module</a></li><li><a href="conclusion.html">Concluding Discussion</a></li></ul></li><li><a href="/wolfcon-2024-ai-workshop/recommended-resources-for-further-learning/index.html">Recommended Resources for Further Learning</a></li></ol>
         </div>
       </div>
 

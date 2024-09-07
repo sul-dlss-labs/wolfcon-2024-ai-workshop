@@ -122,7 +122,7 @@
     - [ ] Technical Support for Orphaned Modules
   - [ ] Next Steps for Adopting AI and ML in FOLIO
     - [ ] edge-ai
-      - [ ] 250 words
+      - [x] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
     - [ ] Conclusion
