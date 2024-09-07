@@ -109,7 +109,7 @@
       - [x] LLMs copyedit
       - [x] References copied into resources
     - [ ] Fine-tuning or Training LLMs
-      - [ ] 250 words
+      - [x] 250 words
       - [ ] LLMs copyedit
       - [ ] References copied into resources
   - [ ] Generative AI Use Cases for FOLIO
