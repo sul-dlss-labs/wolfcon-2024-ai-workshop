@@ -124,7 +124,7 @@
     - [ ] edge-ai
       - [x] 250 words
       - [ ] LLMs copyedit
-      - [ ] References copied into resources
+      - [x] References copied into resources
     - [ ] Conclusion
       - [ ] 250 words
       - [ ] LLMs copyedit

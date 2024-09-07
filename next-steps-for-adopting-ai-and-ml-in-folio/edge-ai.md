@@ -7,7 +7,7 @@ Generative AI services:
 - OpenAI's ChatGPT (requires an API token)
 - Anthropic Claude (requires an API token)
 - Google Gemini (requires an API token)
-- Locally hosted Llama model (through a hosted [GPT4ALL]() or [LLaMA.cpp](https://github.com/ggerganov/llama.cpp) instance)
+- Locally hosted Llama model (through a hosted [GPT4ALL](https://www.nomic.ai/gpt4all) or [LLaMA.cpp](https://github.com/ggerganov/llama.cpp) instance)
 
 ## Existing API endpoints
 
@@ -21,7 +21,8 @@ use-case.
 ### Finance
 
 ## AI Workflows
-The [ai-workflows][AI_WRKFLW] is a proof-of-concept open-source repository that 
+The [ai-workflows][AI_WRKFLW] is a proof-of-concept open-source repository that is run in the open-source
+workflow [Apache Airflow]
 
 ### What about mod-workflow?
 There is nothing that would prevent [edge-ai][EDGE_AI] to use the new [mod-workflows][MOD_WRKFLW]
@@ -34,7 +35,7 @@ compliment and support both.
 
 ## Connection to FOLIO AI Use-cases
 From the edge-ai's use-cases hosted in the repository's wiki, a set of requirements are
-being formulated (thank-you for help!) and will help prioritize the development of [edge-ai][EDGE_AI].
+being formulated (thank-you for the help during this workshow!) and will help prioritize the development of [edge-ai][EDGE_AI].
 
 
 
@@ -44,8 +45,9 @@ being formulated (thank-you for help!) and will help prioritize the development 
 - Increase Unit test coverage
 - Add Integration Tests
 
+[AIRFLOW]: https://airflow.apache.org/
 [AI_WRKFLW]: https://github.com/folio-labs/ai-workflows
 [EDGE_AI]: https://github.com/folio-labs/edge-ai
 [KONG]: https://konghq.com/
-[MOD_WRKFLW]: 
+[MOD_WRKFLW]: https://github.com/folio-org/mod-workflow
 [OKAPI]: https://github.com/folio-org/okapi

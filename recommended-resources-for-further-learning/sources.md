@@ -178,4 +178,15 @@
 - [LLaMA.cpp Python SDK](https://github.com/abetlen/llama-cpp-python)
 - [Open AI](https://openai.com/)
 
+## Next Steps for Adopting AI and Machine Learning in FOLIO
+
+### Edge AI Module
+- [Apache Airflow](https://airflow.apache.org/)
+- [AI Workflows using Airflow](https://github.com/folio-labs/ai-workflows)
+- [Edge AI Module](https://github.com/folio-labs/edge-ai)
+- [FOLIO Okapi](https://github.com/folio-org/okapi)
+- [Kong API Server](https://konghq.com/)
+- [mod-workflow](https://github.com/folio-org/mod-workflow)
+
+
 
