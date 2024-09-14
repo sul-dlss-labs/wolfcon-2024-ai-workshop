@@ -69,5 +69,15 @@
     },
     "date": "2024-04-17",
     "quote": "Machine Learning is a paradigm of computer programming where, rather than applying deductive logic to produce output that is known to be correct like a pocket calculator, programs are designed to produce predictions, which are expected to be occasionally wrong. "
+  },
+  {
+    "author": "Matt Clifford",
+    "cite": {
+      "link": "https://x.com/matthewclifford/status/1834271090295644477",
+      "title": "Source",
+      "type": "X post"
+    },
+    "date": "2024-09-12",
+    "quote": "Making AI work today requires ripping up workflows and rebuilding *for* AI. This is hard and painful to do…"
   }
 ]
