@@ -1,5 +1,6 @@
 # WOLFcon 2024 AI Preconference
 
+Workshop website is live at [https://sul-dlss-labs.github.io/wolfcon-2024-ai-workshop/](https://sul-dlss-labs.github.io/wolfcon-2024-ai-workshop/)
 
 ## Prerequisites
 
