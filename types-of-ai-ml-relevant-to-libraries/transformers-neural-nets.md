@@ -18,8 +18,8 @@ to demonstrate how transformers work with an accompanying article[^EXPLAIN_PAPER
 
 ## Text Embedding
 Incoming text to the Transformer is parsed into smaller tokens, which can be a word or portions of
-words. A numerical representation of these tokens, called embeddings, are generated that provide
-a semantic relationship with other tokens.  
+words. A numerical representation of these tokens, called **embeddings**, are generated that provide
+a semantic relationship with other document **embeddings**.  
 
 ## Encoders
 A transformer with multiple, identical encoders with each is made up of the 

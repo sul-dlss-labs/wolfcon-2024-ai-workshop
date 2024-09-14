@@ -24,13 +24,6 @@ allow for prompts that generate outputs remarkably similar to copyrighted images
 provide examples of querying both Midjourney and DALL-E to produce nearly identical outputs based 
 on copyright material from Marvel movies and *The Simpsons* cartoons.
 
-## Workshop Use-cases
-
-### Primary
-
-### Secondary
-
-### Tertiary
 
 [^NYTIMES_SUE]: [New York Times Legal Complaint December 2023](https://nytco-assets.nytimes.com/2023/12/NYT_Complaint_Dec2023.pdf)
 [^ACRL_RESPONSE]: [Training Generative AI Models on Copyrighted Works Is Fair Use](https://www.arl.org/blog/training-generative-ai-models-on-copyrighted-works-is-fair-use/)

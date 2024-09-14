@@ -2,7 +2,7 @@
 
 ## Our Ethics
 - [Bias and AI](bias.html)
-- [Academic Fraud - Plagiarism and Acceptable Use](academic-fraud.html)
+- [Academic Fraud and Artificial Intelligence](academic-fraud.html)
 - [Creator Attribution and Copyright](creator-attribution.html)
 - [Privacy Concerns in Large Language Models](privacy.html)
 - [Guidelines for Incorporating AI](guidelines.html)

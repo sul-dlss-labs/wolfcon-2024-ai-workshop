@@ -30,13 +30,6 @@ AI workflows; both in the generative aspects of creating new documents
 like invoices or inventory records from text or automatic prompts, and
 minimize errors in the LLMs output. 
 
-## Workshop Use-cases
-
-### Primary
-
-### Secondary
-
-### Tertiary
 
 [^RAG_NLP]: [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401)
 [^GUIDE_RAG]: [A Simple Guide To Retrieval Augmented Generation Language Models](https://www.smashingmagazine.com/2024/01/guide-retrieval-augmented-generation-language-models/)

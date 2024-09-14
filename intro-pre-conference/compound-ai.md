@@ -1,7 +1,7 @@
 # Compound AI Systems
 In the blog post, *The Shift from Models to Compound AI Systems*[^BERKELEY], 
 a group of Berkeley AI Researchers note the difference between using Large Language Models (LLMs) 
-as monolithic models versus as using LLMs as components in larger, compound systems that include both LLMs and other technology. 
+as monolithic models versus using LLMs as components in larger, compound systems that include both LLMs and other technology. 
 
 Building on the Berkeley authors definition, author Drew Breunig differentiates between what he calls 
 Sober AI[^SOBER_AI]
@@ -13,8 +13,8 @@ He then offers the following table to illustrate these differences:
 ![Sober AI verse Hyped AI](sober_vs_hyped.png)
 
 While we need to evaluate the consequences and ethical implications of using AI in our technologies,
-the role of AI in improving our existing processes and functionality should at least be explored with
-approach guardrails in place. These guardrails might include ethical guidelines, data privacy measures, 
+the potential of AI to improve our existing processes and functionality should at least be explored with
+appropriate guardrails in place. These guardrails might include ethical guidelines, data privacy measures, 
 or oversight mechanisms.
 
 Seen within this context, the use of AI is more of continuation and 
@@ -38,23 +38,6 @@ into FOLIO systems. We will:
 
 This approach allows us to leverage the unique capabilities of AI while building upon FOLIO's established infrastructure.
 
-## Workshop Use-cases
-
-### Primary
-- [Automated Metadata Generation Enrichment](https://github.com/folio-labs/ai-workflows/wiki/Automated-Metadata-Generation-Enrichment)
-- [Create Course reserves from a csv](https://github.com/folio-labs/ai-workflows/wiki/Create-Course-reserves-from-a-csv)
-- [Information Discovery](https://github.com/folio-labs/ai-workflows/wiki/Information-Discovery)
-
-### Secondary
-- [Analysis and Management Financial Orders and Invoices](https://github.com/folio-labs/ai-workflows/wiki/Analysis-and-Management-Financial-Orders-and-Invoices)
-- [Narrative Circulation Rules](https://github.com/folio-labs/ai-workflows/wiki/Narrative-Circulation-Rules)a
-- [From an Instance Title, find Circ Status and Researve Item](https://github.com/folio-labs/ai-workflows/wiki/From-an-Instance-Title,-find-Circ-Status-and-Researve-Item)
-- [De‐duplicate and Cluster Existing FOLIO Inventory Records](https://github.com/folio-labs/ai-workflows/wiki/De%E2%80%90duplicate-and-Cluster-Existing-FOLIO-Inventory-Records)
-
-### Tertiary
-- [Create Course reserves from a csv](https://github.com/folio-labs/ai-workflows/wiki/Create-Course-reserves-from-a-csv)
-- [Improving User and Technical Documentation](https://github.com/folio-labs/ai-workflows/wiki/Improving-User-and-Technical-Documentation)
-- [Technical Support for Orphaned Modules](https://github.com/folio-labs/ai-workflows/wiki/Technical-Support-for-Orphaned-Modules)
 
 [^BERKELEY]: [The Shift from Models to Compound AI Systems](https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/)
 [^SOBER_AI]: [Sober AI is the Norm](https://www.dbreunig.com/2024/06/12/sober-ai-is-the-norm.html)

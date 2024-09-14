@@ -35,11 +35,6 @@ with our traditional role as intellectual or academic gatekeepers, minimize the 
 resources of low-quality material. 
 
 
-## Workshop Use-cases
-- [Collection Management and Optimization](https://github.com/folio-labs/edge-ai/wiki/Collection-Management-and-Optimization)
-- [Information Discovery](https://github.com/folio-labs/edge-ai/wiki/Information-Discovery)
-- [Improving User and Technical Documentation](https://github.com/folio-labs/edge-ai/wiki/Improving-User-and-Technical-Documentation)
-
 [^WILLISON]: [Slop is the new name for unwanted AI-generated content](https://simonwillison.net/2024/May/8/slop/)
 [^GOOG]: [Google Searches Prefer AI Spam to Real Content](https://www.inc.com/kit-eaton/google-searches-prefer-ai-spam-to-real-content.html)
 [^ENSHITIFICATION]: [Too big to care](https://doctorow.medium.com/https-pluralistic-net-2024-04-04-teach-me-how-to-shruggie-kagi-caaa88c221f2)

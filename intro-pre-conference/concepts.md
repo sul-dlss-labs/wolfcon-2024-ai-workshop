@@ -30,6 +30,7 @@ learn, and apply similar reasoning or outcomes to human intelligence. This type 
 AI would be able to perform or exceed any intellectual task that a human can.
 
 Key differences:
+
 1. **Scope**: Narrow AI limited to specific domains while General AI would have broad
    capabilities across multiple domains
 1. **Adaptability**: Narrow AI has limited abilities to adapt to situations outside of
