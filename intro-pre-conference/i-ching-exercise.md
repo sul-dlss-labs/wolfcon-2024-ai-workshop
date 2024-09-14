@@ -7,6 +7,8 @@ the I-Ching is also a Taoist philosophical work offering insights and practical 
 
 Each hexagram is further broken down into two trigrams, an upper trigram and a lower trigram. 
 
+The I-Ching widget on this page uses a Python version of the coin-flipping method for generating
+the hexagram.
 
 ## Exercise One
 In this exercise you will select two Large Language Models (ChatGPT, Claude, Gemini, or Llama) and give
@@ -18,7 +20,7 @@ each of the LLM the same question and ask for the I-Ching fortune based on your 
 
 
 ## Exercise Two
-Use the online [I-Ching](https://www.ichingonline.net/) and enter the prompt from above, 
+Use the I-Ching fortune widget on this page and enter the prompt from above, 
 Ask one of the LLM above to interpret the hexagram and compare the resulting interpretation with 
 the one provided by the I-Ching website.
 

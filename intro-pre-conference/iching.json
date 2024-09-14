@@ -1,0 +1,322 @@
+{
+  "111111": {
+    "id": 1,
+    "name": "qi\u00e1n Force (Creative Heaven)",
+    "character": "&#x4DC0;"
+  },
+  "000000": {
+    "id": 2,
+    "name": "kun Field (Receptive Earth)",
+    "character": "&#x4DC1;"
+  },
+  "100010": {
+    "id": 3,
+    "name": "zhun Sprouting (Difficulty at the Beginning)",
+    "character": "&#x4DC2;"
+  },
+  "010001": {
+    "id": 4,
+    "name": "m\u00e9ng Enveloping (Youthful Folly)",
+    "character": "&#x4DC3;"
+  },
+  "111010": {
+    "id": 5,
+    "name": "xun Attending (Waiting)",
+    "character": "&#x4DC4;"
+  },
+  "010111": {
+    "id": 6,
+    "name": "s\u00f2ng Arguing (Conflict)",
+    "character": "&#x4DC5;"
+  },
+  "010000": {
+    "id": 7,
+    "name": "shi Leading (Army)",
+    "character": "&#x4DC6;"
+  },
+  "000010": {
+    "id": 8,
+    "name": "bi Grouping (Holding Together)",
+    "character": "&#x4DC7;"
+  },
+  "111011": {
+    "id": 9,
+    "name": "xiao ch\u00f9 Small Accumulating (Small Taming)",
+    "character": "&#x4DC8;"
+  },
+  "110111": {
+    "id": 10,
+    "name": "lu Treading",
+    "character": "&#x4DC9;"
+  },
+  "111000": {
+    "id": 11,
+    "name": "t\u00e0i Pervading (Peace)",
+    "character": "&#x4DCA;"
+  },
+  "000111": {
+    "id": 12,
+    "name": "pi Obstruction (Standstill)",
+    "character": "&#x4DCB;"
+  },
+  "101111": {
+    "id": 13,
+    "name": "t\u00f3ng r\u00e9n Concording People (Fellowship)",
+    "character": "&#x4DCC;"
+  },
+  "111101": {
+    "id": 14,
+    "name": "d\u00e0 you Great Possessing (Great Possession)",
+    "character": "&#x4DCD;"
+  },
+  "001000": {
+    "id": 15,
+    "name": "qian Humbling (Modesty)",
+    "character": "&#x4DCE;"
+  },
+  "000100": {
+    "id": 16,
+    "name": "y\u00f9 Providing-For (Enthusiasm)",
+    "character": "&#x4DCF;"
+  },
+  "100110": {
+    "id": 17,
+    "name": "su\u00ed Following",
+    "character": "&#x4DD0;"
+  },
+  "110000": {
+    "id": 18,
+    "name": "gu Correcting (Decayed)",
+    "character": "&#x4DD1;"
+  },
+  "011001": {
+    "id": 19,
+    "name": "l\u00edn Nearing (Approach)",
+    "character": "&#x4DD2;"
+  },
+  "000011": {
+    "id": 20,
+    "name": "guan Viewing (Contemplation)",
+    "character": "&#x4DD3;"
+  },
+  "100101": {
+    "id": 21,
+    "name": "sh\u00ec k\u00e8 Gnawing Bite (Biting Through)",
+    "character": "&#x4DD4;"
+  },
+  "101001": {
+    "id": 22,
+    "name": "b\u00ec Adorning (Grace) ",
+    "character": "&#x4DD5;"
+  },
+  "000001": {
+    "id": 23,
+    "name": "bo Stripping (Splitting Apart)",
+    "character": "&#x4DD6;"
+  },
+  "100000": {
+    "id": 24,
+    "name": "f\u00f9 Returning (Return)",
+    "character": "&#x4DD7;"
+  },
+  "100111": {
+    "id": 25,
+    "name": "w\u00fa w\u00e0ng Without Embroiling (Innocence)",
+    "character": "&#x4DD8;"
+  },
+  "111001": {
+    "id": 26,
+    "name": "d\u00e0 ch\u00f9 Great Accumulating (Great Taming)",
+    "character": "&#x4DD9;"
+  },
+  "100001": {
+    "id": 27,
+    "name": "y\u00ed Swallowing (Mouth Corners)",
+    "character": "&#x4DDA;"
+  },
+  "011110": {
+    "id": 28,
+    "name": "d\u00e0 gu\u00f2 Great Exceeding (Great Preponderance)",
+    "character": "&#x4DDB;"
+  },
+  "010010": {
+    "id": 29,
+    "name": "kan Gorge (Abysmal Water)",
+    "character": "&#x4DDC;"
+  },
+  "101101": {
+    "id": 30,
+    "name": "l\u00ed Radiance (Clinging Fire)",
+    "character": "&#x4DDD;"
+  },
+  "001110": {
+    "id": 31,
+    "name": "xi\u00e1n Conjoining (Influence)",
+    "character": "&#x4DDE;"
+  },
+  "011100": {
+    "id": 32,
+    "name": "h\u00e9ng Persevering (Duration)",
+    "character": "&#x4DDF;"
+  },
+  "001111": {
+    "id": 33,
+    "name": "d\u00f9n Retiring (Retreat)",
+    "character": "&#x4DE0;"
+  },
+  "111100": {
+    "id": 34,
+    "name": "d\u00e0 zhu\u00e0ng Great Invigorating (Great Power)",
+    "character": "&#x4DE1;"
+  },
+  "000101": {
+    "id": 35,
+    "name": "j\u00ecn Prospering (Progress)",
+    "character": "&#x4DE2;"
+  },
+  "101000": {
+    "id": 36,
+    "name": "m\u00edng y\u00ed Darkening of the Light",
+    "character": "&#x4DE3;"
+  },
+  "101011": {
+    "id": 37,
+    "name": "jia r\u00e9n Dwelling People (Family)",
+    "character": "&#x4DE4;"
+  },
+  "110101": {
+    "id": 38,
+    "name": "ku\u00ed Polarising (Opposition)",
+    "character": "&#x4DE5;"
+  },
+  "001010": {
+    "id": 39,
+    "name": "jian Limping (Obstruction)",
+    "character": "&#x4DE6;"
+  },
+  "010100": {
+    "id": 40,
+    "name": "xi\u00e8 Taking-Apart (Deliverance)",
+    "character": "&#x4DE7;"
+  },
+  "110001": {
+    "id": 41,
+    "name": "sun Diminishing (Decrease)",
+    "character": "&#x4DE8;"
+  },
+  "100011": {
+    "id": 42,
+    "name": "y\u00ec Augmenting (Increase)",
+    "character": "&#x4DE9;"
+  },
+  "111110": {
+    "id": 43,
+    "name": "gu\u00e0i Displacement (Breakthrough)",
+    "character": "&#x4DEA;"
+  },
+  "011111": {
+    "id": 44,
+    "name": "g\u00f2u Coupling (Coming to Meet)",
+    "character": "&#x4DEB;"
+  },
+  "000110": {
+    "id": 45,
+    "name": "cu\u00ec Clustering (Gathering Together)",
+    "character": "&#x4DEC;"
+  },
+  "011000": {
+    "id": 46,
+    "name": "sheng Ascending (Pushing Upward)",
+    "character": "&#x4DED;"
+  },
+  "010110": {
+    "id": 47,
+    "name": "k\u00f9n Confining (Oppression)",
+    "character": "&#x4DEE;"
+  },
+  "011010": {
+    "id": 48,
+    "name": "jing Welling (Well)",
+    "character": "&#x4DEF;"
+  },
+  "101110": {
+    "id": 49,
+    "name": "g\u00e9 Skinning (Revolution)",
+    "character": "&#x4DF0;"
+  },
+  "011101": {
+    "id": 50,
+    "name": "ding Holding (Cauldron)",
+    "character": "&#x4DF1;"
+  },
+  "100100": {
+    "id": 51,
+    "name": "zh\u00e8n Shake (Arousing Thunder)",
+    "character": "&#x4DF2;"
+  },
+  "001001": {
+    "id": 52,
+    "name": "g\u00e8n Bound (Keeping Still Mountain)",
+    "character": "&#x4DF3;"
+  },
+  "001011": {
+    "id": 53,
+    "name": "ji\u00e0n Infiltrating (Development)",
+    "character": "&#x4DF4;"
+  },
+  "110100": {
+    "id": 54,
+    "name": "gui m\u00e8i Converting the Maiden (Marrying Maiden)",
+    "character": "&#x4DF5;"
+  },
+  "101100": {
+    "id": 55,
+    "name": "feng Abounding (Abundance)",
+    "character": "&#x4DF6;"
+  },
+  "001101": {
+    "id": 56,
+    "name": "lu Sojourning (Wanderer)",
+    "character": "&#x4DF7"
+  },
+  "011011": {
+    "id": 57,
+    "name": "x\u00f9n Ground (Gentle Wind)",
+    "character": "&#x4DF8;"
+  },
+  "110110": {
+    "id": 58,
+    "name": "du\u00ec Open (Joyous Lake)",
+    "character": "&#x4DF9;"
+  },
+  "010011": {
+    "id": 59,
+    "name": "hu\u00e0n Dispersing (Dispersion)",
+    "character": "&#x4DF;"
+  },
+  "110010": {
+    "id": 60,
+    "name": "ji\u00e9 Articulating (Limitation)",
+    "character": "&#x4DFB;"
+  },
+  "110011": {
+    "id": 61,
+    "name": "zhong f\u00fa Center Returning (Inner Truth)",
+    "character": "&#x4DFC;"
+  },
+  "001100": {
+    "id": 62,
+    "name": "xiao gu\u00f2 Small Exceeding (Preponderance)",
+    "character": "&#x4DFD;"
+  },
+  "101010": {
+    "id": 63,
+    "name": "j\u00ec j\u00ec Already Fording (After Completion)",
+    "character": "&#x4DFE;"
+  },
+  "010101": {
+    "id": 64,
+    "name": "w\u00e8i j\u00ec Not Yet Fording (Before Completion)",
+    "character": "&#x4DFF;"
+  }
+}

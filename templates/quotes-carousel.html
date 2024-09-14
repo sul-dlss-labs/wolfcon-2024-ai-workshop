@@ -1,0 +1,105 @@
+{% extends "base.html" %}
+
+{% block main %}
+<div class="row">
+<div style="height: 200px">
+ <div id="carousel-ai-quotes" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    {% for quote in quotes %}
+    <div class="carousel-item {% if loop.first %}active{% endif %}">
+      <figure class="d-block w-100">
+        <blockquote class="blockquote">
+         <p>{{ quote.quote| safe }}</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+         {{ quote.author }} on {{ quote.date }} from {{ quote.cite.type }} <cite title="{{ quote.cite.title }}">
+          <a href="{{ quote.cite.link }}">{{ quote.cite.title }}</a></cite>
+        </figcaption>
+      </figure>
+    </div>
+    {% endfor %}
+  </div>
+ </div>
+ <button class="carousel-control-prev" type="button" data-bs-target="#carousel-ai-quotes" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carousel-ai-quotes" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+ </div>
+</div>
+<div class="row">
+  <div class="col-6">
+     <h2>Workshop</h2>
+      {{ page_navigation|safe }}
+  </div>
+  <div class="col-6">
+     <h2>Prerequisites</h2>
+     <div class="card">
+      <h5 class="card-header bg-success text-white">Required</h5>
+      <div class="card-body">
+        <p class="card-text">
+         Please completed the following items before the workshop:
+        </p>
+        <ol>
+           <li>
+             Email (or <a href="https://github.com/signup">signup</a> first) your Github user name to
+             <a href="mailto:jpnelson@stanford.edu">jpnelson@stanford.edu</a>
+           </li>
+           <li>
+            After receiving your Github user name, you'll be added as a collaborator on the following
+            repositories related to the course:
+              <ul>
+                <li><a href="https://github.com/folio-labs/edge-ai/">edge-ai</a></li>
+                <li><a href="https://github.com/folio-labs/ai-workflows/">ai-workflows</a></li>
+              </ul>
+           </li>
+           <li>Ensure you can access at least two of the following LLM services (may require creating an account):
+              <ul>
+                 <li><a href="https://chatgpt.com/">ChatGPT</a></li>
+                 <li><a href="https://www.anthropic.com/claude">Anthropic Claude</a></li>
+                 <li><a href="https://gemini.google.com/">Google Gemini</a></li>
+                 <li><a href="https://llama.meta.com/">Meta's Llama</a></li>
+              </ul>
+           </li>
+           <li>
+              Go to the following <a href="https://github.com/folio-labs/ai-workflows/wiki">wiki</a> page and select
+              at least two of the use-cases you are interested in exploring. Rank your choices.
+              (If you would like to add an AI use case that isn't listed, add a <a href="https://github.com/folio-labs/ai-workflows/wiki/_new">new wiki page</a> but
+               be prepared for follow-up questions!)
+           </li>
+        </ol>
+      </div>
+     </div>
+     <br>
+     <div class="card">
+       <h5 class="card-header bg-warning text-primary">Optional</h5>
+        <div class="card-body">
+          <p class="card-text">
+            For those participants who are more technically inclined, the following items are optional but 
+            would allow for greater engagement and increase the utility of the workshop:
+          </p>
+          <ol>
+             <li>Clone the <a href="https://github.com/folio-labs/edge-ai/">edge-ai</a> repository:
+                <code>git clone https://github.com/folio-labs/edge-ai.git</code>
+             </li>
+             <li>
+                 Clone the <a href="https://github.com/folio-labs/ai-workflows/">ai-workflows</a> repository:
+                <code>git clone https://github.com/folio-labs/ai-workflows.git</code>
+             </li>
+             <li>Install <a href="https://www.docker.com/products/docker-desktop/">Docker Desktop</a> with at least
+                 10 GB of memory to run <a href="https://airflow.apache.org/">Airflow</a>.
+             </li>
+             <li>
+                 Download and install <a href="https://www.nomic.ai/gpt4all">gpt4all</a>; download a Llama-based
+                 model.
+             </li>
+          </ol>
+        </div>
+     </div>
+     <br>
+  </div>
+</div>
+{% endblock %}

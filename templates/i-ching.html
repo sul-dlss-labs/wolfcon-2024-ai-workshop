@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block json %}
+<link rel="stylesheet" href="https://pyscript.net/releases/2024.9.1/core.css">
+<script type="module" src="https://pyscript.net/releases/2024.9.1/core.js"></script>
+{% endblock %}
+
+{% block main %}
+<div class="row">
+  <article class="col-8">
+    {{ content|safe }}
+  </article>
+  <div class="col-4">
+  <div class="card border-secondary mb-4" style="max-width: 24rem;">
+    <div class="card-header">Your I-Ching Fortune</div>
+     <div class="card-body text-secondary">
+       <h5 class="card-title" for="question">Enter your question</h5>
+       <p class="card-text">What influences to watch for in the upcoming days and the situational analysis of your fortune.</p>
+       <textarea class="form-control" id="question" rows="3"></textarea>
+       <button py-click="tell_fortune" type="button" class="btn btn-primary mx-auto p-2" style="width: 10rem;">Ask the Oracle</button>
+     </div>
+  </div>
+  <div class="card border-success mb-4 invisible" id="fortune" style="max-width: 24rem;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <p id="hexagram-character" style="font-size: 5rem;"></p>
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+         <p class="card-text"><small class="text-body-secondary" id="question-repeat"></small></p>
+         <h5 class="card-title" id="hexagram-name"></h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h4>Navigation</h4>
+   {{ page_navigation|safe }}
+  </div>
+</div>
+{% endblock %}
+
+{% block pyscript %}
+<script type="py" src="./iching.py" config="./config.json"></script>
+
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block main %}
+<div class="row">
+  <article class="col-9">
+    {{ content|safe }}
+  </article>
+  <div class="col-3">
+    <h4>Navigation</h4>
+     {{ page_navigation|safe }}
+  </div>
+</div>
+{% endblock %}

@@ -5,9 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>AI Workflows for FOLIO - I-Ching Exercises</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   
+<link rel="stylesheet" href="https://pyscript.net/releases/2024.9.1/core.css">
+<script type="module" src="https://pyscript.net/releases/2024.9.1/core.js"></script>
+ 
+   
     <style>
 
     </style>
+   
   </head>
   <body>
     <div class="header">
@@ -19,15 +25,17 @@
     </div>
     <div class="container">
     
-      <div class="row">
-        <article class="col-9">
-         <h1>I-Ching Exercises</h1>
+<div class="row">
+  <article class="col-8">
+    <h1>I-Ching Exercises</h1>
 <p>The I-Ching is a historical method divination that originated in China. It involves
 randomly selecting two trigrams from sixty-four hexagrams that suggest responses
 and course of actions based on a textual prompt. Each hexagram is made up of 6 horizontal
 lines that can be either solid (yang) or broken (yin). Beyond its use as a divination tool,
 the I-Ching is also a Taoist philosophical work offering insights and practical wisdom.</p>
 <p>Each hexagram is further broken down into two trigrams, an upper trigram and a lower trigram. </p>
+<p>The I-Ching widget on this page uses a Python version of the coin-flipping method for generating
+the hexagram.</p>
 <h2>Exercise One</h2>
 <p>In this exercise you will select two Large Language Models (ChatGPT, Claude, Gemini, or Llama) and give
 each of the LLM the same question and ask for the I-Ching fortune based on your prompt.</p>
@@ -37,7 +45,7 @@ each of the LLM the same question and ask for the I-Ching fortune based on your 
   How can I best take advantage of the presentations and networking for WOLFcon 2024 in London? </li>
 </ul>
 <h2>Exercise Two</h2>
-<p>Use the online <a href="https://www.ichingonline.net/">I-Ching</a> and enter the prompt from above, 
+<p>Use the I-Ching fortune widget on this page and enter the prompt from above, 
 Ask one of the LLM above to interpret the hexagram and compare the resulting interpretation with 
 the one provided by the I-Ching website.</p>
 <h2>Follow-up Questions</h2>
@@ -49,17 +57,43 @@ the one provided by the I-Ching website.</p>
 <li>Are these responses from the model hallucinations?</li>
 <li>What is a "hallucination" when the  I-Ching fortune is a random process?</li>
 </ol>
-        </article>
-        <div class="col-3">
-          <h4>Navigation</h4>
-          <ol><li><a href="/wolfcon-2024-ai-workshop/intro-pre-conference/index.html">Introduction to WOLFcon AI Pre-conference Workshop</a><ul><li><a href="welcome.html">Welcome!</a></li><li><strong>I-Ching Exercises</strong></li><li><a href="concepts.html">Core Concepts of AI and Machine Learning</a></li><li><a href="compound-ai.html">Compound AI Systems</a></li></ul></li><li><a href="/wolfcon-2024-ai-workshop/types-of-ai-ml-relevant-to-libraries/index.html">General Overview of AI and Machine Learning for Libraries</a></li><li><a href="/wolfcon-2024-ai-workshop/ethical-considerations-ai-ml-for-libraries/index.html">Ethical Considerations on using AI and Machine Learning for Libraries</a></li><li><a href="/wolfcon-2024-ai-workshop/exploring-llms/index.html">Exploring Large Language Models</a></li><li><a href="/wolfcon-2024-ai-workshop/folio-ai-use-cases/index.html">FOLIO AI Use Cases</a></li><li><a href="/wolfcon-2024-ai-workshop/next-steps-for-adopting-ai-and-ml-in-folio/index.html">Next Steps for Adopting AI and Machine Learning in FOLIO</a></li><li><a href="/wolfcon-2024-ai-workshop/recommended-resources-for-further-learning/index.html">Recommended Resources for Further Learning</a></li></ol>
+  </article>
+  <div class="col-4">
+  <div class="card border-secondary mb-4" style="max-width: 24rem;">
+    <div class="card-header">Your I-Ching Fortune</div>
+     <div class="card-body text-secondary">
+       <h5 class="card-title" for="question">Enter your question</h5>
+       <p class="card-text">What influences to watch for in the upcoming days and the situational analysis of your fortune.</p>
+       <textarea class="form-control" id="question" rows="3"></textarea>
+       <button py-click="tell_fortune" type="button" class="btn btn-primary mx-auto p-2" style="width: 10rem;">Ask the Oracle</button>
+     </div>
+  </div>
+  <div class="card border-success mb-4 invisible" id="fortune" style="max-width: 24rem;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <p id="hexagram-character" style="font-size: 5rem;"></p>
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+         <p class="card-text"><small class="text-body-secondary" id="question-repeat"></small></p>
+         <h5 class="card-title" id="hexagram-name"></h5>
         </div>
       </div>
+    </div>
+  </div>
+  <h4>Navigation</h4>
+   <ol><li><a href="/wolfcon-2024-ai-workshop/intro-pre-conference/index.html">Introduction to WOLFcon AI Pre-conference Workshop</a><ul><li><a href="welcome.html">Welcome!</a></li><li><strong>I-Ching Exercises</strong></li><li><a href="concepts.html">Core Concepts of AI and Machine Learning</a></li><li><a href="compound-ai.html">Compound AI Systems</a></li></ul></li><li><a href="/wolfcon-2024-ai-workshop/types-of-ai-ml-relevant-to-libraries/index.html">General Overview of AI and Machine Learning for Libraries</a></li><li><a href="/wolfcon-2024-ai-workshop/ethical-considerations-ai-ml-for-libraries/index.html">Ethical Considerations on using AI and Machine Learning for Libraries</a></li><li><a href="/wolfcon-2024-ai-workshop/exploring-llms/index.html">Exploring Large Language Models</a></li><li><a href="/wolfcon-2024-ai-workshop/folio-ai-use-cases/index.html">FOLIO AI Use Cases</a></li><li><a href="/wolfcon-2024-ai-workshop/next-steps-for-adopting-ai-and-ml-in-folio/index.html">Next Steps for Adopting AI and Machine Learning in FOLIO</a></li><li><a href="/wolfcon-2024-ai-workshop/recommended-resources-for-further-learning/index.html">Recommended Resources for Further Learning</a></li></ol>
+  </div>
+</div>
 
     </div>
     <footer style="background-color: #0a3a85; color: white;" >
       <div class="container">Original Content by Jeremy Nelson &copy; 2024, <a href="https://github.com/jermnelson/wolfcon-02024-ai">Github</a></div>
     </footer> 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+<script type="py" src="./iching.py" config="./config.json"></script>
+
+
   </body>
 </html>
