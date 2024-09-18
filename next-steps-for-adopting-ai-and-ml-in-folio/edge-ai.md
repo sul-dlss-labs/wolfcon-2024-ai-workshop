@@ -33,7 +33,7 @@ the planned functionality of [mod-workflows][MOD_WRKFLW]. The [Edge AI Module][E
 complement" and support both workflow technologies. 
 
 ## Connection to FOLIO AI Use-cases
-From the use cases hosted in[Edge AI Module][EDGE_AI]'s repository wiki, a set of requirements are
+From the use cases hosted in [Edge AI Module][EDGE_AI]'s repository wiki, a set of requirements are
 being formulated (thank-you for the help during this workshop!) to prioritize the development of [Edge AI Module][EDGE_AI].
 
 
