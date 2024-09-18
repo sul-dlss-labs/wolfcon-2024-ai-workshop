@@ -123,7 +123,7 @@
   - [ ] Next Steps for Adopting AI and ML in FOLIO
     - [ ] edge-ai
       - [x] 250 words
-      - [ ] LLMs copyedit
+      - [x] LLMs copyedit
       - [x] References copied into resources
     - [ ] Conclusion
       - [x] 250 words
