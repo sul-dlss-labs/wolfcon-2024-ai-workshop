@@ -43,7 +43,7 @@ Later today we look at existential risk AGI poses to humanity.
 
 ## Importance of Data
 The old computer science cliche GIGO (Garbage In, Garbage out) refers to a long-standing
-observation that computer software development that the quality outputs is directly related
+observation that in computer software development that the quality outputs is directly related
 to the incoming data. 
 
 Even with best algorithms,  defensive 
