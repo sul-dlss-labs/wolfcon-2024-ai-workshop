@@ -127,8 +127,8 @@
       - [x] References copied into resources
     - [ ] Conclusion
       - [x] 250 words
-      - [ ] LLMs copyedit
-      - [ ] References copied into resources
+      - [x] LLMs copyedit
+      - [x] References copied into resources
   - [ ] Recommended Resources for Further Learning
       - [ ] LLMs copyedit
 - [ ] Workshop Website

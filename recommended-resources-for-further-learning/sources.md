@@ -201,4 +201,8 @@
 - [mod-workflow](https://github.com/folio-org/mod-workflow)
 
 
-
+### Conclusion
+- [Give Every AI a Soul—or Else](https://www.wired.com/story/give-every-ai-a-soul-or-else/)
+- [No Priors Ep. 80 | With Andrej Karpathy from OpenAI and Tesla](https://www.youtube.com/watch?v=hM_h0UA7upI)
+- [The Best Way to Predict the Future is to Create It. But Is It Already Too Late?](https://www.youtube.com/watch?v=dTPI6wh-Lr0)
+- [We Need Actually Open AI Now More than Ever (Or: Why Leopold Aschenbrenner is Dangerously Wrong)](https://continuations.com/post/761729753693765632/we-need-actually-open-ai-now-more-than-ever-or)
