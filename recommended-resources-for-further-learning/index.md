@@ -7,4 +7,7 @@
 
 ### Prompt Engineering
 - [Anthropic's Prompt Engineering Interactive Tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial)
+- [Anthropic's Courses](https://github.com/anthropics/courses/)
 - [Microsoft Promptbase](ttps://github.com/microsoft/promptbase/)
+
+

@@ -70,6 +70,18 @@ out in the past month. Please show your thinking step-by-step as you construct t
 ## Remember you can combine multiple prompt techniques! 
 For more examples, please check-out Prompt Engineering Guide[^PROMPT_GUIDE].
 
+
+## Function calling or connecting Systems to External Tools
+Related to prompt engineering is a powerful technique of function calling that allows you to 
+provide a LLM with a function signature and expected parameters. LLMs response will then 
+generate a function call and parameter values that can then be integrated into a Compound AI
+system. Specific information on this technique with various LLMs:
+
+- [Open AI's Function Calling Guide](https://platform.openai.com/docs/guides/function-calling)
+- [Build with Claude Tool use (function calling)](https://docs.anthropic.com/en/docs/build-with-claude/tool-use)
+- [Intro to Function Calling with Gemini API](https://ai.google.dev/gemini-api/docs/function-calling)
+- [Function calling for Llama 3.1 models!](https://community.sambanova.ai/t/function-calling-for-llama-3-1-models/225)
+
 [^PRINCPLED]: [Principled Instructions Are All You Need for Questioning LLaMA-1/2, GPT-3.5/4](https://arxiv.org/abs/2312.16171)
 [^ANTHROPIC]: [Antropic Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/)
 [^PROMPT_GUIDE]: [Prompt Engineering Guide](https://www.promptingguide.ai/)

@@ -162,6 +162,10 @@
 
 ### Prompt Engineering
 - [Antropic Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/)
+- [Build with Claude Tool use (function calling)](https://docs.anthropic.com/en/docs/build-with-claude/tool-use)
+- [Function calling for Llama 3.1 models!](https://community.sambanova.ai/t/function-calling-for-llama-3-1-models/225)
+- [Intro to Function Calling with Gemini API](https://ai.google.dev/gemini-api/docs/function-calling)
+- [Open AI's Function Calling Guide](https://platform.openai.com/docs/guides/function-calling)
 - [Principled Instructions Are All You Need for Questioning LLaMA-1/2, GPT-3.5/4](https://arxiv.org/abs/2312.16171)
 - [Prompt Engineering Guide](https://www.promptingguide.ai/)
 
