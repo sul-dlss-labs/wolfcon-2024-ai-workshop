@@ -170,13 +170,25 @@
 - [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401)
 
 ### Training Large Language Models (LLMs)
+- [Fine Tune Claude 3 Haiku](https://www.anthropic.com/news/fine-tune-claude-3-haiku)
+- [Guide for Fine-tuning](https://platform.openai.com/docs/guides/fine-tuning/)
 - [GGUF](https://github.com/ggerganov/ggml/blob/master/docs/gguf.md)
+- [gpt4all](https://gpt4all.io/)
 - [HuggingFace](https://huggingface.co/) 
 - [LLaMA from AI Meta](https://ai.meta.com/)
 - [LLaMA.cpp](https://github.com/ggerganov/llama.cpp)
 - [LLaMA.cpp with Docker](https://github.com/ggerganov/llama.cpp/blob/master/docs/docker.md)
 - [LLaMA.cpp Python SDK](https://github.com/abetlen/llama-cpp-python)
+- [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)
+- [loralib](https://github.com/microsoft/LoRA)
+- [mlx-lm](https://github.com/ml-explore/mlx-examples)
+- [mlx-ml LoRA documentation](https://github.com/ml-explore/mlx-examples/blob/main/llms/mlx_lm/LORA.md)
 - [Open AI](https://openai.com/)
+- [Open AI - Files API](https://platform.openai.com/docs/api-reference/files/create)
+- [OpenAI Fine-Tune User Interface](https://platform.openai.com/finetune)
+- [Pytorch](https://pytorch.org/)
+- [Unslouth](https://unsloth.ai/)
+- [What is low-rank adaptation (LoRA)?](https://www.cloudflare.com/learning/ai/what-is-lora/)
 
 ## Next Steps for Adopting AI and Machine Learning in FOLIO
 

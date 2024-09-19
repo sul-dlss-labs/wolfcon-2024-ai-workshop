@@ -3,6 +3,14 @@ The flexibility and power of transformer-based models allow for uses of
 Large Language Models (LLMs) beyond just text. LLMs can be extended to generate audio,
 images, and videos with surprising creativity but with some limitations. 
 
+## DALL-E 3
+OpenAI text-to-image model [DALL-E 3](https://openai.com/index/dall-e-3/) generates images 
+from text prompts. Here is an example of DALL-E image based on the following prompt:
+ *Set in a library on a Saturn moon, a robotic librarian looks for a book on a shelf, 
+reaches up and opens a book with a title, "AI in FOLIO"*,
+
+![DALL-E Robot in Saturn Moon Library](dalli-robot-in-saturn-library.png)
+
 ## Google Gemini
 Google's [Gemini][GEMINI] allows you to generate images based on your text descriptions. 
 It currently avoids generating images of people due to earlier issues[^GEMINI_PEOPLE] with historical 

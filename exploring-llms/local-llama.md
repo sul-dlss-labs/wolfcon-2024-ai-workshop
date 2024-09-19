@@ -14,7 +14,10 @@ generator function requires logging in with a Facebook account).
 Because of its release as open-source, you are able to download the Llama model to run and 
 train locally without the service providing additional data to the corporate entity. While there 
 are a number of ways for running Llama locally, a convenient method for running Llama
-and other open-source models is using a project called [gpt4all][GPT4ALL]. While the computing
+and other open-source models is using a project called [gpt4all][GPT4ALL]. [gpt4all][GPT4ALL]
+uses [LLaMA.cpp][LLAMA.CCP] to actually run the models.
+
+While the computing
 requirements can vary depending on your laptop's hardware and OS, there are desktop versions
 for [Macintosh](https://gpt4all.io/installers/gpt4all-installer-darwin.dmg), 
 [Windows](https://gpt4all.io/installers/gpt4all-installer-win64.exe), and 
@@ -29,5 +32,19 @@ administrative rights on your local laptop), please download and install [gpt4al
 A nice feature of [gpt4all][GPT4ALL], is that you can use a locally running LLM without an internet connection. 
 This also means that you can restrict access when using RAG on sensitive or private documentation.
  
+
+## Using Llama.cpp
+The [LLaMA.cpp][LLAMA.CCP] project allows you to run fine-tuned
+LLaMA models on your local computer. LLaMA.cpp][LLAMA.CCP] provides an
+OpenAI API compatible server that also allows us to integrate with [DSPy](dspy-docs.vercel.app/)
+and [edge-ai][EDGE_AI] module.
+
+[LLaMA.cpp][LLAMA.CCP] can also be run with [Docker][^DOCKER] on your computer if you 
+don't want or can't compile the C++ source code to run on your computer.
+
+### Downloading a LLaMA-based Model
+[LLaMA.cpp][LLAMA.CCP] uses the [GGUF](https://github.com/ggerganov/ggml/blob/master/docs/gguf.md) 
+format for model inference and training. Look for GGUF models on [HuggingFace][HUGFACE]. 
+
 [GPT4ALL]: https://gpt4all.io/
 [METAAI]: https://ai.meta.com/ 

@@ -38,7 +38,9 @@ What are the opportunities and challenges for using generative AI in FOLIO?
 Science fiction author David Brin's article *Give Every AI a Soul-or-Else*[^BRIN], he offers one 
 solution for addressing the AI Alignment and existential threats of AGI by suggesting through
 **Accountability**, not necessarily through laws or regulations but by other AI models. In a recent
-interview 
+blog post[^WENGER] Albert Wenger makes a similar point that the least safe number of Artificial 
+Super Intelligence (ASI) is one; having multiple ASIs in an ecosystem would decrease the chances 
+of any one ASI becoming too powerful.  
 
 So far we've been "lonely" as an intelligent species, with the advent of generative AI, we now
 have the beginnings of new culture of discourse with alien-to-us but intelligent beings. Let us
@@ -48,3 +50,4 @@ thriving information ecosystem.
 [^KEYS]: Original quote from 1971 to Xerox researches, expressed in this video [The Best Way to Predict the Future is to Create It. But Is It Already Too Late?](https://www.youtube.com/watch?v=dTPI6wh-Lr0)
 [^KARPATHY]: [No Priors Ep. 80 | With Andrej Karpathy from OpenAI and Tesla](https://www.youtube.com/watch?v=hM_h0UA7upI)
 [^BRIN]: [Give Every AI a Soul—or Else](https://www.wired.com/story/give-every-ai-a-soul-or-else/)
+[^WENGER]: [We Need Actually Open AI Now More than Ever (Or: Why Leopold Aschenbrenner is Dangerously Wrong)](https://continuations.com/post/761729753693765632/we-need-actually-open-ai-now-more-than-ever-or)

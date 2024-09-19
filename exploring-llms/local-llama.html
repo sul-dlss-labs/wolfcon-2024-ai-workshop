@@ -38,7 +38,9 @@ generator function requires logging in with a Facebook account). </p>
 <p>Because of its release as open-source, you are able to download the Llama model to run and 
 train locally without the service providing additional data to the corporate entity. While there 
 are a number of ways for running Llama locally, a convenient method for running Llama
-and other open-source models is using a project called <a href="https://gpt4all.io/">gpt4all</a>. While the computing
+and other open-source models is using a project called <a href="https://gpt4all.io/">gpt4all</a>. <a href="https://gpt4all.io/">gpt4all</a>
+uses [LLaMA.cpp][LLAMA.CCP] to actually run the models.</p>
+<p>While the computing
 requirements can vary depending on your laptop's hardware and OS, there are desktop versions
 for <a href="https://gpt4all.io/installers/gpt4all-installer-darwin.dmg">Macintosh</a>, 
 <a href="https://gpt4all.io/installers/gpt4all-installer-win64.exe">Windows</a>, and 
@@ -50,6 +52,16 @@ and <a href="training-llms.md">training LLMs</a>. If you haven't already prior t
 administrative rights on your local laptop), please download and install <a href="https://gpt4all.io/">gpt4all</a>.</p>
 <p>A nice feature of <a href="https://gpt4all.io/">gpt4all</a>, is that you can use a locally running LLM without an internet connection. 
 This also means that you can restrict access when using RAG on sensitive or private documentation.</p>
+<h2>Using Llama.cpp</h2>
+<p>The [LLaMA.cpp][LLAMA.CCP] project allows you to run fine-tuned
+LLaMA models on your local computer. LLaMA.cpp][LLAMA.CCP] provides an
+OpenAI API compatible server that also allows us to integrate with <a href="dspy-docs.vercel.app/">DSPy</a>
+and [edge-ai][EDGE_AI] module.</p>
+<p>[LLaMA.cpp][LLAMA.CCP] can also be run with [Docker][^DOCKER] on your computer if you 
+don't want or can't compile the C++ source code to run on your computer.</p>
+<h3>Downloading a LLaMA-based Model</h3>
+<p>[LLaMA.cpp][LLAMA.CCP] uses the <a href="https://github.com/ggerganov/ggml/blob/master/docs/gguf.md">GGUF</a> 
+format for model inference and training. Look for GGUF models on [HuggingFace][HUGFACE]. </p>
   </article>
   <div class="col-3">
     <h4>Navigation</h4>
