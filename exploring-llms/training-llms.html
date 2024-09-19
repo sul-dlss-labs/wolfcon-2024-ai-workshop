@@ -25,42 +25,76 @@
 <div class="row">
   <article class="col-9">
     <h1>Training Large Language Models (LLMs)</h1>
-<p>One methods for customizing and providing better context when using LLMs is to train the
-LLM on your data. <a href="https://openai.com/">OpenAI</a> allows you to train one of their models through their API
-and custom GPTs. </p>
-<p>Running a local version <a href="https://ai.meta.com/">Llama</a> allows to directly train the 
-model (depending on the capacities of your local computer).</p>
-<h2>OpenAI Training</h2>
-<p>To train or fine-tune a ChatGPT model, the OpenAI API provides the following endpoints:</p>
-<ul>
-<li>Create an Embedding</li>
-<li>Select a model</li>
-</ul>
-<p><strong>NOTE:</strong> Fine-tuning a ChatGPT model is significantly more cost than just using OpenAI's
-API model inference. </p>
-<h2>Fine-tuning LLMs with Llama.cpp</h2>
-<p>The <a href="https://github.com/ggerganov/llama.cpp">LLaMA.cpp</a> project allows you to run and fine-tune
-LLaMA models on your local computer.  <a href="https://github.com/ggerganov/llama.cpp">LLaMA.cpp</a> provides more 
-lower-level access to these Open source LLMs. There is
-also a <a href="https://github.com/abetlen/llama-cpp-python">Python SDK</a> for integrating with 
-<a href="https://github.com/folio-labs/edge-ai">edge-ai</a>. <a href="https://github.com/ggerganov/llama.cpp">LLaMA.cpp</a> provides an
-OpenAI API compatible server that also allows us to integrate with <a href="dspy-docs.vercel.app/">DSPy</a></p>
-<p><a href="https://github.com/ggerganov/llama.cpp">LLaMA.cpp</a> can also be run with [Docker]<sup id="fnref:DOCKER"><a class="footnote-ref" href="#fn:DOCKER">1</a></sup> on your computer if you 
-don't want or can't compile the C++ source code to run on your computer.</p>
-<h3>Downloading a LLaMA-based Model</h3>
-<p><a href="https://github.com/ggerganov/llama.cpp">LLaMA.cpp</a> uses the <a href="https://github.com/ggerganov/ggml/blob/master/docs/gguf.md">GGUF</a> 
-format for model inference and training. Look for GGUF models on <a href="https://huggingface.co/">HuggingFace</a>
-and if you compiled <a href="https://github.com/ggerganov/llama.cpp">LLaMA.cpp</a> with <code>libcurl</code> support, you can use the <code>llama-cli</code> command-line
-client to download:</p>
-<p><code>./llama-cli --hf-repo lmstudio-community/Reflection-Llama-3.1-70B-GGUF --hf-file Reflection-Llama-3.1-70B-GGUF.gguf</code></p>
-<p>If <code>libcurl</code> hasn't been installed, you can usually directly download the models directly from <a href="https://huggingface.co/">HuggingFace</a> and
-store in the <code>/models</code> directory under the main <a href="https://github.com/ggerganov/llama.cpp">LLaMA.cpp</a>.</p>
+<p>One method for customizing and providing better context when using LLMs is to train the
+LLM on your data. There are a number methods for fine-tuning LLMs including low-rank adaptation or LoRA<sup id="fnref:LORA"><a class="footnote-ref" href="#fn:LORA">1</a></sup>,
+that allow you to fine-tune a small number of parameters of a LLM many parameters without a 
+large number of GPUs used for the initial training of these large models. </p>
+<p><a href="https://openai.com/">OpenAI</a> allows you to train one of their models through their API
+and custom GPTs. Google Gemni offers fine-tuning through the <a href="https://ai.google.dev/gemini-api/docs/model-tuning">Gemini API</a>
+as does Anthropic as explained in their <a href="https://www.anthropic.com/news/fine-tune-claude-3-haiku">documentation</a>.</p>
+<p>Training <a href="https://ai.meta.com/">LLaMA</a> models locally on a personal computer is possible
+depending on the capacities of your local computer. Unfortunately, the process isn't
+easy or straight-forward and require running Python code. If you 
+have an Apple computer, the <a href="https://github.com/ml-explore/mlx-examples">mlx-lm</a> package,<br />
+which uses Apple Silicon GPU, can be used for fine-tuning open-source models like LLaMA. Another
+possibility is using HuggingFace's <a href="https://github.com/huggingface/peft">peft</a> package along 
+with HuggingFace's transformers to fine-tune models.</p>
+<h2>Steps for Fine-tuning</h2>
+<p>OpenAI provides directions for [fine-tuning]<sup id="fnref:OPENAI_FINETUNE"><a class="footnote-ref" href="#fn:OPENAI_FINETUNE">2</a></sup> a ChatGPT model that are 
+general enough for most fine-tuning tasks:</p>
+<ol>
+<li>Prepare and upload training data</li>
+<li>Train a new fine-tuned model</li>
+<li>Evaluate results and go back to step 1 if needed</li>
+<li>Use your fine-tuned model</li>
+</ol>
+<h3>Create Inventory Instance Training Set</h3>
+<p>We will create a training set 1,000 random records from the FOLIO community's <a href="https://bugfest-quesnelia.int.aws.folio.org/">Quesnelia Bugfest</a> 
+instance. The training set consists of the denormalize Instance along with a text prompt.</p>
+<p>Depending on the model and service, you may need reformat the training set to match the expected inputs
+to the model. </p>
+<p>For OpenAI, the expected format are JSON objects, typically saved one per line in the JSON-L
+format, that would like the following for the training set:</p>
+<pre><code class="language-javascript">{&quot;messages&quot;: [{&quot;role&quot;: &quot;system&quot;, &quot;content&quot;: &quot;As an expert cataloger, you will create the FOLIO inventory JSON record.&quot;}, 
+              {&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: &quot;For Vacancies in certain judgeships. Published in 1935 by [publisher not identified], Washington Subjects are Courts, Judges, United States--Officials and employees, Electronic books.&quot;},
+              {&quot;role&quot;: &quot;assistant&quot;, &quot;content&quot;: &quot;{'title': 'Vacancies in certain judgeships.', 'contributors': [], 'subjects': [{'value': 'Courts'}, {'value': 'Judges'}, {'value': 'United States--Officials and employees'}, {'value': 'Electronic books'}], 'classifications': [], 'publication': [{'publisher': '[publisher not identified]', 'place': 'Washington', 'dateOfPublication': '1935', 'role': 'Publication'}], 'instanceTypeText': 'text', 'modeOfIssuanceText': 'single unit'}}&quot;}]}
+</code></pre>
+<p>For training using <a href="https://github.com/ml-explore/mlx-examples">mlx-lm</a>, the data format is simpler than the OpenAI format but still uses JSON-L:</p>
+<pre><code class="language-javascript">{&quot;text&quot;: &quot;As an expert cataloger, you will create the FOLIO inventory JSON record. Q:For Statistical applications for chemistry, manufacturing and controls (CMC) in the pharmaceutical industry /Richard K. Burdick [and others]. Published in 2017 by Springer, Cham A:{'title': 'Statistical applications for chemistry, manufacturing and controls (CMC) in the pharmaceutical industry /Richard K. Burdick [and others].', 'contributors': [], 'publication': [{'publisher': 'Springer', 'place': 'Cham :', 'dateOfPublication': '2017', 'role': None}], 'instanceTypeText': 'text', 'modeOfIssuanceText': 'Monograph'}&quot;}
+</code></pre>
+<h3>Training</h3>
+<p>To train a ChatGPT model after creating a training set, follow these steps:</p>
+<ol>
+<li>Upload a training file to the <a href="https://platform.openai.com/docs/api-reference/files/create">Files API</a></li>
+<li>Create a fine-tune job either through the OpenAI <a href="https://platform.openai.com/finetune">User Interface</a> or through
+   Python or Node.js SDK.</li>
+</ol>
+<p>There are different methods for fine-tuning local LLaMA models. With Apple's Python <a href="https://github.com/ml-explore/mlx-examples">mlx-lm</a>, follow
+these steps in <a href="https://github.com/ml-explore/mlx-examples/blob/main/llms/mlx_lm/LORA.md">LoRA documentation</a>.</p>
+<p>On other platforms and assuming you have a supported GPU, <a href="https://unsloth.ai/">unsloth</a> is a good option. 
+You can use <a href="https://unsloth.ai/">unsloth</a> on public cloud providers as well.  Huggingface's 
+<a href="https://github.com/huggingface/peft">peft</a> is another good choice and includes the <a href="https://github.com/microsoft/LoRA">loralib</a> package by 
+the authors of the original LoRA paper<sup id="fnref:LoRA_PAPER"><a class="footnote-ref" href="#fn:LoRA_PAPER">3</a></sup>. Both need to be used with <a href="https://pytorch.org/">Pytorch</a> to 
+fine-tune models as well. </p>
+<h3>Using a GPT4ALL Model</h3>
+<p>Once you have a fine-tuned model and you have installed <a href="https://gpt4all.io/">GPT4ALL</a>, you can use that model<br />
+on a Mac by copying the fine-tuned models to this location:</p>
+<p><code>/Users/{user-name}/Library/Application Support/nomic.ai/GPT4All/</code></p>
 <h3>Running the Model in Inference Mode</h3>
 <div class="footnote">
 <hr />
 <ol>
+<li id="fn:LORA">
+<p><a href="https://www.cloudflare.com/learning/ai/what-is-lora/">What is low-rank adaptation (LoRA)?</a>&#160;<a class="footnote-backref" href="#fnref:LORA" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:OPENAI_FINETUNE">
+<p><a href="https://platform.openai.com/docs/guides/fine-tuning/">Guide for Fine-tuning</a>&#160;<a class="footnote-backref" href="#fnref:OPENAI_FINETUNE" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:LoRA_PAPER">
+<p><a href="https://arxiv.org/abs/2106.09685">LoRA: Low-Rank Adaptation of Large Language Models</a>&#160;<a class="footnote-backref" href="#fnref:LoRA_PAPER" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
 <li id="fn:DOCKER">
-<p><a href="https://github.com/ggerganov/llama.cpp/blob/master/docs/docker.md">LLaMA.cpp with Docker</a>&#160;<a class="footnote-backref" href="#fnref:DOCKER" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+<p><a href="https://github.com/ggerganov/llama.cpp/blob/master/docs/docker.md">LLaMA.cpp with Docker</a>&#160;<a class="footnote-backref" href="#fnref:DOCKER" title="Jump back to footnote 4 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>
