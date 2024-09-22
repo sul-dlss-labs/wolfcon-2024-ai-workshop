@@ -5,8 +5,8 @@ twentieth century[^soviet]. However, modern generative AI models and services al
 sophisticated generation and manipulation of images, audio, and video, commonly known
 as "deepfakes" - a term that combines "deep learning" and "fakes"[^wikipedia]. 
 
-The worrying consequences of the emerging era of widespread and cheap deepfakes 
-on political discourse are being monitored by such projects as the AI Election Project.[AI Election Project][WIRED_AI_ELECTION].
+A worrying consequences of this emerging era of widespread and cheap deepfakes 
+on political discourse are being monitored by such projects as the [AI Election Project][WIRED_AI_ELECTION].
 
 The challenge of deepfakes in politics is not restricted to any one region of the world, 
 with the following examples documented by the [Election Project][WIRED_AI_ELECTION].
