@@ -27,21 +27,21 @@
   <article class="col-9">
     <h1>Training Large Language Models (LLMs)</h1>
 <p>One method for customizing and providing better context when using LLMs is to train the
-LLM on your data. There are a number methods for fine-tuning LLMs including low-rank adaptation or LoRA<sup id="fnref:LORA"><a class="footnote-ref" href="#fn:LORA">1</a></sup>,
-that allow you to fine-tune a small number of parameters of a LLM many parameters without a 
-large number of GPUs used for the initial training of these large models. </p>
+model on your data. There are a number methods for fine-tuning LLMs including low-rank adaptation or LoRA<sup id="fnref:LORA"><a class="footnote-ref" href="#fn:LORA">1</a></sup>,
+that allow you to fine-tune a small number of parameters of a model's many parameters without needing a 
+large number of GPUs. </p>
 <p><a href="https://openai.com/">OpenAI</a> allows you to train one of their models through their API
 and custom GPTs. Google Gemni offers fine-tuning through the <a href="https://ai.google.dev/gemini-api/docs/model-tuning">Gemini API</a>
 as does Anthropic as explained in their <a href="https://www.anthropic.com/news/fine-tune-claude-3-haiku">documentation</a>.</p>
 <p>Training <a href="https://ai.meta.com/">LLaMA</a> models locally on a personal computer is possible
-depending on the capacities of your local computer. Unfortunately, the process isn't
+depending on the resources of your local computer. Unfortunately, the process isn't
 easy or straight-forward and require running Python code. If you 
-have an Apple computer, the <a href="https://github.com/ml-explore/mlx-examples">mlx-lm</a> package,<br />
-which uses Apple Silicon GPU, can be used for fine-tuning open-source models like LLaMA. Another
-possibility is using HuggingFace's <a href="https://github.com/huggingface/peft">peft</a> package along 
-with HuggingFace's transformers to fine-tune models.</p>
+have an Apple computer, the <a href="https://github.com/ml-explore/mlx-examples">mlx-lm</a> package, which uses Apple Silicon GPU, 
+can be used for fine-tuning open-source models like LLaMA. Another possibility is using 
+HuggingFace's <a href="https://github.com/huggingface/peft">peft</a> package that along with HuggingFace's transformers, can be used 
+to fine-tune models.</p>
 <h2>Steps for Fine-tuning</h2>
-<p>OpenAI provides directions for [fine-tuning]<sup id="fnref:OPENAI_FINETUNE"><a class="footnote-ref" href="#fn:OPENAI_FINETUNE">2</a></sup> a ChatGPT model that are 
+<p>OpenAI provides directions for fine-tuning<sup id="fnref:OPENAI_FINETUNE"><a class="footnote-ref" href="#fn:OPENAI_FINETUNE">2</a></sup> a ChatGPT model that are 
 general enough for most fine-tuning tasks:</p>
 <ol>
 <li>Prepare and upload training data</li>
@@ -50,7 +50,7 @@ general enough for most fine-tuning tasks:</p>
 <li>Use your fine-tuned model</li>
 </ol>
 <h3>Create Inventory Instance Training Set</h3>
-<p>We will create a training set 1,000 random records from the FOLIO community's <a href="https://bugfest-quesnelia.int.aws.folio.org/">Quesnelia Bugfest</a> 
+<p>From the FOLIO community's <a href="https://bugfest-quesnelia.int.aws.folio.org/">Quesnelia Bugfest</a> 
 instance. The training set consists of the denormalize Instance along with a text prompt.</p>
 <p>Depending on the model and service, you may need reformat the training set to match the expected inputs
 to the model. </p>

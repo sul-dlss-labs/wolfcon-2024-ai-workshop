@@ -1,8 +1,8 @@
 # Training Large Language Models (LLMs)
 One method for customizing and providing better context when using LLMs is to train the
-LLM on your data. There are a number methods for fine-tuning LLMs including low-rank adaptation or LoRA[^LORA],
-that allow you to fine-tune a small number of parameters of a LLM many parameters without a 
-large number of GPUs used for the initial training of these large models. 
+model on your data. There are a number methods for fine-tuning LLMs including low-rank adaptation or LoRA[^LORA],
+that allow you to fine-tune a small number of parameters of a model's many parameters without needing a 
+large number of GPUs. 
  
 
 [OpenAI][OPENAI] allows you to train one of their models through their API
@@ -10,16 +10,15 @@ and custom GPTs. Google Gemni offers fine-tuning through the [Gemini API](https:
 as does Anthropic as explained in their [documentation](https://www.anthropic.com/news/fine-tune-claude-3-haiku).
 
 Training [LLaMA][LLAMA] models locally on a personal computer is possible
-depending on the capacities of your local computer. Unfortunately, the process isn't
+depending on the resources of your local computer. Unfortunately, the process isn't
 easy or straight-forward and require running Python code. If you 
-have an Apple computer, the [mlx-lm][MLX_LM] package,  
-which uses Apple Silicon GPU, can be used for fine-tuning open-source models like LLaMA. Another
-possibility is using HuggingFace's [peft][PEFT] package along 
-with HuggingFace's transformers to fine-tune models.
-
+have an Apple computer, the [mlx-lm][MLX_LM] package, which uses Apple Silicon GPU, 
+can be used for fine-tuning open-source models like LLaMA. Another possibility is using 
+HuggingFace's [peft][PEFT] package that along with HuggingFace's transformers, can be used 
+to fine-tune models.
 
 ## Steps for Fine-tuning 
-OpenAI provides directions for [fine-tuning][^OPENAI_FINETUNE] a ChatGPT model that are 
+OpenAI provides directions for fine-tuning[^OPENAI_FINETUNE] a ChatGPT model that are 
 general enough for most fine-tuning tasks:
 
 1. Prepare and upload training data
@@ -29,8 +28,7 @@ general enough for most fine-tuning tasks:
 
 
 ### Create Inventory Instance Training Set
-
-We will create a training set 1,000 random records from the FOLIO community's [Quesnelia Bugfest](https://bugfest-quesnelia.int.aws.folio.org/) 
+From the FOLIO community's [Quesnelia Bugfest](https://bugfest-quesnelia.int.aws.folio.org/) 
 instance. The training set consists of the denormalize Instance along with a text prompt.
 
 Depending on the model and service, you may need reformat the training set to match the expected inputs
