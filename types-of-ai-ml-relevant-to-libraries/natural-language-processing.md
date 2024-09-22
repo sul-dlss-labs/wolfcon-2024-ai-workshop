@@ -24,12 +24,9 @@ NLP has been used in libraries in the following ways:
 - Assisting in content recommendations based on user preferences
 
 ## NLP Software
-Choosing the right NLP software depends on your specific needs and technical expertise. For instance, 
-NLTK offers a rich set of functionalities for developers, while spaCy provides a user-friendly 
-interface for common NLP tasks and Annif offers library-specific functionality.
+Choosing the right NLP software depends on your specific needs and technical expertise. 
 
-
-- [Annif](https://annif.org/) - A platform that uses subject vocabularies like [FAST][^FAST], to
+- [Annif](https://annif.org/) - A platform that uses subject vocabularies like FAST[^FAST], to
   train a model on a corpus of data and then provides subject suggestions.
 - [NLTK](https://www.nltk.org/) - An open-source platform and Python package that provides interfaces to 
   a number of corpus and documents as well as a rich set of classification, tokenization,
