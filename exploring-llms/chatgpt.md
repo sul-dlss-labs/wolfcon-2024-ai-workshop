@@ -1,8 +1,9 @@
 # OpenAI's ChatGPT
 The release of ChatGPT 3 by [OpenAI][OPENAI] in the fall of 2022 sparked 
-the current boom in generative AI and Large Language Models (LLM) that continues
-today. In March of 2023, OpenAI released ChatGPT 4 followed by 
-various smaller upgrades with the latest release of ChatGPT 4.o in May of this year.
+the current boom in generative AI and Large Language Models (LLM). In March of 2023, 
+OpenAI released ChatGPT 4 followed by various smaller upgrades with the latest release of ChatGPT 4.o.
+Earlier this month, OpenAI released their reasoning models, o1[^O1], that offer 
+improved reasoning and deductive skills with a models.
 
 OpenAI is promising the release of its 5.0 models within the next year that expand
 the functionality and utility of their LLMs.
@@ -39,6 +40,7 @@ problems and are good options if you need specific or custom functionality. For 
 - **[Arizona State University](https://news.asu.edu/20240118-university-news-new-collaboration-openai-charts-future-ai-higher-education)**:
   Proposed integration of OpenAI with ASU's content.
 
+[^O1]: [Learning to Reason with LLMs](https://openai.com/index/learning-to-reason-with-llms/)
 [CHATGPT]: https://chatgpt.com/
 [COPILOT]: https://copilot.microsoft.com/
 [DALLE3]: https://openai.com/index/dall-e-3/

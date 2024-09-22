@@ -25,8 +25,7 @@ for [Macintosh](https://gpt4all.io/installers/gpt4all-installer-darwin.dmg),
 
 ## Using gpt4all 
 For the purposes of this workshop, we will demonstrate a few crucial aspects of using and extending
-LLM using [gpt4all][GPT4ALL], including [Retrieval Augmented Generation (RAG)](retrival-augment-generation.md) 
-and [training LLMs](training-llms.md). If you haven't already prior to this workshop (and if you have
+LLM using [gpt4all][GPT4ALL]. If you haven't already prior to this workshop (and if you have
 administrative rights on your local laptop), please download and install [gpt4all][GPT4ALL].
 
 A nice feature of [gpt4all][GPT4ALL], is that you can use a locally running LLM without an internet connection. 
@@ -46,5 +45,7 @@ don't want or can't compile the C++ source code to run on your computer.
 [LLaMA.cpp][LLAMA.CCP] uses the [GGUF](https://github.com/ggerganov/ggml/blob/master/docs/gguf.md) 
 format for model inference and training. Look for GGUF models on [HuggingFace][HUGFACE]. 
 
+[EDGE_AI]: https://github.com/folio-labs/edge-ai
+[LLAMA.CCP]: https://github.com/ggerganov/llama.cpp
 [GPT4ALL]: https://gpt4all.io/
 [METAAI]: https://ai.meta.com/ 
