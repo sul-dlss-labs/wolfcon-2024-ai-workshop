@@ -40,11 +40,13 @@ output text.</p>
 <p>An online explanation of the Transformer architecture is available at 
 <a href="https://poloclub.github.io/transformer-explainer/">https://poloclub.github.io/transformer-explainer/</a>, which uses a live GPT-2 model 
 to demonstrate how transformers work with an accompanying article<sup id="fnref:EXPLAIN_PAPER"><a class="footnote-ref" href="#fn:EXPLAIN_PAPER">2</a></sup>.</p>
-<h2>Text Embedding</h2>
+<h2>Simplified Overview</h2>
+<h3>Text Embedding</h3>
 <p>Incoming text to the Transformer is parsed into smaller tokens, which can be a word or portions of
 words. A numerical representation of these tokens, called <strong>embeddings</strong>, are generated that provide
 a semantic relationship with other document <strong>embeddings</strong>.  </p>
-<h2>Encoders</h2>
+<h3>Transformer Block</h3>
+<h4>Attention</h4>
 <p>A transformer with multiple, identical encoders with each is made up of the 
 following layers:</p>
 <ul>
@@ -54,10 +56,7 @@ following layers:</p>
 <li><strong>Feed Forward Neural Network</strong> - outputs from the self-attention layer are fed to 
   and independently applied to this layer.</li>
 </ul>
-<p>The bottom encoder (#0) is the only encoder that directly creates a vector of the word
-through an embedding algorithm. All downstream encoders from the first use the output
-of vectors generated from the encoder's feed-forward layer.</p>
-<h2>Decoders</h2>
+<h4>Multi-Layer Decoders</h4>
 <p>After the text prompt has been fed through the encoders, the outputs from each of the
 encoders are feed to the decoders. A decoder is made of three layers:</p>
 <ul>
@@ -65,10 +64,11 @@ encoders are feed to the decoders. A decoder is made of three layers:</p>
   words in the input sentence. </li>
 <li><strong>Encoder-Decoder Attention</strong> - a separate layer that assists the decoder in focusing on 
   the relevant parts in the input sentence.</li>
-<li><strong>Feed Forward Neural Network</strong> </li>
+<li><strong>Feed Forward Neural Network</strong> - refines token representation</li>
 </ul>
-<p>transformer is like much more amazing it's not just like an it's not just another neural net it's like an amazing
-neural nut extremely General uh so for example example when people talk about the scaling loss in neural networks the scaling loss are actually a um a to</p>
+<h3>Output Probabilities</h3>
+<p>Final layers take the processed embeddings and transform them into probabilities for the next
+tokens.  </p>
 <div class="footnote">
 <hr />
 <ol>

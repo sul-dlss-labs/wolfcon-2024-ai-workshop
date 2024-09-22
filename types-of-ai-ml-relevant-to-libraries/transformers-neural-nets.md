@@ -16,12 +16,16 @@ An online explanation of the Transformer architecture is available at
 [https://poloclub.github.io/transformer-explainer/][EXPLANIER], which uses a live GPT-2 model 
 to demonstrate how transformers work with an accompanying article[^EXPLAIN_PAPER].
 
-## Text Embedding
+## Simplified Overview
+
+### Text Embedding
 Incoming text to the Transformer is parsed into smaller tokens, which can be a word or portions of
 words. A numerical representation of these tokens, called **embeddings**, are generated that provide
 a semantic relationship with other document **embeddings**.  
 
-## Encoders
+### Transformer Block
+
+#### Attention 
 A transformer with multiple, identical encoders with each is made up of the 
 following layers:
 
@@ -31,11 +35,7 @@ following layers:
 - **Feed Forward Neural Network** - outputs from the self-attention layer are fed to 
   and independently applied to this layer.
 
-The bottom encoder (#0) is the only encoder that directly creates a vector of the word
-through an embedding algorithm. All downstream encoders from the first use the output
-of vectors generated from the encoder's feed-forward layer.
-
-## Decoders
+#### Multi-Layer Decoders
 After the text prompt has been fed through the encoders, the outputs from each of the
 encoders are feed to the decoders. A decoder is made of three layers:
 
@@ -43,11 +43,12 @@ encoders are feed to the decoders. A decoder is made of three layers:
   words in the input sentence. 
 - **Encoder-Decoder Attention** - a separate layer that assists the decoder in focusing on 
   the relevant parts in the input sentence.
-- **Feed Forward Neural Network** 
+- **Feed Forward Neural Network** - refines token representation
 
+### Output Probabilities
+Final layers take the processed embeddings and transform them into probabilities for the next
+tokens.  
 
-transformer is like much more amazing it's not just like an it's not just another neural net it's like an amazing
-neural nut extremely General uh so for example example when people talk about the scaling loss in neural networks the scaling loss are actually a um a to
 [EXPLANIER]: https://poloclub.github.io/transformer-explainer/
 [^ATTENTION]: [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 [^EXPLAIN_PAPER]: [Transformer Explainer: Interactive Learning of Text-Generative Models](https://arxiv.org/abs/2408.04619)
