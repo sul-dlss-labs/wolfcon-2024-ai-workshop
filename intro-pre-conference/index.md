@@ -7,4 +7,7 @@
 - [Core Concepts of AI and Machine Learning](concepts.html)
 - [Compound AI Systems](compound-ai.html)
 - [FOLIOAIthon](hackathon.html)
-- [Use Case Example](use-case-example.html)
+
+## Breakout Session Theme
+- Determine Teams and Use-Case Assignment
+- Write a requirement outlining the FOLIO modules for the team's use-case
