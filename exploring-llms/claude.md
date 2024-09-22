@@ -22,7 +22,7 @@ Claude 3 is a competitor with ChatGPT 4 and on some benchmarks, performs as well
 or better than ChatGPT. 
 
 ## Using Claude
-To use Claude for free, you will need to sign up for an account on the [Anthropic][AUTH] website.
+To use Claude for free, you will need to sign up for an account on the [Anthropic][ANTH] website.
 Even with a free account, you will need to purchase credits to use 
 the [API](https://www.anthropic.com/api). 
 
