@@ -1,6 +1,6 @@
 # Privacy Concerns in Large Language Models
-With the widespread release of Large Language Models (LLMs) by various  
-organizations, significant privacy issues[^PRIVACY_LLM] have emerged, including:
+With the widespread release of Large Language Models (LLMs) by various  organizations,
+significant privacy issues[^PRIVACY_LLM] have emerged, including:
 
 - **Personal details in training data**: Names, addresses, and financial information may
   be included in the training data for these models. 
