@@ -30,6 +30,15 @@ AI workflows; both in the generative aspects of creating new documents
 like invoices or inventory records from text or automatic prompts, and
 minimize errors in the LLMs output. 
 
+## Workshop Exercise
+1. Download the following [zip file](folio-docs.zip) and extract to a local directory named *folio-docs*
+1. Open [gpt4all][GPT4ALL]
+1. Click on the **LocalDocs** button on left-hand side
+1. In the upper-right corner select the green button, **+ Add Collection**
+1. Name the new collection and browse to the *folio-docs* folder you created in step 1
+1. Create collection
+1. Create a new Chat and select the collection to query the model using RAG
 
+[GPT4ALL]: https://gpt4all.io/
 [^RAG_NLP]: [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401)
 [^GUIDE_RAG]: [A Simple Guide To Retrieval Augmented Generation Language Models](https://www.smashingmagazine.com/2024/01/guide-retrieval-augmented-generation-language-models/)

@@ -26,6 +26,10 @@ To use Claude for free, you will need to sign up for an account on the [Anthropi
 Even with a free account, you will need to purchase credits to use 
 the [API](https://www.anthropic.com/api). 
 
+## Workshop Exercise
+Ask Claude to generate a Python FASTAPI function for a POST request that will trigger an Airflow 
+DAG run with a JSON payload. 
+
 [^CLAUDE]: [Introducing the next generation of Claude](https://www.anthropic.com/news/claude-3-family)
 
 [ANTH]: https://www.anthropic.com/

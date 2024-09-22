@@ -29,7 +29,6 @@ administrative rights on your local laptop), please download and install [gpt4al
 
 A nice feature of [gpt4all][GPT4ALL], is that you can use a locally running LLM without an internet connection. 
 This also means that you can restrict access when using RAG on sensitive or private documentation.
- 
 
 ## Using Llama.cpp
 The [LLaMA.cpp][LLAMA.CCP] project allows you to run fine-tuned

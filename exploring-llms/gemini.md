@@ -24,6 +24,9 @@ Gemini can be used through a [web interface][GEMINI] or programmatically through
 [API](https://ai.google.dev/gemini-api). Google provides Python, Go, Node.js, Web, Dart, 
 Swift, and Android libraries that wrap the API calls.[^LANG_LIBS]
 
+## Workshop Exercise
+Create a Github issue for a DSPy model signature of a FOLIO Circulation Record 
+
 [^GEMINI_PEOPLE]: [Why Google’s AI tool was slammed for showing images of people of colour](https://www.aljazeera.com/news/2024/3/9/why-google-gemini-wont-show-you-white-people)
 [^1.5FLASH]: [Gemini 1.5 Flash](https://ai.google.dev/gemini-api/docs/models/gemini#gemini-1.5-flash)
 [^1.5PRO]: [Gemini 1.5 Pro](https://ai.google.dev/gemini-api/docs/models/gemini#gemini-1.5-pro)
