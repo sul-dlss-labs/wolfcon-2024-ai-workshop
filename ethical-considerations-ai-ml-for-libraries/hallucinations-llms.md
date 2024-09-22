@@ -1,7 +1,7 @@
 # Hallucinations and Generative AI
 Since the initial release of ChatGPT 3.5 in 2022, a major criticism of Large 
 Language Models (LLMs) has been the tendency of these models to fabricate factually
-incorrect statements. LLMs generate text by predicting the most likely continuation
+incorrect statements. LLMs generate text by predicting the most likely continuation token
 based on the prompt's text, context, and model internal weights. Unlike a deductive process, LLMs
 do not directly reference their training source material to generate responses. 
 
