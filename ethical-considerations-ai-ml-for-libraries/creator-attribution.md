@@ -1,7 +1,7 @@
 # Creator Attribution and Copyright
 The training of Large Language Models (LLMs) requires massive amounts of text and other 
 media that are commonly available on the open web. This content includes both copyrighted 
-and public domain material, which can lead to generative text from these models closely 
+and public domain material, which can lead to generative outputs from these models closely 
 resembling existing copyrighted works. 
 
 This resemblance in OpenAI's ChatGPT
@@ -12,10 +12,18 @@ OpenAI and Microsoft, in response to this lawsuit, claim that their use of copyr
 falls under the Fair Use doctrine in United States, a position reaffirmed by 
 an Association of Research Libraries (ARL) blog post[^ACRL_RESPONSE] which states in part:
 
-> We drafted the principles on AI and copyright in response to efforts to amend copyright 
-> law to require licensing schemes for generative AI that could stunt the development of 
-> this technology, and undermine its utility to researchers, students, creators, and the public.
-> from *Training Generative AI Models on Copyrighted Works Is Fair Use*[^ACRL_RESPONSE].
+<figure>
+  <blockquote class="blockquote">
+   <p>
+   We drafted the principles on AI and copyright in response to efforts to amend copyright 
+   law to require licensing schemes for generative AI that could stunt the development of 
+   this technology, and undermine its utility to researchers, students, creators, and the public.
+   </p>
+  </blockquote>
+  <figcaption class="blockquote-footer" markdown="span">
+   from <em>Training Generative AI Models on Copyrighted Works Is Fair Use</em><sup><a class="footnote-ref" href="#fn:ACRL_RESPONSE">2</a></sup>
+  </figcaption>
+</figure>
 
 In their article, *Generative AI has a Visual Plagiarism Problem*[^GENAI_PLAGIARISM], computer
 scientists Gary Marcus and Reid Southern, demonstrate how image generation of such models as 
