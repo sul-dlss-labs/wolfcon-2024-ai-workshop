@@ -27,7 +27,7 @@
   <article class="col-9">
     <h1>Meta's Llama</h1>
 <p>In February 2023, <a href="https://ai.meta.com/">Meta AI</a> (the AI research division of the Meta that also includes Facebook) released 
-an open-source Large Language Model (LLM) called Llama with a follow-up release in 
+an open-source Large Language Model (LLM) called LLaMA with a follow-up release in 
 April 2024. Unlike other commercial LLMs, Meta AI released the weights along with supporting
 code to allow for training and other uses not possible with similar models released by OpenAI,
 Anthropic, and Google.</p>
@@ -36,32 +36,39 @@ Anthropic, and Google.</p>
 multi-modal web application allows users to generate images and text (although to use the image
 generator function requires logging in with a Facebook account). </p>
 <h2>Using Llama Locally</h2>
-<p>Because of its release as open-source, you are able to download the Llama model to run and 
-train locally without the service providing additional data to the corporate entity. While there 
-are a number of ways for running Llama locally, a convenient method for running Llama
+<p>Because of its release as open-source, you are able to download the LLaMA model to run and 
+train locally on your computer or on cloud providers. While there 
+are a number of ways for running LLaMA locally, a convenient method for running this
 and other open-source models is using a project called <a href="https://gpt4all.io/">gpt4all</a>. <a href="https://gpt4all.io/">gpt4all</a>
-uses <a href="https://github.com/ggerganov/llama.cpp">LLaMA.cpp</a> to actually run the models.</p>
+uses <a href="https://github.com/ggerganov/llama.cpp">LLaMA.cpp</a> to internally run the models.</p>
 <p>While the computing
 requirements can vary depending on your laptop's hardware and OS, there are desktop versions
 for <a href="https://gpt4all.io/installers/gpt4all-installer-darwin.dmg">Macintosh</a>, 
 <a href="https://gpt4all.io/installers/gpt4all-installer-win64.exe">Windows</a>, and 
 <a href="https://gpt4all.io/installers/gpt4all-installer-linux.run">Ubuntu</a>.</p>
 <h2>Using gpt4all</h2>
-<p>For the purposes of this workshop, we will demonstrate a few crucial aspects of using and extending
-LLM using <a href="https://gpt4all.io/">gpt4all</a>. If you haven't already prior to this workshop (and if you have
+<p>If you haven't already prior to this workshop (and if you have
 administrative rights on your local laptop), please download and install <a href="https://gpt4all.io/">gpt4all</a>.</p>
 <p>A nice feature of <a href="https://gpt4all.io/">gpt4all</a>, is that you can use a locally running LLM without an internet connection. 
 This also means that you can restrict access when using RAG on sensitive or private documentation.</p>
 <h2>Using Llama.cpp</h2>
 <p>The <a href="https://github.com/ggerganov/llama.cpp">LLaMA.cpp</a> project allows you to run fine-tuned
-LLaMA models on your local computer. LLaMA.cpp]<a href="https://github.com/ggerganov/llama.cpp">LLAMA.CCP</a> provides an
+LLaMA models on your local computer. <a href="https://github.com/ggerganov/llama.cpp">LLaMA.cpp</a> provides an
 OpenAI API compatible server that also allows us to integrate with <a href="dspy-docs.vercel.app/">DSPy</a>
 and <a href="https://github.com/folio-labs/edge-ai">edge-ai</a> module.</p>
-<p><a href="https://github.com/ggerganov/llama.cpp">LLaMA.cpp</a> can also be run with <a href="https://github.com/ggerganov/llama.cpp/blob/master/docs/docker.md">Docker</a>[^DOCKER] on your computer if you 
+<p><a href="https://github.com/ggerganov/llama.cpp">LLaMA.cpp</a> can also be run with Docker<sup id="fnref:DOCKER"><a class="footnote-ref" href="#fn:DOCKER">1</a></sup> on your computer if you 
 don't want or can't compile the C++ source code to run on your computer.</p>
 <h3>Downloading a LLaMA-based Model</h3>
 <p><a href="https://github.com/ggerganov/llama.cpp">LLaMA.cpp</a> uses the <a href="https://github.com/ggerganov/ggml/blob/master/docs/gguf.md">GGUF</a> 
-format for model inference and training. Look for GGUF models on [HuggingFace][HUGFACE]. </p>
+format for model inference and training. Look for GGUF models on <a href="https://huggingface.co/models">HuggingFace</a>. </p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:DOCKER">
+<p><a href="https://github.com/ggerganov/llama.cpp/blob/master/docs/docker.md">LLaMA.cpp Docker instructions</a>&#160;<a class="footnote-backref" href="#fnref:DOCKER" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
   </article>
   <div class="col-3">
     <h4>Navigation</h4>
