@@ -5,7 +5,7 @@ images, and videos with surprising creativity but with some limitations.
 
 ## DALL-E 3
 OpenAI text-to-image model [DALL-E 3](https://openai.com/index/dall-e-3/) generates images 
-from text prompts. Here is an example of DALL-E image based on the following prompt:
+from text prompts. Here is an example of a DALL-E image based on the following prompt:
  *Set in a library on a Saturn moon, a robotic librarian looks for a book on a shelf, 
 reaches up and opens a book with a title, "AI in FOLIO"*,
 
@@ -15,7 +15,9 @@ reaches up and opens a book with a title, "AI in FOLIO"*,
 Google's [Gemini][GEMINI] allows you to generate images based on your text descriptions. 
 It currently avoids generating images of people due to earlier issues[^GEMINI_PEOPLE] with historical 
 figures appearing with incorrect racial or gender characteristics.
- 
+
+Here is an example of Gemini's image generation from the prompt above:
+![Gemeni Robot in a Moon Library](gemini-robot-in-a-moon-library.png) 
 
 ## Midjourney
 Midjourney is a research lab offering a paid Generative AI service for image creation.
