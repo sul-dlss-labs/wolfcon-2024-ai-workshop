@@ -151,6 +151,12 @@
 - [Google](https://www.google.com/)
 - [Why Google’s AI tool was slammed for showing images of people of colour](https://www.aljazeera.com/news/2024/3/9/why-google-gemini-wont-show-you-white-people)
 
+### Local LLaMa
+- [gpt4all](https://gpt4all.io/)
+- [llama cpp](https://github.com/ggerganov/llama.cpp)
+- [llama cpp Docker](https://github.com/ggerganov/llama.cpp/blob/master/docs/docker.md)
+- [Meta Llama](https://ai.meta.com/)
+
 ### Generative AI Images and Videos
 - [Discord](https://discord.com/)
 - [Dream Machine](https://lumalabs.ai/dream-machine)
