@@ -10,7 +10,7 @@ that many of the top AI scientists, engineers, and executives all have surprisin
 high[^PAUSEAI] p(doom) estimates with the mean estimate from AI engineers
 of a 40% p(doom) score[^ENGINEERS_SURVEY]. 
 
-## Exercise
+## Workshop Exercise
 Please go to this [survey](https://docs.google.com/forms/d/e/1FAIpQLSd3-b7wS3ZOqDtpHVbO3p8PqfsZQKuuZEjgJXp6wCRzpCdHlA/viewform?usp=sf_link) to submit your p(doom) number.
 
 
@@ -26,7 +26,7 @@ of research in both academic and by AI companies and should be included in any b
 the benefits of AGI[^BENEFIT_RISK].
 
 To illustrate misalignment of goals between an AGI and humans, in a 2003 paper[^BOSTROM], Nick Bostrom 
-provided an example of a superintelligent AI that has an initial goal to maximize the paperclips 
+provided an example of a superintelligent AI that has an initial goal to maximize paperclips 
 manufacturing. Such an AI could potentially ignore any human values, and in a worst-case scenario,
 converting the entire planet into paperclip manufacturing, to the detriment of all life on Earth.
 
