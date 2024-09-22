@@ -8,10 +8,11 @@
 - [Google Gemini](https://gemini.google.com)
 
 ### I-Ching Exercise
-- [I-Ching](https://www.ichingonline.net/)
+- [I-Ching](https://en.wikipedia.org/wiki/I_Ching)
 
 ### Concepts
 - [Encyclopedia Britannica](https://www.britannica.com/technology/artificial-intelligence)
+- [Why it’s time for 'data-centric artificial intelligence](https://mitsloan.mit.edu/ideas-made-to-matter/why-its-time-data-centric-artificial-intelligence)
 
 ### Compound AI
 - [The Shift from Models to Compound AI Systems](https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/)
