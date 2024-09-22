@@ -1,10 +1,11 @@
 # Compound AI Systems
 In the blog post, *The Shift from Models to Compound AI Systems*[^BERKELEY], 
 a group of Berkeley AI Researchers note the difference between using Large Language Models (LLMs) 
-as monolithic models versus using LLMs as components in larger, compound systems that include both LLMs and other technology. 
+as monolithic standalone systems versus using LLMs as components in larger, compound systems 
+that include both LLMs and other technology. 
 
-Building on the Berkeley authors definition, author Drew Breunig differentiates between what he calls 
-Sober AI[^SOBER_AI]
+Building on the Berkeley authors definition, Drew Breunig differentiates between what he calls 
+Sober AI verses Hyped AI[^SOBER_AI] 
 with the insight that most organizations and corporations use LLMs as part of larger enterprise systems.
 
 By leveraging the unique capabilities of LLMs as part of data and machine learning pipelines.
@@ -19,12 +20,7 @@ or oversight mechanisms.
 
 Seen within this context, the use of AI is more of continuation and 
 improvement of our technologies and not necessarily a radical departure from what we already do in 
-our efforts to meet the challenges libraries face in meeting their obligations to our patrons and 
-staff.
-
-## Using Multiple AIs together
-In other compound systems LLMs, combined with more specialized AI technologies, can be used together
-to improve the performance of the overall system. 
+our efforts to meet the challenges facing libraries.
 
 ## AI in FOLIO context
 Building on the concept of Compound AI systems, AI, particularly LLMs, can be integrated into FOLIO's data pipelines. 
@@ -41,4 +37,3 @@ This approach allows us to leverage the unique capabilities of AI while building
 
 [^BERKELEY]: [The Shift from Models to Compound AI Systems](https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/)
 [^SOBER_AI]: [Sober AI is the Norm](https://www.dbreunig.com/2024/06/12/sober-ai-is-the-norm.html)
-[^STICKLE_BRICK]: [The Stickle-Brick Approach to Big AI](https://spectrum.ieee.org/large-language-models)
