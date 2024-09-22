@@ -10,7 +10,7 @@ import random
 from dataclasses import dataclass, field
 from typing import Union
 
-from js import console
+from js import console, navigator
 from pyscript import document
 
 YIN, YANG = 2,3
@@ -104,3 +104,11 @@ def tell_fortune(event):
     hexagram_char.innerHTML = fortune["character"]
     hexagram_name.innerHTML = fortune["name"]
     small_question.innerHTML = oracle.question
+
+def copy_fortune(event):
+    hexagram_char = document.querySelector("#hexagram-character")
+    hexagram_name = document.querySelector("#hexagram-name")
+    small_question = document.querySelector("#question-repeat")
+    copied_text = f"{small_question.textContent} - the Iching {hexagram_char.textContent} {hexagram_name.textContent}"
+    navigator.clipboard.writeText(copied_text)
+ 

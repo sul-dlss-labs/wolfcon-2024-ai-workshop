@@ -22,7 +22,7 @@ circumstances:
 
 ## What this workshop isn't
 This workshop isn't intended to be a rote lecture on all of the different types of AI
-services and functionality that is available for use, nor will it help you train a specific model
+services and functionality that are available, nor will it help you train a specific model
 for library tasks. 
 
 ## What we will cover 
@@ -32,15 +32,7 @@ Large Language Models (LLMs) and generative AI.
 education.
 - Small group and interactive activities using LLMs in multiple contexts. 
 
-## Small Group Activities 
-After each topic area or section, we will break up into small teams, with
-each team working on the one of use-cases. 
 
-As part of the homework prior to the workshop, everyone
-should have selected a primary and secondary use-case. 
-
-To keep the group size roughly 
-equal, I ask that you self-select encourage you to mix it up for the small group exercises.  
 
 
 ## By the end of the day
