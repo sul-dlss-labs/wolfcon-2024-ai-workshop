@@ -5,9 +5,17 @@ Google admitted that their carbon output increased over 13% year-over-year prima
 increased energy usage of their customer-facing AI efforts, including the training and inference
 of their flagship [Gemini LLM](https://gemini.google.com/). In the report they admit:
 
-> As our business and industry continue to evolve, we expect our total GHG emissions
-> to rise before dropping toward our absolute emissions reduction target.
-> - page 31, Google 2024 Environmental Report[^GOOG_2024].
+<figure>
+  <blockquote class="blockquote">
+   <p>
+   As our business and industry continue to evolve, we expect our total GHG emissions
+   to rise before dropping toward our absolute emissions reduction target.
+   </p>
+  </blockquote>
+  <figcaption class="blockquote-footer" markdown="span">
+   page 31, Google 2024 Environmental Report.<sup><a class="footnote-ref" href="#fn:GOOG_2024">1</a></sup>
+  </figcaption>
+</figure>
 
 Similarly, Microsoft in its 2024 Sustainability report[^MS_2024], admitted that it's Greenhouse Gas (GHG)
 Scope 3 emissions increased over 30% from its 2020 base year (page 11[^MS_2024]). 
@@ -19,11 +27,11 @@ tons of CO2. ChatGPT 4.0 models are estimated to require 7,200 MWh of energy[^AI
 significantly more than OpenAI's previous 3.5 model.
 
 In a 2024 report[^PIKTO_2024], Wong estimates that each query to ChatGPT 3.5 generates 4.32 grams of CO2 with over 10 million
-queries running on 30,000 GPUs, the total daily CO2 generation of 43,200 kg.
+queries running on 30,000 GPUs, with a total daily CO2 generation of 43,200 kg.
 
 ## How can we reduce the LLMs' Carbon Footprint?
 In a 2024 report [^MS_REDUCE_GENAI] released by Microsoft, four suggestions are presented to help Generative AI developers 
-and users of these LLMs that can help reduce the environmental impact of these models. These suggestions are:
+and users of these LLMs to reduce the environmental impact of these models. These suggestions are:
 
 - **Model Selection**: Pre-trained models use significantly less power than training new models
 - **Model Improvement**: Prompt engineering, RAG, and Fine-tuning can all be used to improve functionality of existing models
@@ -33,7 +41,6 @@ and users of these LLMs that can help reduce the environmental impact of these m
   use. Model Parameters can also be used to optimize the model performance while minimizing the energy requirements to use. 
 - **Model Evaluation**: When using these models, users should evaluate the costs and performance in order to assess the applicability 
   of their models as well as evaluate the output of the models for safety and risk concerns.
-
 
 
 ## Resources
