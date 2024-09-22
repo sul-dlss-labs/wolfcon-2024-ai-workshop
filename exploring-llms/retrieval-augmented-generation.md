@@ -16,8 +16,8 @@ better contextualizing the generative abilities of these models.
 While the RAG technique doesn't require the use of embeddings or vector databases,
 adding an information retrieval component to your RAG system can improve overall
 performance of compound AI systems. To create a vector database, first the documents
-or data is converted into a mathematical representation of meaning, a text embedding,
-that is a set of numeric vectors that are used for matching and creating relationships.
+or data is converted into a mathematical representation as a text embedding,
+or set of numeric vectors, that are used for matching and creating relationships.
 
 These text embeddings are then stored in a database or datastore and then can be queried
 by first converting a query into a text embedding and then finding the stored embeddings
