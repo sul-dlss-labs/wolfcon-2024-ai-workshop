@@ -18,8 +18,7 @@ They all allow the use of LLMs for copy-editing tasks like grammar checking. Ano
 guidelines is the disclosure of using of LLMs or other AI, with some journals requiring the specific
 AI system to be included in the article.
 
-> Just as a reminder; LLMs have been used for copy-editing purpose for 
-> the content of this workshop!
+**Just as a reminder:** LLMs have been used for copy-editing purpose for the content of this workshop.
 
 Some of the journals prohibit the listing or attributing authorship of an article by a 
 LLM model[^NATURE][^SCIENCE].
@@ -37,8 +36,8 @@ In this blob post[^CRAFT], Alice Evans provides the following guidance for educa
   and use deadlines to limit the time a student has to complete the assessment.
 
 A further note of caution from a recent paper[^GENAI] about a study that demonstrated that
-allowing students to use GPT 4.0 in their course improved their performance but when GPT 
-is no longer available, the student perform worse than students who have never used a LLM. 
+allowing students to use GPT 4.0 in their course improved their performance but when the LLM 
+is no longer available, the students perform worse than students who have never used a LLM. 
 
 ## Resources
 - [Artificial intelligence and academic integrity: striking a balance](https://www.timeshighereducation.com/campus/artificial-intelligence-and-academic-integrity-striking-balance)
