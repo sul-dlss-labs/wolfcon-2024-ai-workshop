@@ -25,19 +25,19 @@
       Exclusively using copyright-free material from the 1930s and earlier 
       may under-represent many groups.
  
-- Training data can also be bias in labeling by excluding or over-representing
+- Training data can also be biased in labeling by excluding or over-representing
   certain categories or characteristics.
 
     - **Example**
       If using a controlled vocabulary that focuses on Western categories and concepts,
-      might miss valid valid indigenous concepts and constructions that may be present in the
+      this data might miss valid indigenous concepts and constructions that may be present in the
       training data.  
 
 ### Algorithms
 - Algorithms based on biased data could perpetrate underlying flaws
     - **Example**
-      If training data is taken to be relatively free of bias but bias exist, 
-      algorithms at risk of Type II error of erroneous acceptance. 
+      If training data is taken to be relatively free of bias but bias exist in the 
+      algorithms used may have allow acceptance of false statements. 
   
 - Programmers could introduce personal bias intentionally or unintentionally
 
