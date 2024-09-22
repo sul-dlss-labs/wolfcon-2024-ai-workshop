@@ -45,6 +45,7 @@ don't want or can't compile the C++ source code to run on your computer.
 [LLaMA.cpp][LLAMA.CCP] uses the [GGUF](https://github.com/ggerganov/ggml/blob/master/docs/gguf.md) 
 format for model inference and training. Look for GGUF models on [HuggingFace][HUGFACE]. 
 
+[DOCKER]: https://github.com/ggerganov/llama.cpp/blob/master/docs/docker.md
 [EDGE_AI]: https://github.com/folio-labs/edge-ai
 [LLAMA.CCP]: https://github.com/ggerganov/llama.cpp
 [GPT4ALL]: https://gpt4all.io/

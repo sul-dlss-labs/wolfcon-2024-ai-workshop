@@ -2,21 +2,17 @@
 The release of ChatGPT 3 by [OpenAI][OPENAI] in the fall of 2022 sparked 
 the current boom in generative AI and Large Language Models (LLM). In March of 2023, 
 OpenAI released ChatGPT 4 followed by various smaller upgrades with the latest release of ChatGPT 4.o.
-Earlier this month, OpenAI released their reasoning models, o1[^O1], that offer 
-improved reasoning and deductive skills with a models.
-
-OpenAI is promising the release of its 5.0 models within the next year that expand
-the functionality and utility of their LLMs.
+Earlier this month, OpenAI released their reasoning models, o1[^O1], with 
+improved reasoning and deductive skills in these models.
 
 ## Microsoft ChatGPT Variant 
 Microsoft has invested in [OpenAI][OPENAI] and is using a version of ChatGPT 4 in their Bing
 [Copilot][COPILOT] search service. Microsoft's Copilot is 
-able to access more recent material than when the model was initially trained using a
-combination of Retrieval Assisted Generation (RAG), fine-tuning the model, and additional
-training. 
+able to access recent material after ChatGPT model's training data cut-off through a 
+combination of Retrieval Assisted Generation (RAG), fine-tuning the model, and other methods. 
 
 Additionally, through Microsoft's [Copilot][COPILOT] service, you can use ChatGPT's image 
-generation functionality without paying for separate [OpenAI][OPENAI] account but you
+generation functionality without paying for a separate [OpenAI][OPENAI] account. You
 still need a Microsoft account to log in and use these advanced features. 
 
 ## Using ChatGPT

@@ -15,8 +15,8 @@ jinja_env = Environment(
 area_order = [
     {"title": "Introduction to WOLFcon AI Pre-conference Workshop", "link": "/intro-pre-conference/index.html" },
     {"title": "General Overview of AI and Machine Learning for Libraries", "link": "/types-of-ai-ml-relevant-to-libraries/index.html"},
-    {"title": "Ethical Considerations on using AI and Machine Learning for Libraries", "link": "/ethical-considerations-ai-ml-for-libraries/index.html"},
     {"title": "Exploring Large Language Models", "link": "/exploring-llms/index.html"},
+    {"title": "Ethical Considerations on using AI and Machine Learning for Libraries", "link": "/ethical-considerations-ai-ml-for-libraries/index.html"},
     {"title": "FOLIO AI Use Cases", "link": "/folio-ai-use-cases/index.html"},
     {"title": "Next Steps for Adopting AI and Machine Learning in FOLIO", "link": "/next-steps-for-adopting-ai-and-ml-in-folio/index.html"},
     {"title": "Recommended Resources for Further Learning", "link": "/recommended-resources-for-further-learning/index.html"} 

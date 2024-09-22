@@ -1,10 +1,19 @@
 # Bias and AI
 
-> AI bias, also referred to as machine learning bias or algorithm bias, refers 
-> to AI systems that produce biased results that reflect and perpetuate human 
-> biases within a society, including historical and current social inequality. 
-> Bias can be found in the initial training data, the algorithm, or the 
-> predictions the algorithm produces.[^IBM_AI_BIAS]
+<figure>
+  <blockquote class="blockquote">
+   <p>
+   AI bias, also referred to as machine learning bias or algorithm bias, refers 
+   to AI systems that produce biased results that reflect and perpetuate human 
+   biases within a society, including historical and current social inequality. 
+   Bias can be found in the initial training data, the algorithm, or the 
+   predictions the algorithm produces.
+   </p>
+  </blockquote>
+  <figcaption class="blockquote-footer" markdown="span">
+   IBM<sup><a class="footnote-ref" href="#fn:IBM_AI_BIAS">3</a></sup>
+  </figcaption>
+</figure>
 
 
 ## Sources of Bias

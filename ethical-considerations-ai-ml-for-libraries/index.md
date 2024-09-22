@@ -7,7 +7,9 @@
 - [Privacy Concerns in Large Language Models](privacy.html)
 - [Guidelines for Incorporating AI](guidelines.html)
 
-### Use Cases Exercise
+## Breakout Session Themes 
+- Identify multiple stackholders that are impacted by bias? Academic fraud? Privacy? Copyright?
+- Given the guidelines, what specific requirements are needed for your teams' Use Case?
 
 ## Social and Existential Risks 
 - [Carbon Footprint of LLMs](carbon-footprint.html)
@@ -16,7 +18,8 @@
 - [Hallucinations and Generative AI](hallucinations-llms.html)
 - [p(doom) and Artificial General Intelligence (AGI)](p-doom-agi.html)
 
-### Use Cases Exercise
+## Breakout Session Themes 
+- What specific requirements are needed for Deepfakes or Hallucinations?
 
 [AI Risk Repository](https://airisk.mit.edu/)
 
