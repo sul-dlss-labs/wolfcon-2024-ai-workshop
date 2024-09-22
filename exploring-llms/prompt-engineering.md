@@ -20,9 +20,8 @@ other media. Usually, you will need to iterate and change your prompt to improve
 outputs a few times until you have a result that meets your needs. 
 
 How you construct your prompt will also impact aspects of the model's output, like 
-accuracy, verbosity, or style customization. Together,
-a set of techniques and approaches for constructing prompts is collectively called 
-prompt engineering. 
+accuracy, verbosity, or style customization. The set of techniques and approaches for 
+constructing prompts is collectively called prompt engineering. 
 
 In Anthropic's Prompt Engineering Guide, they suggest that before you begin applying 
 specific prompt engineering techniques, you have a clear definition of success criteria
@@ -33,8 +32,8 @@ prompt.[^ANTHROPIC]
 Let's explore some popular prompt engineering techniques in detail.
 
 ### Zero Shot
-In a Zero-Shot prompt, ask the LLM perform a task that the LLM has not been explicitly 
-trained on but is dependent on the LLM general knowledge and understanding of the language
+In a Zero-Shot prompt, ask the LLM to perform a task that the LLM has not been explicitly 
+trained on. The resulting output is dependent on the LLM general knowledge and understanding 
 based on its training data. 
 
 **Example**: Please translate this sentence into Spanish, "The 2024 Summer Olympics are being
@@ -43,8 +42,9 @@ held in France".
 The LLM likely hasn't been trained on translating this exact sentence but uses its general 
 understanding and translation patterns to provide a response.  
 
-### Including Examples or Multishot Prompting 
-In this technique, you provide a few (1-5) examples of the LLMs output in your prompt and is 
+### Including Examples or Multi-shot Prompting 
+In this technique, you provide a few (1-5) examples of what you would like to see in the LLMs 
+output as part of your prompt. Multi-shot prompting 
 particularly helpful when you require the output to include structured data like FOLIO JSON 
 documents. 
 
@@ -72,7 +72,7 @@ For more examples, please check-out Prompt Engineering Guide[^PROMPT_GUIDE].
 
 
 ## Function calling or connecting Systems to External Tools
-Related to prompt engineering is a powerful technique of function calling that allows you to 
+Related to prompt engineering is a powerful technique called function calling that allows you to 
 provide a LLM with a function signature and expected parameters. LLMs response will then 
 generate a function call and parameter values that can then be integrated into a Compound AI
 system. Specific information on this technique with various LLMs:
