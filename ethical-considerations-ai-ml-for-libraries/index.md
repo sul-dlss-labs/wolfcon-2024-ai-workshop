@@ -8,7 +8,7 @@
 - [Guidelines for Incorporating AI](guidelines.html)
 
 ## Breakout Session Themes 
-- Identify multiple stackholders that are impacted by bias? Academic fraud? Privacy? Copyright?
+- Identify multiple stakeholders that are impacted by bias? Academic fraud? Privacy? Copyright?
 - Given the guidelines, what specific requirements are needed for your team's Use Case?
 
 ## Social and Existential Risks 
