@@ -9,7 +9,7 @@
 
 ## Breakout Session Themes 
 - Identify multiple stackholders that are impacted by bias? Academic fraud? Privacy? Copyright?
-- Given the guidelines, what specific requirements are needed for your teams' Use Case?
+- Given the guidelines, what specific requirements are needed for your team's Use Case?
 
 ## Social and Existential Risks 
 - [Carbon Footprint of LLMs](carbon-footprint.html)

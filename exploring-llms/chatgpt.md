@@ -24,6 +24,7 @@ sign up for an account.
 
 ### Workshop Exercise
 Ask ChatGPT to create a three task Airflow DAG using the Taskflow API decorators in Python:
+
 - **First task**: Query FOLIO using an HTTP FOLIO Connection
 - **Second task**: Extract and update {property-related-to-a-use-case} using JSON Path
 - **Third task**: POST the new JSON back to FOLIO using the HTTP Connection

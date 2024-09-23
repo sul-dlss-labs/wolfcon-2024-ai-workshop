@@ -25,7 +25,7 @@ The [AI Workflows][AI_WRKFLW] is a proof-of-concept open-source repository that 
 
 ### What about mod-workflow?
 The [Edge AI Module][EDGE_AI] is compatible with the new [mod-workflows][MOD_WRKFLW]
-module in FOLIO, which will be available in upcoming months. The current Directed Acyclic Graphs (DAGs) in
+module in FOLIO, which will be available in the upcoming months. The current Directed Acyclic Graphs (DAGs) in
 [AI Workflows][AI_WRKFLW] are simple enough to be migrated to [mod-workflows][MOD_WRKFLW].
 
 The purpose of [AI Workflows][AI_WRKFLW] is to support more complex DAGs and additional features beyond
