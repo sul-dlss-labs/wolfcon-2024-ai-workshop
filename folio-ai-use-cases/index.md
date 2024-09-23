@@ -19,4 +19,4 @@ For each team, report back to the larger group on your team's accomplishments.
 
 ### What did you like?
 
-### What could have been differently?
+### What could have been done differently?
